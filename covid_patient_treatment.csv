@@ -1,0 +1,2001 @@
+patient_id,age,gender,severity,comorbidity,treatment,hospitalization_days,icu_required,oxygen_required,outcome,treatment_effectiveness_score,admission_date,age_group
+PT00001,62,Male,Mild,None,Monoclonal Antibodies,3,False,False,Recovered,0.815,2020-03-01,51-65
+PT00002,55,Male,Mild,None,Combination Therapy,3,False,False,Recovered,0.962,2020-03-01,51-65
+PT00003,30,Male,Mild,Heart Disease,Combination Therapy,2,False,False,Recovered,0.834,2020-03-02,19-35
+PT00004,38,Female,Mild,Diabetes,Dexamethasone,1,False,False,Recovered,0.786,2020-03-02,36-50
+PT00005,39,Female,Moderate,None,Dexamethasone,11,False,True,Recovered,0.756,2020-03-03,36-50
+PT00006,21,Female,Severe,Hypertension,Remdesivir,23,True,True,Recovered,0.85,2020-03-03,19-35
+PT00007,33,Female,Mild,Diabetes,Dexamethasone,2,False,False,Recovered,0.891,2020-03-04,19-35
+PT00008,27,Male,Severe,Diabetes,Monoclonal Antibodies,18,False,True,Recovered,0.874,2020-03-04,19-35
+PT00009,40,Female,Critical,None,Remdesivir,33,True,True,Deceased,0.766,2020-03-05,36-50
+PT00010,34,Female,Critical,Diabetes,Remdesivir,24,True,True,Deceased,0.794,2020-03-05,19-35
+PT00011,18,Female,Severe,Respiratory,Remdesivir,24,True,True,Recovered,0.862,2020-03-06,0-18
+PT00012,84,Male,Mild,None,Supportive Care,3,False,False,Recovered,0.777,2020-03-06,65+
+PT00013,70,Female,Mild,None,Dexamethasone,2,False,False,Recovered,0.835,2020-03-07,65+
+PT00014,33,Female,Moderate,None,Combination Therapy,9,False,True,Recovered,0.791,2020-03-07,19-35
+PT00015,52,Female,Moderate,None,Remdesivir,5,False,True,Recovered,0.903,2020-03-08,51-65
+PT00016,55,Male,Severe,None,Dexamethasone,23,True,True,Recovered,0.905,2020-03-08,51-65
+PT00017,69,Female,Severe,Heart Disease,Remdesivir,16,True,True,Recovered,0.851,2020-03-09,65+
+PT00018,33,Female,Moderate,Obesity,Combination Therapy,9,False,True,Recovered,0.937,2020-03-09,19-35
+PT00019,67,Female,Moderate,None,Remdesivir,11,False,True,Recovered,0.938,2020-03-10,65+
+PT00020,38,Female,Mild,Diabetes,Supportive Care,3,False,False,Recovered,0.788,2020-03-10,36-50
+PT00021,23,Female,Mild,Hypertension,Combination Therapy,1,False,False,Recovered,0.927,2020-03-11,19-35
+PT00022,61,Male,Moderate,Diabetes,Supportive Care,8,False,True,Deceased,0.804,2020-03-11,51-65
+PT00023,71,Female,Severe,Diabetes,Dexamethasone,13,True,True,Recovered,0.769,2020-03-12,65+
+PT00024,94,Male,Severe,None,Dexamethasone,23,True,True,Recovered,0.836,2020-03-12,65+
+PT00025,26,Female,Moderate,Diabetes,Remdesivir,9,False,False,Recovered,0.923,2020-03-13,19-35
+PT00026,60,Male,Severe,Diabetes,Combination Therapy,16,True,True,Recovered,0.841,2020-03-13,51-65
+PT00027,40,Male,Moderate,Heart Disease,Combination Therapy,7,False,True,Recovered,0.978,2020-03-14,36-50
+PT00028,62,Female,Severe,Heart Disease,Combination Therapy,19,False,True,Recovered,0.915,2020-03-14,51-65
+PT00029,21,Female,Mild,None,Supportive Care,2,False,False,Recovered,0.746,2020-03-15,19-35
+PT00030,25,Female,Severe,None,Supportive Care,19,True,False,Recovered,0.785,2020-03-15,19-35
+PT00031,34,Female,Moderate,Obesity,Supportive Care,6,False,False,Deceased,0.741,2020-03-16,19-35
+PT00032,49,Female,Mild,Diabetes,Remdesivir,2,False,False,Recovered,0.922,2020-03-16,36-50
+PT00033,36,Male,Mild,Heart Disease,Combination Therapy,3,False,False,Recovered,0.883,2020-03-17,36-50
+PT00034,59,Male,Severe,None,Remdesivir,15,True,True,Deceased,0.936,2020-03-17,51-65
+PT00035,66,Male,Severe,Diabetes,Combination Therapy,22,True,True,Recovered,0.889,2020-03-18,65+
+PT00036,58,Male,Moderate,Diabetes,Dexamethasone,7,False,True,Deceased,0.853,2020-03-18,51-65
+PT00037,77,Female,Moderate,Obesity,Remdesivir,7,False,True,Recovered,0.957,2020-03-19,65+
+PT00038,55,Female,Moderate,None,Supportive Care,7,False,True,Recovered,0.692,2020-03-19,51-65
+PT00039,26,Female,Severe,None,Combination Therapy,21,True,True,Recovered,0.941,2020-03-20,19-35
+PT00040,72,Male,Moderate,Diabetes,Dexamethasone,8,False,True,Deceased,0.743,2020-03-20,65+
+PT00041,37,Male,Mild,Obesity,Remdesivir,3,False,False,Recovered,0.922,2020-03-21,36-50
+PT00042,64,Female,Critical,Obesity,Combination Therapy,37,True,True,Deceased,0.909,2020-03-21,51-65
+PT00043,76,Female,Severe,Respiratory,Monoclonal Antibodies,22,True,True,Recovered,0.965,2020-03-22,65+
+PT00044,56,Male,Severe,Respiratory,Combination Therapy,19,False,True,Deceased,0.971,2020-03-22,51-65
+PT00045,21,Female,Mild,None,Monoclonal Antibodies,4,False,False,Recovered,0.773,2020-03-23,19-35
+PT00046,31,Female,Mild,None,Remdesivir,2,False,False,Recovered,0.769,2020-03-23,19-35
+PT00047,71,Male,Severe,None,Combination Therapy,24,True,True,Recovered,0.91,2020-03-24,65+
+PT00048,44,Female,Moderate,None,Supportive Care,8,False,True,Recovered,0.764,2020-03-24,36-50
+PT00049,49,Male,Mild,Heart Disease,Combination Therapy,3,False,False,Recovered,0.812,2020-03-25,36-50
+PT00050,61,Female,Mild,Obesity,Remdesivir,4,False,False,Recovered,0.768,2020-03-25,51-65
+PT00051,60,Male,Mild,None,Combination Therapy,2,False,False,Recovered,0.902,2020-03-26,51-65
+PT00052,53,Male,Mild,Hypertension,Combination Therapy,3,False,False,Recovered,0.785,2020-03-26,51-65
+PT00053,44,Female,Severe,Obesity,Supportive Care,11,True,False,Recovered,0.833,2020-03-27,36-50
+PT00054,42,Male,Mild,Diabetes,Supportive Care,4,False,False,Recovered,0.82,2020-03-27,36-50
+PT00055,63,Female,Moderate,None,Supportive Care,6,False,True,Recovered,0.816,2020-03-28,51-65
+PT00056,57,Male,Severe,Diabetes,Combination Therapy,23,True,True,Recovered,0.777,2020-03-28,51-65
+PT00057,43,Male,Mild,None,Remdesivir,3,False,False,Recovered,0.75,2020-03-29,36-50
+PT00058,67,Male,Critical,Hypertension,Dexamethasone,37,False,True,Recovered,0.829,2020-03-29,65+
+PT00059,45,Male,Critical,Diabetes,Supportive Care,39,True,True,Deceased,0.857,2020-03-30,36-50
+PT00060,32,Female,Critical,None,Monoclonal Antibodies,36,True,True,Recovered,0.833,2020-03-30,19-35
+PT00061,34,Male,Mild,Respiratory,Remdesivir,2,False,False,Recovered,0.814,2020-03-31,19-35
+PT00062,30,Female,Mild,Diabetes,Combination Therapy,2,False,False,Recovered,0.804,2020-03-31,19-35
+PT00063,43,Female,Mild,Diabetes,Dexamethasone,4,False,False,Recovered,0.856,2020-04-01,36-50
+PT00064,70,Female,Moderate,Respiratory,Dexamethasone,11,False,True,Recovered,0.85,2020-04-01,65+
+PT00065,33,Male,Moderate,None,Combination Therapy,10,False,True,Deceased,0.797,2020-04-02,19-35
+PT00066,51,Female,Moderate,None,Combination Therapy,6,False,True,Recovered,0.88,2020-04-02,51-65
+PT00067,36,Male,Mild,Heart Disease,Remdesivir,2,False,False,Recovered,0.885,2020-04-03,36-50
+PT00068,43,Male,Mild,None,Supportive Care,2,False,False,Recovered,0.759,2020-04-03,36-50
+PT00069,20,Male,Moderate,Heart Disease,Supportive Care,9,False,False,Recovered,0.795,2020-04-04,19-35
+PT00070,44,Male,Moderate,None,Monoclonal Antibodies,8,False,True,Recovered,0.938,2020-04-04,36-50
+PT00071,44,Male,Moderate,None,Remdesivir,9,False,False,Recovered,0.889,2020-04-05,36-50
+PT00072,57,Female,Mild,Diabetes,Combination Therapy,1,False,False,Recovered,0.914,2020-04-05,51-65
+PT00073,52,Male,Mild,None,Combination Therapy,1,False,False,Recovered,0.968,2020-04-06,51-65
+PT00074,26,Male,Mild,Hypertension,Dexamethasone,4,False,False,Recovered,0.903,2020-04-06,19-35
+PT00075,67,Female,Moderate,Hypertension,Combination Therapy,10,False,True,Recovered,0.862,2020-04-07,65+
+PT00076,51,Male,Mild,Obesity,Supportive Care,2,False,False,Recovered,0.697,2020-04-07,51-65
+PT00077,51,Male,Mild,Heart Disease,Remdesivir,4,False,False,Recovered,0.917,2020-04-08,51-65
+PT00078,47,Male,Mild,None,Monoclonal Antibodies,1,False,False,Recovered,0.804,2020-04-08,36-50
+PT00079,38,Female,Mild,Heart Disease,Supportive Care,2,False,False,Recovered,0.844,2020-04-09,36-50
+PT00080,51,Male,Mild,Hypertension,Supportive Care,1,False,False,Recovered,0.667,2020-04-09,51-65
+PT00081,56,Male,Moderate,Hypertension,Supportive Care,10,False,False,Recovered,0.843,2020-04-10,51-65
+PT00082,16,Male,Mild,Heart Disease,Dexamethasone,1,False,False,Recovered,0.838,2020-04-10,0-18
+PT00083,38,Female,Moderate,Hypertension,Supportive Care,7,False,True,Recovered,0.814,2020-04-11,36-50
+PT00084,43,Female,Moderate,Diabetes,Dexamethasone,5,False,True,Recovered,0.798,2020-04-11,36-50
+PT00085,52,Female,Moderate,Hypertension,Monoclonal Antibodies,8,False,True,Recovered,0.977,2020-04-12,51-65
+PT00086,69,Male,Critical,None,Remdesivir,42,True,True,Recovered,0.789,2020-04-12,65+
+PT00087,34,Male,Mild,None,Dexamethasone,4,False,False,Recovered,0.77,2020-04-13,19-35
+PT00088,39,Male,Moderate,Hypertension,Combination Therapy,11,False,True,Recovered,0.785,2020-04-13,36-50
+PT00089,38,Male,Critical,None,Dexamethasone,30,False,True,Recovered,0.911,2020-04-14,36-50
+PT00090,33,Male,Severe,None,Combination Therapy,15,True,True,Recovered,0.877,2020-04-14,19-35
+PT00091,41,Male,Mild,None,Combination Therapy,1,False,False,Deceased,0.927,2020-04-15,36-50
+PT00092,61,Male,Mild,Hypertension,Supportive Care,2,False,False,Recovered,0.797,2020-04-15,51-65
+PT00093,29,Female,Mild,None,Combination Therapy,3,False,False,Recovered,0.972,2020-04-16,19-35
+PT00094,55,Male,Moderate,Hypertension,Dexamethasone,7,False,True,Recovered,0.854,2020-04-16,51-65
+PT00095,17,Female,Moderate,None,Dexamethasone,6,False,True,Recovered,0.832,2020-04-17,0-18
+PT00096,37,Male,Mild,Diabetes,Dexamethasone,4,False,False,Recovered,0.863,2020-04-17,36-50
+PT00097,42,Male,Moderate,Diabetes,Combination Therapy,7,False,True,Recovered,0.944,2020-04-18,36-50
+PT00098,78,Female,Severe,Hypertension,Supportive Care,22,True,True,Recovered,0.699,2020-04-18,65+
+PT00099,43,Male,Mild,None,Remdesivir,3,False,False,Recovered,0.763,2020-04-19,36-50
+PT00100,8,Male,Severe,Respiratory,Dexamethasone,23,False,True,Recovered,0.73,2020-04-19,0-18
+PT00101,12,Male,Moderate,Obesity,Dexamethasone,8,False,True,Recovered,0.793,2020-04-20,0-18
+PT00102,48,Female,Mild,Heart Disease,Dexamethasone,1,False,False,Recovered,0.819,2020-04-20,36-50
+PT00103,59,Female,Moderate,Obesity,Dexamethasone,8,False,True,Recovered,0.843,2020-04-21,51-65
+PT00104,54,Male,Mild,Diabetes,Supportive Care,4,False,False,Recovered,0.85,2020-04-21,51-65
+PT00105,51,Female,Moderate,Diabetes,Dexamethasone,6,False,True,Recovered,0.783,2020-04-22,51-65
+PT00106,68,Female,Mild,Hypertension,Combination Therapy,4,False,False,Recovered,0.947,2020-04-22,65+
+PT00107,38,Female,Severe,Hypertension,Combination Therapy,15,True,True,Recovered,0.894,2020-04-23,36-50
+PT00108,64,Female,Mild,Obesity,Dexamethasone,1,False,False,Recovered,0.76,2020-04-23,51-65
+PT00109,18,Male,Mild,Hypertension,Supportive Care,4,False,False,Recovered,0.783,2020-04-24,0-18
+PT00110,31,Male,Mild,Respiratory,Combination Therapy,3,False,False,Recovered,0.994,2020-04-24,19-35
+PT00111,15,Male,Moderate,None,Combination Therapy,9,False,False,Recovered,0.802,2020-04-25,0-18
+PT00112,43,Female,Mild,Heart Disease,Supportive Care,3,False,False,Recovered,0.762,2020-04-25,36-50
+PT00113,47,Female,Moderate,Hypertension,Dexamethasone,9,False,True,Recovered,0.725,2020-04-26,36-50
+PT00114,50,Female,Mild,Hypertension,Monoclonal Antibodies,4,False,False,Recovered,0.828,2020-04-26,36-50
+PT00115,49,Female,Mild,None,Combination Therapy,4,False,False,Recovered,0.915,2020-04-27,36-50
+PT00116,31,Female,Mild,Heart Disease,Combination Therapy,1,False,False,Recovered,0.965,2020-04-27,19-35
+PT00117,44,Female,Critical,Obesity,Supportive Care,42,False,False,Recovered,0.805,2020-04-28,36-50
+PT00118,21,Female,Moderate,None,Supportive Care,5,False,True,Recovered,0.753,2020-04-28,19-35
+PT00119,72,Female,Severe,Hypertension,Combination Therapy,13,False,True,Recovered,0.98,2020-04-29,65+
+PT00120,42,Male,Mild,Diabetes,Supportive Care,4,False,False,Recovered,0.722,2020-04-29,36-50
+PT00121,39,Male,Moderate,Respiratory,Combination Therapy,8,False,True,Recovered,0.945,2020-04-30,36-50
+PT00122,76,Male,Mild,Diabetes,Combination Therapy,1,False,False,Recovered,0.881,2020-04-30,65+
+PT00123,25,Female,Moderate,None,Remdesivir,11,False,True,Recovered,0.935,2020-05-01,19-35
+PT00124,27,Male,Severe,Diabetes,Remdesivir,23,True,False,Deceased,0.913,2020-05-01,19-35
+PT00125,28,Female,Moderate,Hypertension,Supportive Care,8,False,False,Recovered,0.839,2020-05-02,19-35
+PT00126,46,Male,Moderate,None,Remdesivir,5,False,True,Recovered,0.786,2020-05-02,36-50
+PT00127,55,Male,Moderate,Hypertension,Remdesivir,8,False,False,Recovered,0.885,2020-05-03,51-65
+PT00128,61,Female,Severe,Obesity,Supportive Care,23,False,True,Recovered,0.807,2020-05-03,51-65
+PT00129,94,Male,Severe,Heart Disease,Remdesivir,22,False,True,Recovered,0.901,2020-05-04,65+
+PT00130,7,Male,Moderate,None,Dexamethasone,9,False,False,Recovered,0.82,2020-05-04,0-18
+PT00131,58,Male,Mild,Respiratory,Combination Therapy,2,False,False,Recovered,0.776,2020-05-05,51-65
+PT00132,37,Male,Moderate,Hypertension,Combination Therapy,7,False,True,Recovered,0.833,2020-05-05,36-50
+PT00133,37,Female,Mild,None,Supportive Care,4,False,False,Recovered,0.726,2020-05-06,36-50
+PT00134,36,Male,Moderate,None,Combination Therapy,9,False,True,Recovered,0.967,2020-05-06,36-50
+PT00135,31,Female,Moderate,None,Combination Therapy,9,False,True,Recovered,0.965,2020-05-07,19-35
+PT00136,78,Male,Severe,Heart Disease,Supportive Care,22,True,True,Recovered,0.683,2020-05-07,65+
+PT00137,63,Female,Mild,None,Combination Therapy,1,False,False,Recovered,0.99,2020-05-08,51-65
+PT00138,48,Male,Moderate,None,Combination Therapy,6,False,True,Recovered,0.815,2020-05-08,36-50
+PT00139,72,Female,Moderate,Hypertension,Monoclonal Antibodies,6,False,True,Recovered,0.849,2020-05-09,65+
+PT00140,20,Female,Moderate,Hypertension,Dexamethasone,10,False,False,Recovered,0.759,2020-05-09,19-35
+PT00141,24,Male,Moderate,Heart Disease,Dexamethasone,5,False,False,Recovered,0.895,2020-05-10,19-35
+PT00142,8,Female,Mild,Hypertension,Remdesivir,4,False,False,Recovered,0.902,2020-05-10,0-18
+PT00143,35,Female,Moderate,None,Combination Therapy,11,False,True,Recovered,0.854,2020-05-11,19-35
+PT00144,50,Male,Mild,Obesity,Remdesivir,2,False,False,Recovered,0.888,2020-05-11,36-50
+PT00145,49,Male,Moderate,None,Combination Therapy,10,False,True,Recovered,0.815,2020-05-12,36-50
+PT00146,50,Female,Mild,Diabetes,Supportive Care,4,False,False,Recovered,0.738,2020-05-12,36-50
+PT00147,22,Female,Moderate,Hypertension,Combination Therapy,7,False,True,Recovered,0.859,2020-05-13,19-35
+PT00148,62,Male,Mild,None,Dexamethasone,1,False,False,Recovered,0.764,2020-05-13,51-65
+PT00149,52,Male,Mild,Respiratory,Supportive Care,2,False,False,Recovered,0.834,2020-05-14,51-65
+PT00150,61,Female,Critical,Diabetes,Dexamethasone,26,True,True,Deceased,0.857,2020-05-14,51-65
+PT00151,13,Female,Mild,None,Supportive Care,3,False,False,Recovered,0.718,2020-05-15,0-18
+PT00152,53,Female,Mild,Obesity,Combination Therapy,3,False,False,Recovered,0.829,2020-05-15,51-65
+PT00153,26,Male,Moderate,Hypertension,Remdesivir,9,False,True,Recovered,0.743,2020-05-16,19-35
+PT00154,40,Female,Severe,Hypertension,Monoclonal Antibodies,10,True,False,Deceased,0.834,2020-05-16,36-50
+PT00155,57,Male,Mild,Diabetes,Remdesivir,3,False,False,Recovered,0.854,2020-05-17,51-65
+PT00156,49,Male,Moderate,Heart Disease,Monoclonal Antibodies,8,False,True,Recovered,0.818,2020-05-17,36-50
+PT00157,32,Female,Severe,None,Remdesivir,10,True,True,Recovered,0.892,2020-05-18,19-35
+PT00158,48,Female,Mild,None,Dexamethasone,3,False,False,Recovered,0.8,2020-05-18,36-50
+PT00159,20,Male,Mild,Diabetes,Remdesivir,2,False,False,Recovered,0.808,2020-05-19,19-35
+PT00160,68,Male,Moderate,None,Remdesivir,6,False,True,Recovered,0.944,2020-05-19,65+
+PT00161,44,Female,Severe,Hypertension,Supportive Care,13,False,True,Recovered,0.714,2020-05-20,36-50
+PT00162,68,Female,Mild,Diabetes,Combination Therapy,3,False,False,Recovered,0.864,2020-05-20,65+
+PT00163,38,Female,Mild,None,Supportive Care,1,False,False,Recovered,0.738,2020-05-21,36-50
+PT00164,38,Female,Moderate,None,Dexamethasone,11,False,True,Recovered,0.765,2020-05-21,36-50
+PT00165,34,Male,Moderate,Hypertension,Combination Therapy,9,False,True,Recovered,0.823,2020-05-22,19-35
+PT00166,63,Female,Mild,Heart Disease,Combination Therapy,4,False,False,Recovered,0.842,2020-05-22,51-65
+PT00167,35,Female,Moderate,Diabetes,Combination Therapy,7,False,True,Recovered,0.97,2020-05-23,19-35
+PT00168,59,Female,Mild,Hypertension,Combination Therapy,3,False,False,Recovered,0.948,2020-05-23,51-65
+PT00169,41,Female,Mild,None,Combination Therapy,4,False,False,Recovered,0.928,2020-05-24,36-50
+PT00170,12,Female,Moderate,Hypertension,Remdesivir,11,False,False,Recovered,0.839,2020-05-24,0-18
+PT00171,37,Male,Severe,None,Supportive Care,14,False,True,Deceased,0.762,2020-05-25,36-50
+PT00172,26,Male,Mild,Diabetes,Supportive Care,1,False,False,Recovered,0.715,2020-05-25,19-35
+PT00173,48,Female,Severe,Hypertension,Combination Therapy,19,True,True,Recovered,0.79,2020-05-26,36-50
+PT00174,26,Male,Moderate,Obesity,Remdesivir,6,False,True,Recovered,0.812,2020-05-26,19-35
+PT00175,64,Male,Mild,Diabetes,Dexamethasone,2,False,False,Recovered,0.818,2020-05-27,51-65
+PT00176,46,Female,Moderate,Heart Disease,Dexamethasone,6,False,True,Recovered,0.726,2020-05-27,36-50
+PT00177,44,Female,Mild,Hypertension,Dexamethasone,4,False,False,Recovered,0.733,2020-05-28,36-50
+PT00178,59,Male,Critical,Obesity,Dexamethasone,35,True,True,Recovered,0.769,2020-05-28,51-65
+PT00179,65,Female,Severe,Diabetes,Supportive Care,22,True,True,Recovered,0.735,2020-05-29,51-65
+PT00180,47,Female,Mild,None,Combination Therapy,3,False,False,Recovered,0.863,2020-05-29,36-50
+PT00181,34,Male,Mild,Obesity,Combination Therapy,3,False,False,Recovered,0.8,2020-05-30,19-35
+PT00182,16,Female,Mild,None,Dexamethasone,1,False,False,Deceased,0.761,2020-05-30,0-18
+PT00183,35,Male,Mild,None,Monoclonal Antibodies,4,False,False,Recovered,0.815,2020-05-31,19-35
+PT00184,36,Male,Mild,None,Remdesivir,2,False,False,Recovered,0.754,2020-05-31,36-50
+PT00185,49,Male,Mild,Heart Disease,Supportive Care,3,False,False,Recovered,0.727,2020-06-01,36-50
+PT00186,41,Male,Moderate,None,Monoclonal Antibodies,10,False,True,Deceased,0.773,2020-06-01,36-50
+PT00187,60,Female,Mild,Obesity,Supportive Care,1,False,False,Recovered,0.8,2020-06-02,51-65
+PT00188,36,Female,Severe,Diabetes,Monoclonal Antibodies,22,False,True,Recovered,0.842,2020-06-02,36-50
+PT00189,46,Female,Severe,None,Combination Therapy,20,True,True,Recovered,0.848,2020-06-03,36-50
+PT00190,69,Female,Critical,Diabetes,Remdesivir,20,True,False,Deceased,0.767,2020-06-03,65+
+PT00191,54,Female,Severe,None,Remdesivir,11,False,False,Recovered,0.789,2020-06-04,51-65
+PT00192,46,Male,Mild,Hypertension,Dexamethasone,2,False,False,Recovered,0.763,2020-06-04,36-50
+PT00193,37,Male,Mild,Hypertension,Remdesivir,1,False,False,Recovered,0.954,2020-06-05,36-50
+PT00194,36,Female,Moderate,Diabetes,Combination Therapy,6,False,True,Recovered,0.964,2020-06-05,36-50
+PT00195,32,Male,Moderate,None,Dexamethasone,8,False,True,Recovered,0.717,2020-06-06,19-35
+PT00196,38,Male,Moderate,Hypertension,Supportive Care,11,False,True,Recovered,0.783,2020-06-06,36-50
+PT00197,61,Female,Severe,Heart Disease,Dexamethasone,20,True,True,Recovered,0.768,2020-06-07,51-65
+PT00198,44,Male,Critical,Hypertension,Combination Therapy,24,False,False,Recovered,0.797,2020-06-07,36-50
+PT00199,23,Female,Moderate,Heart Disease,Monoclonal Antibodies,10,False,True,Recovered,0.913,2020-06-08,19-35
+PT00200,79,Male,Mild,None,Dexamethasone,4,False,False,Recovered,0.742,2020-06-08,65+
+PT00201,53,Male,Mild,Obesity,Supportive Care,3,False,False,Recovered,0.75,2020-06-09,51-65
+PT00202,22,Male,Mild,None,Supportive Care,4,False,False,Recovered,0.786,2020-06-09,19-35
+PT00203,40,Female,Moderate,None,Dexamethasone,8,False,False,Recovered,0.83,2020-06-10,36-50
+PT00204,49,Male,Mild,Heart Disease,Combination Therapy,3,False,False,Recovered,0.996,2020-06-10,36-50
+PT00205,78,Female,Moderate,Respiratory,Dexamethasone,11,False,False,Recovered,0.879,2020-06-11,65+
+PT00206,28,Female,Mild,Hypertension,Supportive Care,1,False,False,Recovered,0.814,2020-06-11,19-35
+PT00207,65,Female,Moderate,None,Combination Therapy,11,False,True,Recovered,0.854,2020-06-12,51-65
+PT00208,73,Male,Severe,None,Combination Therapy,23,True,True,Recovered,0.775,2020-06-12,65+
+PT00209,36,Male,Moderate,Diabetes,Supportive Care,10,False,True,Recovered,0.806,2020-06-13,36-50
+PT00210,43,Female,Mild,Obesity,Dexamethasone,1,False,False,Recovered,0.924,2020-06-13,36-50
+PT00211,29,Female,Mild,None,Supportive Care,1,False,False,Recovered,0.742,2020-06-14,19-35
+PT00212,44,Female,Mild,Heart Disease,Supportive Care,3,False,False,Recovered,0.855,2020-06-14,36-50
+PT00213,47,Male,Mild,None,Supportive Care,4,False,False,Recovered,0.691,2020-06-15,36-50
+PT00214,59,Female,Severe,Heart Disease,Supportive Care,11,True,True,Deceased,0.721,2020-06-15,51-65
+PT00215,67,Male,Severe,Obesity,Dexamethasone,17,True,True,Recovered,0.75,2020-06-16,65+
+PT00216,34,Male,Mild,Diabetes,Monoclonal Antibodies,3,False,False,Recovered,0.862,2020-06-16,19-35
+PT00217,12,Male,Moderate,None,Dexamethasone,11,False,True,Recovered,0.881,2020-06-17,0-18
+PT00218,47,Male,Moderate,Heart Disease,Combination Therapy,6,False,True,Recovered,0.851,2020-06-17,36-50
+PT00219,53,Male,Mild,Diabetes,Remdesivir,2,False,False,Recovered,0.937,2020-06-18,51-65
+PT00220,52,Male,Mild,Hypertension,Monoclonal Antibodies,3,False,False,Recovered,0.878,2020-06-18,51-65
+PT00221,42,Female,Critical,Hypertension,Supportive Care,28,True,True,Deceased,0.754,2020-06-19,36-50
+PT00222,50,Male,Moderate,None,Supportive Care,8,False,True,Recovered,0.816,2020-06-19,36-50
+PT00223,75,Female,Critical,Heart Disease,Remdesivir,31,True,True,Recovered,0.762,2020-06-20,65+
+PT00224,54,Male,Moderate,None,Supportive Care,6,False,True,Recovered,0.814,2020-06-20,51-65
+PT00225,41,Male,Mild,Obesity,Supportive Care,2,False,False,Recovered,0.71,2020-06-21,36-50
+PT00226,38,Male,Mild,None,Combination Therapy,3,False,False,Recovered,0.837,2020-06-21,36-50
+PT00227,44,Male,Moderate,Hypertension,Dexamethasone,11,False,True,Recovered,0.84,2020-06-22,36-50
+PT00228,77,Female,Moderate,None,Combination Therapy,11,False,False,Deceased,0.979,2020-06-22,65+
+PT00229,44,Male,Mild,None,Remdesivir,3,False,False,Recovered,0.865,2020-06-23,36-50
+PT00230,47,Male,Severe,None,Combination Therapy,13,True,True,Deceased,0.921,2020-06-23,36-50
+PT00231,39,Male,Mild,Hypertension,Dexamethasone,1,False,False,Recovered,0.877,2020-06-24,36-50
+PT00232,67,Female,Moderate,Diabetes,Dexamethasone,7,False,False,Recovered,0.768,2020-06-24,65+
+PT00233,83,Female,Mild,Obesity,Remdesivir,3,False,False,Recovered,0.919,2020-06-25,65+
+PT00234,56,Male,Mild,None,Dexamethasone,1,False,False,Recovered,0.802,2020-06-25,51-65
+PT00235,49,Male,Severe,Hypertension,Remdesivir,10,False,True,Recovered,0.778,2020-06-26,36-50
+PT00236,48,Male,Moderate,Hypertension,Monoclonal Antibodies,5,False,True,Recovered,0.834,2020-06-26,36-50
+PT00237,5,Female,Mild,None,Combination Therapy,2,False,False,Recovered,0.829,2020-06-27,0-18
+PT00238,61,Male,Critical,Diabetes,Dexamethasone,39,True,False,Deceased,0.762,2020-06-27,51-65
+PT00239,50,Male,Severe,Diabetes,Combination Therapy,11,True,False,Deceased,0.838,2020-06-28,36-50
+PT00240,55,Male,Moderate,None,Combination Therapy,5,False,True,Recovered,0.815,2020-06-28,51-65
+PT00241,35,Female,Severe,None,Monoclonal Antibodies,16,True,True,Recovered,0.905,2020-06-29,19-35
+PT00242,41,Female,Mild,Hypertension,Remdesivir,2,False,False,Recovered,0.866,2020-06-29,36-50
+PT00243,40,Female,Severe,None,Dexamethasone,16,False,False,Recovered,0.85,2020-06-30,36-50
+PT00244,66,Male,Moderate,Hypertension,Monoclonal Antibodies,5,False,True,Recovered,0.833,2020-06-30,65+
+PT00245,41,Female,Severe,Obesity,Dexamethasone,11,True,True,Recovered,0.876,2020-07-01,36-50
+PT00246,85,Female,Moderate,Hypertension,Remdesivir,10,False,True,Recovered,0.768,2020-07-01,65+
+PT00247,55,Male,Mild,Hypertension,Remdesivir,3,False,False,Recovered,0.864,2020-07-02,51-65
+PT00248,25,Female,Moderate,None,Remdesivir,10,False,True,Recovered,0.799,2020-07-02,19-35
+PT00249,45,Male,Mild,Obesity,Monoclonal Antibodies,1,False,False,Recovered,0.874,2020-07-03,36-50
+PT00250,36,Female,Mild,None,Dexamethasone,2,False,False,Recovered,0.782,2020-07-03,36-50
+PT00251,8,Female,Mild,Hypertension,Monoclonal Antibodies,4,False,False,Recovered,0.932,2020-07-04,0-18
+PT00252,76,Male,Severe,Respiratory,Monoclonal Antibodies,18,True,True,Deceased,0.955,2020-07-04,65+
+PT00253,60,Female,Mild,Hypertension,Combination Therapy,3,False,False,Recovered,0.942,2020-07-05,51-65
+PT00254,57,Male,Moderate,Hypertension,Remdesivir,8,False,True,Recovered,0.778,2020-07-05,51-65
+PT00255,50,Male,Mild,Diabetes,Remdesivir,2,False,False,Recovered,0.799,2020-07-06,36-50
+PT00256,23,Male,Critical,None,Combination Therapy,27,True,True,Recovered,0.983,2020-07-06,19-35
+PT00257,39,Female,Mild,Heart Disease,Dexamethasone,3,False,False,Recovered,0.806,2020-07-07,36-50
+PT00258,63,Male,Moderate,None,Combination Therapy,5,False,True,Recovered,0.988,2020-07-07,51-65
+PT00259,29,Male,Severe,Hypertension,Combination Therapy,13,True,True,Recovered,0.863,2020-07-08,19-35
+PT00260,5,Female,Mild,None,Monoclonal Antibodies,4,False,False,Recovered,0.968,2020-07-08,0-18
+PT00261,43,Male,Mild,Obesity,Combination Therapy,1,False,False,Recovered,0.984,2020-07-09,36-50
+PT00262,45,Male,Moderate,None,Combination Therapy,7,False,False,Recovered,0.924,2020-07-09,36-50
+PT00263,50,Male,Severe,Diabetes,Monoclonal Antibodies,17,False,True,Recovered,0.758,2020-07-10,36-50
+PT00264,61,Male,Moderate,Hypertension,Remdesivir,7,False,False,Recovered,0.827,2020-07-10,51-65
+PT00265,59,Male,Mild,Diabetes,Dexamethasone,3,False,False,Recovered,0.905,2020-07-11,51-65
+PT00266,52,Male,Severe,None,Remdesivir,22,True,True,Recovered,0.932,2020-07-11,51-65
+PT00267,69,Female,Critical,Diabetes,Remdesivir,26,True,False,Recovered,0.78,2020-07-12,65+
+PT00268,20,Female,Moderate,None,Combination Therapy,7,False,True,Recovered,0.864,2020-07-12,19-35
+PT00269,57,Male,Severe,Diabetes,Dexamethasone,23,True,True,Recovered,0.889,2020-07-13,51-65
+PT00270,59,Male,Mild,None,Combination Therapy,3,False,False,Recovered,0.905,2020-07-13,51-65
+PT00271,25,Male,Moderate,Hypertension,Monoclonal Antibodies,9,False,True,Recovered,0.945,2020-07-14,19-35
+PT00272,20,Female,Moderate,None,Remdesivir,9,False,True,Recovered,0.919,2020-07-14,19-35
+PT00273,34,Male,Severe,Respiratory,Combination Therapy,23,False,True,Recovered,0.98,2020-07-15,19-35
+PT00274,36,Male,Mild,Diabetes,Remdesivir,2,False,False,Recovered,0.765,2020-07-15,36-50
+PT00275,61,Female,Mild,None,Dexamethasone,4,False,False,Recovered,0.744,2020-07-16,51-65
+PT00276,36,Male,Severe,Diabetes,Combination Therapy,17,False,True,Recovered,0.792,2020-07-16,36-50
+PT00277,32,Male,Mild,Obesity,Monoclonal Antibodies,3,False,False,Recovered,0.965,2020-07-17,19-35
+PT00278,36,Female,Mild,None,Dexamethasone,4,False,False,Recovered,0.814,2020-07-17,36-50
+PT00279,68,Female,Critical,Hypertension,Remdesivir,33,False,True,Deceased,0.753,2020-07-18,65+
+PT00280,48,Male,Mild,Diabetes,Dexamethasone,4,False,False,Recovered,0.782,2020-07-18,36-50
+PT00281,44,Female,Critical,None,Remdesivir,29,True,True,Recovered,0.816,2020-07-19,36-50
+PT00282,46,Male,Mild,Heart Disease,Dexamethasone,2,False,False,Recovered,0.884,2020-07-19,36-50
+PT00283,71,Female,Severe,None,Combination Therapy,15,True,False,Recovered,0.941,2020-07-20,65+
+PT00284,34,Male,Moderate,None,Remdesivir,5,False,True,Recovered,0.889,2020-07-20,19-35
+PT00285,71,Female,Severe,Heart Disease,Combination Therapy,10,True,True,Recovered,0.778,2020-07-21,65+
+PT00286,51,Female,Moderate,Hypertension,Combination Therapy,11,False,True,Recovered,0.981,2020-07-21,51-65
+PT00287,45,Female,Moderate,Obesity,Combination Therapy,11,False,True,Recovered,0.823,2020-07-22,36-50
+PT00288,93,Female,Severe,Hypertension,Remdesivir,14,False,True,Recovered,0.876,2020-07-22,65+
+PT00289,28,Male,Mild,Hypertension,Monoclonal Antibodies,2,False,False,Recovered,0.77,2020-07-23,19-35
+PT00290,41,Male,Mild,Heart Disease,Dexamethasone,3,False,False,Recovered,0.731,2020-07-23,36-50
+PT00291,25,Male,Mild,None,Supportive Care,1,False,False,Recovered,0.665,2020-07-24,19-35
+PT00292,65,Female,Moderate,Heart Disease,Dexamethasone,5,False,True,Recovered,0.833,2020-07-24,51-65
+PT00293,78,Female,Critical,Hypertension,Combination Therapy,34,True,True,Deceased,0.917,2020-07-25,65+
+PT00294,78,Male,Moderate,None,Dexamethasone,6,False,True,Recovered,0.725,2020-07-25,65+
+PT00295,70,Female,Severe,Diabetes,Dexamethasone,23,True,True,Recovered,0.775,2020-07-26,65+
+PT00296,44,Female,Mild,None,Remdesivir,1,False,False,Recovered,0.925,2020-07-26,36-50
+PT00297,41,Female,Mild,Hypertension,Dexamethasone,1,False,False,Recovered,0.735,2020-07-27,36-50
+PT00298,17,Female,Moderate,Diabetes,Monoclonal Antibodies,6,False,False,Recovered,0.805,2020-07-27,0-18
+PT00299,84,Male,Moderate,Respiratory,Combination Therapy,8,False,True,Deceased,0.87,2020-07-28,65+
+PT00300,56,Male,Severe,None,Remdesivir,24,False,False,Recovered,0.923,2020-07-28,51-65
+PT00301,39,Male,Moderate,Hypertension,Combination Therapy,10,False,False,Recovered,0.831,2020-07-29,36-50
+PT00302,71,Male,Moderate,None,Monoclonal Antibodies,5,False,False,Recovered,0.978,2020-07-29,65+
+PT00303,30,Female,Moderate,Hypertension,Supportive Care,10,False,True,Recovered,0.732,2020-07-30,19-35
+PT00304,55,Female,Mild,Hypertension,Remdesivir,4,False,False,Recovered,0.824,2020-07-30,51-65
+PT00305,44,Female,Moderate,Hypertension,Supportive Care,10,False,False,Recovered,0.687,2020-07-31,36-50
+PT00306,59,Female,Critical,Heart Disease,Dexamethasone,36,False,True,Deceased,0.857,2020-07-31,51-65
+PT00307,46,Male,Moderate,Heart Disease,Combination Therapy,5,False,True,Recovered,0.829,2020-08-01,36-50
+PT00308,21,Male,Moderate,None,Combination Therapy,9,False,False,Recovered,0.917,2020-08-01,19-35
+PT00309,49,Male,Mild,None,Supportive Care,3,False,False,Recovered,0.707,2020-08-02,36-50
+PT00310,66,Male,Moderate,Hypertension,Monoclonal Antibodies,7,False,True,Recovered,0.843,2020-08-02,65+
+PT00311,47,Male,Severe,Diabetes,Monoclonal Antibodies,19,True,False,Recovered,0.947,2020-08-03,36-50
+PT00312,61,Male,Mild,None,Remdesivir,2,False,False,Recovered,0.9,2020-08-03,51-65
+PT00313,29,Male,Mild,Diabetes,Monoclonal Antibodies,1,False,False,Recovered,0.791,2020-08-04,19-35
+PT00314,47,Male,Mild,Diabetes,Remdesivir,1,False,False,Recovered,0.872,2020-08-04,36-50
+PT00315,36,Female,Moderate,Diabetes,Dexamethasone,8,False,True,Recovered,0.846,2020-08-05,36-50
+PT00316,61,Male,Mild,Heart Disease,Combination Therapy,2,False,False,Recovered,0.794,2020-08-05,51-65
+PT00317,48,Male,Severe,Diabetes,Combination Therapy,17,False,True,Recovered,0.879,2020-08-06,36-50
+PT00318,60,Male,Mild,None,Combination Therapy,4,False,False,Recovered,0.833,2020-08-06,51-65
+PT00319,67,Female,Moderate,None,Combination Therapy,6,False,True,Recovered,0.88,2020-08-07,65+
+PT00320,60,Male,Moderate,Heart Disease,Monoclonal Antibodies,5,False,True,Recovered,0.929,2020-08-07,51-65
+PT00321,52,Male,Mild,Respiratory,Dexamethasone,3,False,False,Recovered,0.747,2020-08-08,51-65
+PT00322,30,Female,Moderate,Hypertension,Dexamethasone,8,False,True,Deceased,0.74,2020-08-08,19-35
+PT00323,47,Female,Mild,None,Monoclonal Antibodies,1,False,False,Recovered,0.816,2020-08-09,36-50
+PT00324,38,Female,Mild,Obesity,Remdesivir,4,False,False,Recovered,0.947,2020-08-09,36-50
+PT00325,41,Male,Mild,Hypertension,Combination Therapy,4,False,False,Recovered,0.944,2020-08-10,36-50
+PT00326,41,Male,Severe,Heart Disease,Combination Therapy,19,True,True,Recovered,0.778,2020-08-10,36-50
+PT00327,30,Male,Moderate,Heart Disease,Combination Therapy,10,False,True,Recovered,0.865,2020-08-11,19-35
+PT00328,12,Female,Moderate,None,Combination Therapy,6,False,True,Recovered,0.832,2020-08-11,0-18
+PT00329,35,Male,Mild,Diabetes,Remdesivir,3,False,False,Recovered,0.878,2020-08-12,19-35
+PT00330,51,Male,Moderate,None,Supportive Care,10,False,True,Recovered,0.753,2020-08-12,51-65
+PT00331,23,Female,Moderate,None,Remdesivir,8,False,True,Recovered,0.949,2020-08-13,19-35
+PT00332,48,Female,Severe,Heart Disease,Dexamethasone,12,True,True,Deceased,0.76,2020-08-13,36-50
+PT00333,82,Male,Critical,Obesity,Remdesivir,38,True,True,Deceased,0.867,2020-08-14,65+
+PT00334,66,Female,Moderate,Hypertension,Combination Therapy,11,False,True,Recovered,0.933,2020-08-14,65+
+PT00335,77,Female,Severe,Diabetes,Combination Therapy,22,True,True,Recovered,0.961,2020-08-15,65+
+PT00336,55,Male,Moderate,None,Monoclonal Antibodies,7,False,False,Recovered,0.847,2020-08-15,51-65
+PT00337,69,Male,Moderate,None,Supportive Care,5,False,True,Recovered,0.797,2020-08-16,65+
+PT00338,34,Female,Severe,None,Combination Therapy,19,True,True,Recovered,0.842,2020-08-16,19-35
+PT00339,36,Male,Mild,Diabetes,Monoclonal Antibodies,4,False,False,Recovered,0.853,2020-08-17,36-50
+PT00340,5,Male,Mild,Hypertension,Combination Therapy,1,False,False,Recovered,0.977,2020-08-17,0-18
+PT00341,69,Male,Severe,None,Combination Therapy,24,True,True,Recovered,0.99,2020-08-18,65+
+PT00342,75,Female,Mild,Respiratory,Combination Therapy,1,False,False,Recovered,0.937,2020-08-18,65+
+PT00343,38,Female,Mild,None,Dexamethasone,4,False,False,Recovered,0.793,2020-08-19,36-50
+PT00344,43,Female,Severe,Heart Disease,Supportive Care,18,True,True,Recovered,0.823,2020-08-19,36-50
+PT00345,34,Male,Moderate,Diabetes,Remdesivir,11,False,True,Recovered,0.745,2020-08-20,19-35
+PT00346,54,Male,Severe,None,Combination Therapy,14,False,True,Recovered,0.797,2020-08-20,51-65
+PT00347,68,Female,Mild,Heart Disease,Supportive Care,1,False,False,Recovered,0.792,2020-08-21,65+
+PT00348,16,Male,Mild,Hypertension,Monoclonal Antibodies,3,False,False,Recovered,0.821,2020-08-21,0-18
+PT00349,55,Female,Moderate,Diabetes,Monoclonal Antibodies,6,False,True,Recovered,0.968,2020-08-22,51-65
+PT00350,43,Female,Mild,Diabetes,Combination Therapy,2,False,False,Recovered,0.873,2020-08-22,36-50
+PT00351,50,Male,Severe,None,Combination Therapy,16,True,True,Deceased,0.871,2020-08-23,36-50
+PT00352,56,Female,Mild,Hypertension,Dexamethasone,3,False,False,Recovered,0.856,2020-08-23,51-65
+PT00353,44,Male,Mild,Obesity,Combination Therapy,2,False,False,Recovered,0.948,2020-08-24,36-50
+PT00354,46,Female,Mild,None,Monoclonal Antibodies,1,False,False,Recovered,0.862,2020-08-24,36-50
+PT00355,44,Male,Moderate,None,Monoclonal Antibodies,7,False,True,Deceased,0.804,2020-08-25,36-50
+PT00356,65,Male,Mild,Obesity,Monoclonal Antibodies,1,False,False,Recovered,0.929,2020-08-25,51-65
+PT00357,55,Female,Mild,None,Remdesivir,2,False,False,Recovered,0.809,2020-08-26,51-65
+PT00358,51,Female,Moderate,Hypertension,Supportive Care,6,False,False,Deceased,0.697,2020-08-26,51-65
+PT00359,25,Male,Severe,Diabetes,Monoclonal Antibodies,14,True,False,Deceased,0.897,2020-08-27,19-35
+PT00360,41,Female,Mild,Hypertension,Dexamethasone,2,False,False,Recovered,0.733,2020-08-27,36-50
+PT00361,64,Male,Moderate,Diabetes,Combination Therapy,6,False,True,Recovered,0.994,2020-08-28,51-65
+PT00362,48,Male,Severe,None,Supportive Care,11,True,True,Recovered,0.786,2020-08-28,36-50
+PT00363,59,Male,Mild,None,Combination Therapy,3,False,False,Recovered,0.998,2020-08-29,51-65
+PT00364,79,Male,Moderate,Hypertension,Monoclonal Antibodies,11,False,True,Recovered,0.832,2020-08-29,65+
+PT00365,66,Male,Moderate,Hypertension,Combination Therapy,8,False,True,Recovered,0.994,2020-08-30,65+
+PT00366,49,Male,Moderate,Hypertension,Supportive Care,7,False,True,Recovered,0.691,2020-08-30,36-50
+PT00367,38,Male,Moderate,Hypertension,Supportive Care,5,False,True,Recovered,0.671,2020-08-31,36-50
+PT00368,5,Male,Moderate,None,Combination Therapy,7,False,False,Deceased,0.781,2020-08-31,0-18
+PT00369,44,Male,Severe,None,Supportive Care,24,True,True,Recovered,0.754,2020-09-01,36-50
+PT00370,42,Female,Mild,Heart Disease,Combination Therapy,4,False,False,Recovered,0.792,2020-09-01,36-50
+PT00371,55,Male,Mild,Diabetes,Dexamethasone,4,False,False,Deceased,0.822,2020-09-02,51-65
+PT00372,45,Female,Moderate,None,Remdesivir,10,False,True,Recovered,0.811,2020-09-02,36-50
+PT00373,42,Female,Severe,None,Dexamethasone,16,True,True,Recovered,0.784,2020-09-03,36-50
+PT00374,15,Female,Mild,None,Supportive Care,4,False,False,Recovered,0.787,2020-09-03,0-18
+PT00375,31,Female,Severe,None,Monoclonal Antibodies,14,True,True,Recovered,0.793,2020-09-04,19-35
+PT00376,56,Female,Mild,Heart Disease,Dexamethasone,4,False,False,Recovered,0.875,2020-09-04,51-65
+PT00377,78,Male,Critical,Obesity,Dexamethasone,42,True,True,Recovered,0.836,2020-09-05,65+
+PT00378,46,Male,Moderate,Obesity,Remdesivir,11,False,True,Recovered,0.939,2020-09-05,36-50
+PT00379,53,Female,Mild,Obesity,Combination Therapy,1,False,False,Recovered,0.857,2020-09-06,51-65
+PT00380,65,Female,Moderate,Obesity,Monoclonal Antibodies,8,False,True,Recovered,0.975,2020-09-06,51-65
+PT00381,33,Female,Mild,Diabetes,Combination Therapy,4,False,False,Recovered,0.905,2020-09-07,19-35
+PT00382,54,Male,Mild,None,Combination Therapy,3,False,False,Recovered,0.995,2020-09-07,51-65
+PT00383,34,Female,Moderate,Heart Disease,Combination Therapy,8,False,True,Recovered,0.78,2020-09-08,19-35
+PT00384,63,Female,Moderate,None,Remdesivir,9,False,True,Deceased,0.898,2020-09-08,51-65
+PT00385,50,Male,Mild,None,Supportive Care,4,False,False,Recovered,0.822,2020-09-09,36-50
+PT00386,53,Male,Mild,None,Combination Therapy,1,False,False,Recovered,0.786,2020-09-09,51-65
+PT00387,33,Female,Mild,Diabetes,Combination Therapy,4,False,False,Recovered,0.905,2020-09-10,19-35
+PT00388,60,Female,Moderate,None,Monoclonal Antibodies,5,False,True,Recovered,0.935,2020-09-10,51-65
+PT00389,85,Male,Mild,None,Supportive Care,3,False,False,Recovered,0.772,2020-09-11,65+
+PT00390,29,Female,Severe,Diabetes,Supportive Care,21,True,True,Recovered,0.675,2020-09-11,19-35
+PT00391,41,Male,Mild,Obesity,Monoclonal Antibodies,4,False,False,Recovered,0.911,2020-09-12,36-50
+PT00392,52,Male,Mild,Hypertension,Monoclonal Antibodies,2,False,False,Recovered,0.77,2020-09-12,51-65
+PT00393,62,Male,Severe,Obesity,Combination Therapy,20,False,False,Recovered,0.959,2020-09-13,51-65
+PT00394,37,Male,Moderate,None,Remdesivir,10,False,True,Recovered,0.749,2020-09-13,36-50
+PT00395,5,Male,Moderate,None,Combination Therapy,5,False,True,Recovered,0.805,2020-09-14,0-18
+PT00396,72,Male,Mild,Hypertension,Supportive Care,1,False,False,Recovered,0.717,2020-09-14,65+
+PT00397,61,Female,Mild,Diabetes,Remdesivir,1,False,False,Recovered,0.877,2020-09-15,51-65
+PT00398,16,Female,Moderate,Hypertension,Remdesivir,11,False,True,Recovered,0.952,2020-09-15,0-18
+PT00399,37,Male,Critical,Heart Disease,Remdesivir,40,True,True,Deceased,0.765,2020-09-16,36-50
+PT00400,76,Male,Severe,Hypertension,Supportive Care,24,False,False,Recovered,0.691,2020-09-16,65+
+PT00401,74,Male,Mild,Respiratory,Combination Therapy,4,False,False,Recovered,0.857,2020-09-17,65+
+PT00402,64,Female,Mild,Diabetes,Dexamethasone,2,False,False,Recovered,0.89,2020-09-17,51-65
+PT00403,44,Male,Mild,None,Remdesivir,2,False,False,Recovered,0.841,2020-09-18,36-50
+PT00404,49,Male,Moderate,Diabetes,Supportive Care,8,False,True,Recovered,0.726,2020-09-18,36-50
+PT00405,45,Female,Mild,None,Dexamethasone,3,False,False,Recovered,0.832,2020-09-19,36-50
+PT00406,68,Female,Severe,None,Dexamethasone,15,True,True,Recovered,0.769,2020-09-19,65+
+PT00407,32,Male,Severe,None,Combination Therapy,17,True,True,Recovered,0.865,2020-09-20,19-35
+PT00408,33,Male,Mild,Diabetes,Combination Therapy,2,False,False,Recovered,0.849,2020-09-20,19-35
+PT00409,66,Male,Severe,None,Dexamethasone,16,True,True,Deceased,0.883,2020-09-21,65+
+PT00410,47,Female,Mild,None,Combination Therapy,4,False,False,Recovered,0.984,2020-09-21,36-50
+PT00411,72,Male,Moderate,Hypertension,Dexamethasone,10,False,True,Recovered,0.874,2020-09-22,65+
+PT00412,35,Male,Mild,Hypertension,Supportive Care,2,False,False,Recovered,0.749,2020-09-22,19-35
+PT00413,47,Female,Severe,Hypertension,Dexamethasone,18,False,True,Deceased,0.82,2020-09-23,36-50
+PT00414,31,Male,Severe,Hypertension,Remdesivir,21,True,False,Recovered,0.767,2020-09-23,19-35
+PT00415,48,Male,Moderate,None,Supportive Care,6,False,True,Recovered,0.809,2020-09-24,36-50
+PT00416,21,Male,Mild,None,Supportive Care,4,False,False,Recovered,0.779,2020-09-24,19-35
+PT00417,39,Male,Moderate,None,Remdesivir,10,False,False,Recovered,0.936,2020-09-25,36-50
+PT00418,22,Male,Mild,Heart Disease,Remdesivir,1,False,False,Recovered,0.783,2020-09-25,19-35
+PT00419,60,Male,Mild,Hypertension,Supportive Care,3,False,False,Recovered,0.811,2020-09-26,51-65
+PT00420,60,Male,Severe,None,Supportive Care,22,False,True,Recovered,0.797,2020-09-26,51-65
+PT00421,16,Male,Mild,None,Dexamethasone,4,False,False,Recovered,0.77,2020-09-27,0-18
+PT00422,72,Female,Severe,Respiratory,Combination Therapy,13,False,True,Recovered,0.925,2020-09-27,65+
+PT00423,92,Male,Critical,Hypertension,Remdesivir,33,True,True,Deceased,0.941,2020-09-28,65+
+PT00424,48,Male,Moderate,Heart Disease,Combination Therapy,7,False,True,Recovered,0.982,2020-09-28,36-50
+PT00425,36,Female,Mild,None,Remdesivir,1,False,False,Recovered,0.896,2020-09-29,36-50
+PT00426,95,Female,Severe,None,Dexamethasone,20,False,True,Deceased,0.724,2020-09-29,65+
+PT00427,24,Female,Mild,Heart Disease,Remdesivir,2,False,False,Recovered,0.929,2020-09-30,19-35
+PT00428,48,Male,Moderate,Hypertension,Combination Therapy,9,False,True,Recovered,0.923,2020-09-30,36-50
+PT00429,51,Male,Mild,Hypertension,Combination Therapy,4,False,False,Recovered,0.844,2020-10-01,51-65
+PT00430,72,Female,Moderate,Diabetes,Combination Therapy,6,False,True,Recovered,0.816,2020-10-01,65+
+PT00431,54,Female,Moderate,Hypertension,Remdesivir,8,False,True,Recovered,0.765,2020-10-02,51-65
+PT00432,39,Male,Severe,Hypertension,Dexamethasone,22,True,True,Recovered,0.725,2020-10-02,36-50
+PT00433,30,Female,Mild,None,Supportive Care,3,False,False,Recovered,0.81,2020-10-03,19-35
+PT00434,41,Male,Mild,None,Dexamethasone,4,False,False,Recovered,0.764,2020-10-03,36-50
+PT00435,29,Female,Moderate,Obesity,Supportive Care,9,False,True,Recovered,0.668,2020-10-04,19-35
+PT00436,48,Female,Moderate,None,Dexamethasone,9,False,True,Recovered,0.797,2020-10-04,36-50
+PT00437,37,Female,Mild,Diabetes,Combination Therapy,2,False,False,Recovered,0.883,2020-10-05,36-50
+PT00438,21,Female,Mild,Hypertension,Combination Therapy,4,False,False,Recovered,0.812,2020-10-05,19-35
+PT00439,70,Female,Critical,Respiratory,Monoclonal Antibodies,30,False,False,Deceased,0.766,2020-10-06,65+
+PT00440,39,Male,Mild,Diabetes,Remdesivir,2,False,False,Recovered,0.781,2020-10-06,36-50
+PT00441,25,Male,Moderate,Diabetes,Remdesivir,6,False,True,Recovered,0.887,2020-10-07,19-35
+PT00442,44,Male,Mild,Heart Disease,Combination Therapy,1,False,False,Recovered,0.792,2020-10-07,36-50
+PT00443,49,Male,Severe,Heart Disease,Monoclonal Antibodies,24,True,True,Recovered,0.88,2020-10-08,36-50
+PT00444,16,Female,Moderate,Hypertension,Monoclonal Antibodies,8,False,True,Recovered,0.789,2020-10-08,0-18
+PT00445,53,Male,Moderate,Diabetes,Combination Therapy,8,False,True,Recovered,0.818,2020-10-09,51-65
+PT00446,29,Male,Mild,None,Combination Therapy,1,False,False,Recovered,0.863,2020-10-09,19-35
+PT00447,78,Female,Severe,Hypertension,Combination Therapy,22,True,True,Deceased,0.796,2020-10-10,65+
+PT00448,57,Female,Mild,Obesity,Combination Therapy,1,False,False,Recovered,0.813,2020-10-10,51-65
+PT00449,40,Male,Severe,Obesity,Combination Therapy,24,True,True,Recovered,0.853,2020-10-11,36-50
+PT00450,34,Male,Critical,None,Supportive Care,35,True,False,Deceased,0.727,2020-10-11,19-35
+PT00451,46,Male,Mild,Diabetes,Supportive Care,2,False,False,Recovered,0.809,2020-10-12,36-50
+PT00452,59,Female,Mild,Diabetes,Combination Therapy,3,False,False,Recovered,0.791,2020-10-12,51-65
+PT00453,47,Male,Mild,Respiratory,Combination Therapy,1,False,False,Recovered,0.969,2020-10-13,36-50
+PT00454,44,Female,Moderate,Hypertension,Combination Therapy,7,False,True,Recovered,0.959,2020-10-13,36-50
+PT00455,49,Male,Moderate,Diabetes,Combination Therapy,6,False,True,Recovered,0.948,2020-10-14,36-50
+PT00456,37,Male,Severe,None,Combination Therapy,24,True,False,Recovered,0.844,2020-10-14,36-50
+PT00457,41,Female,Moderate,Hypertension,Remdesivir,5,False,True,Recovered,0.918,2020-10-15,36-50
+PT00458,10,Male,Mild,None,Remdesivir,2,False,False,Recovered,0.779,2020-10-15,0-18
+PT00459,65,Male,Moderate,Heart Disease,Combination Therapy,10,False,True,Recovered,0.802,2020-10-16,51-65
+PT00460,53,Male,Moderate,Hypertension,Supportive Care,10,False,True,Deceased,0.672,2020-10-16,51-65
+PT00461,34,Male,Moderate,Diabetes,Dexamethasone,8,False,True,Recovered,0.911,2020-10-17,19-35
+PT00462,82,Male,Severe,Diabetes,Combination Therapy,22,True,False,Recovered,0.844,2020-10-17,65+
+PT00463,49,Male,Moderate,Obesity,Dexamethasone,6,False,True,Recovered,0.907,2020-10-18,36-50
+PT00464,29,Male,Moderate,None,Remdesivir,5,False,True,Recovered,0.799,2020-10-18,19-35
+PT00465,63,Male,Moderate,None,Monoclonal Antibodies,6,False,True,Recovered,0.958,2020-10-19,51-65
+PT00466,55,Female,Moderate,Obesity,Supportive Care,8,False,True,Recovered,0.839,2020-10-19,51-65
+PT00467,55,Female,Moderate,Heart Disease,Remdesivir,7,False,True,Recovered,0.94,2020-10-20,51-65
+PT00468,40,Female,Moderate,Heart Disease,Supportive Care,11,False,True,Recovered,0.76,2020-10-20,36-50
+PT00469,56,Female,Moderate,None,Dexamethasone,6,False,True,Recovered,0.896,2020-10-21,51-65
+PT00470,43,Male,Moderate,None,Monoclonal Antibodies,7,False,True,Recovered,0.968,2020-10-21,36-50
+PT00471,58,Male,Mild,None,Dexamethasone,2,False,False,Recovered,0.782,2020-10-22,51-65
+PT00472,13,Male,Mild,None,Dexamethasone,2,False,False,Recovered,0.802,2020-10-22,0-18
+PT00473,40,Male,Mild,Heart Disease,Combination Therapy,3,False,False,Recovered,0.937,2020-10-23,36-50
+PT00474,78,Male,Mild,None,Supportive Care,2,False,False,Recovered,0.722,2020-10-23,65+
+PT00475,34,Male,Moderate,Hypertension,Remdesivir,5,False,False,Recovered,0.903,2020-10-24,19-35
+PT00476,37,Female,Critical,None,Supportive Care,41,True,True,Recovered,0.677,2020-10-24,36-50
+PT00477,39,Female,Mild,Diabetes,Remdesivir,4,False,False,Recovered,0.853,2020-10-25,36-50
+PT00478,26,Male,Mild,Respiratory,Monoclonal Antibodies,1,False,False,Recovered,0.784,2020-10-25,19-35
+PT00479,8,Female,Mild,None,Remdesivir,3,False,False,Recovered,0.803,2020-10-26,0-18
+PT00480,43,Female,Mild,None,Monoclonal Antibodies,1,False,False,Recovered,0.814,2020-10-26,36-50
+PT00481,50,Female,Moderate,None,Combination Therapy,10,False,True,Recovered,0.964,2020-10-27,36-50
+PT00482,47,Male,Mild,None,Combination Therapy,4,False,False,Recovered,0.818,2020-10-27,36-50
+PT00483,45,Male,Moderate,Diabetes,Monoclonal Antibodies,6,False,True,Recovered,0.936,2020-10-28,36-50
+PT00484,48,Male,Moderate,None,Monoclonal Antibodies,6,False,True,Recovered,0.933,2020-10-28,36-50
+PT00485,66,Male,Severe,Hypertension,Combination Therapy,21,False,True,Recovered,0.887,2020-10-29,65+
+PT00486,44,Female,Severe,Heart Disease,Remdesivir,21,True,True,Recovered,0.79,2020-10-29,36-50
+PT00487,37,Male,Mild,Diabetes,Combination Therapy,1,False,False,Recovered,0.825,2020-10-30,36-50
+PT00488,42,Male,Mild,None,Combination Therapy,4,False,False,Recovered,0.879,2020-10-30,36-50
+PT00489,58,Female,Severe,Hypertension,Combination Therapy,19,True,True,Deceased,0.776,2020-10-31,51-65
+PT00490,73,Female,Mild,None,Combination Therapy,4,False,False,Recovered,0.894,2020-10-31,65+
+PT00491,36,Male,Mild,Hypertension,Remdesivir,2,False,False,Recovered,0.947,2020-11-01,36-50
+PT00492,49,Female,Mild,Hypertension,Supportive Care,3,False,False,Recovered,0.693,2020-11-01,36-50
+PT00493,54,Male,Mild,None,Supportive Care,1,False,False,Recovered,0.775,2020-11-02,51-65
+PT00494,30,Male,Mild,Heart Disease,Remdesivir,1,False,False,Recovered,0.949,2020-11-02,19-35
+PT00495,48,Male,Critical,Obesity,Combination Therapy,33,False,True,Deceased,0.969,2020-11-03,36-50
+PT00496,21,Female,Moderate,Heart Disease,Combination Therapy,5,False,False,Recovered,0.967,2020-11-03,19-35
+PT00497,16,Female,Mild,None,Combination Therapy,2,False,False,Recovered,0.96,2020-11-04,0-18
+PT00498,54,Male,Severe,Hypertension,Remdesivir,18,True,True,Recovered,0.807,2020-11-04,51-65
+PT00499,41,Male,Moderate,Obesity,Combination Therapy,10,False,True,Recovered,0.976,2020-11-05,36-50
+PT00500,51,Male,Mild,None,Dexamethasone,3,False,False,Recovered,0.912,2020-11-05,51-65
+PT00501,47,Male,Severe,Heart Disease,Combination Therapy,20,True,False,Recovered,0.886,2020-11-06,36-50
+PT00502,30,Male,Severe,None,Supportive Care,11,True,False,Recovered,0.732,2020-11-06,19-35
+PT00503,47,Male,Severe,None,Supportive Care,16,True,True,Recovered,0.744,2020-11-07,36-50
+PT00504,25,Female,Moderate,Hypertension,Remdesivir,8,False,True,Recovered,0.812,2020-11-07,19-35
+PT00505,73,Female,Critical,Heart Disease,Combination Therapy,42,False,False,Deceased,0.822,2020-11-08,65+
+PT00506,23,Male,Mild,Heart Disease,Monoclonal Antibodies,3,False,False,Recovered,0.894,2020-11-08,19-35
+PT00507,44,Male,Moderate,Obesity,Remdesivir,10,False,True,Recovered,0.862,2020-11-09,36-50
+PT00508,29,Male,Critical,None,Supportive Care,42,False,True,Recovered,0.753,2020-11-09,19-35
+PT00509,58,Male,Mild,None,Supportive Care,3,False,False,Recovered,0.682,2020-11-10,51-65
+PT00510,42,Female,Moderate,Obesity,Supportive Care,7,False,False,Recovered,0.818,2020-11-10,36-50
+PT00511,38,Female,Moderate,None,Dexamethasone,11,False,False,Recovered,0.751,2020-11-11,36-50
+PT00512,63,Male,Mild,Hypertension,Dexamethasone,1,False,False,Recovered,0.738,2020-11-11,51-65
+PT00513,48,Male,Moderate,Diabetes,Monoclonal Antibodies,7,False,True,Recovered,0.895,2020-11-12,36-50
+PT00514,57,Female,Mild,None,Dexamethasone,1,False,False,Deceased,0.798,2020-11-12,51-65
+PT00515,30,Male,Moderate,None,Remdesivir,9,False,False,Recovered,0.753,2020-11-13,19-35
+PT00516,22,Female,Mild,Diabetes,Combination Therapy,1,False,False,Recovered,0.854,2020-11-13,19-35
+PT00517,49,Male,Severe,Heart Disease,Remdesivir,21,False,True,Deceased,0.907,2020-11-14,36-50
+PT00518,42,Female,Mild,Hypertension,Supportive Care,1,False,False,Recovered,0.783,2020-11-14,36-50
+PT00519,59,Female,Mild,Hypertension,Combination Therapy,1,False,False,Recovered,0.856,2020-11-15,51-65
+PT00520,46,Female,Mild,Diabetes,Supportive Care,3,False,False,Recovered,0.7,2020-11-15,36-50
+PT00521,51,Female,Severe,None,Supportive Care,22,False,False,Recovered,0.786,2020-11-16,51-65
+PT00522,18,Male,Moderate,None,Remdesivir,10,False,True,Recovered,0.933,2020-11-16,0-18
+PT00523,81,Female,Mild,Diabetes,Dexamethasone,1,False,False,Recovered,0.85,2020-11-17,65+
+PT00524,45,Female,Moderate,None,Supportive Care,8,False,True,Recovered,0.822,2020-11-17,36-50
+PT00525,60,Male,Moderate,None,Dexamethasone,8,False,True,Recovered,0.824,2020-11-18,51-65
+PT00526,32,Male,Mild,Diabetes,Monoclonal Antibodies,2,False,False,Recovered,0.916,2020-11-18,19-35
+PT00527,53,Male,Moderate,Diabetes,Supportive Care,10,False,True,Recovered,0.838,2020-11-19,51-65
+PT00528,24,Male,Mild,None,Remdesivir,4,False,False,Recovered,0.908,2020-11-19,19-35
+PT00529,56,Male,Critical,Hypertension,Supportive Care,44,True,True,Deceased,0.84,2020-11-20,51-65
+PT00530,41,Female,Moderate,Diabetes,Remdesivir,9,False,True,Recovered,0.833,2020-11-20,36-50
+PT00531,48,Male,Mild,None,Remdesivir,4,False,False,Recovered,0.936,2020-11-21,36-50
+PT00532,60,Female,Mild,Respiratory,Supportive Care,3,False,False,Recovered,0.784,2020-11-21,51-65
+PT00533,25,Male,Moderate,None,Supportive Care,6,False,True,Recovered,0.833,2020-11-22,19-35
+PT00534,35,Male,Mild,Heart Disease,Combination Therapy,4,False,False,Recovered,0.782,2020-11-22,19-35
+PT00535,56,Male,Mild,None,Dexamethasone,4,False,False,Recovered,0.852,2020-11-23,51-65
+PT00536,85,Male,Moderate,Obesity,Dexamethasone,10,False,True,Recovered,0.892,2020-11-23,65+
+PT00537,45,Male,Moderate,None,Dexamethasone,7,False,True,Recovered,0.751,2020-11-24,36-50
+PT00538,58,Male,Moderate,Hypertension,Dexamethasone,5,False,False,Recovered,0.853,2020-11-24,51-65
+PT00539,46,Male,Mild,None,Dexamethasone,3,False,False,Recovered,0.887,2020-11-25,36-50
+PT00540,82,Female,Moderate,Hypertension,Combination Therapy,11,False,True,Recovered,0.839,2020-11-25,65+
+PT00541,16,Female,Moderate,Diabetes,Monoclonal Antibodies,9,False,True,Recovered,0.847,2020-11-26,0-18
+PT00542,49,Male,Moderate,None,Dexamethasone,8,False,True,Recovered,0.834,2020-11-26,36-50
+PT00543,18,Female,Mild,Heart Disease,Remdesivir,3,False,False,Recovered,0.852,2020-11-27,0-18
+PT00544,5,Female,Mild,None,Supportive Care,2,False,False,Recovered,0.671,2020-11-27,0-18
+PT00545,53,Male,Severe,Obesity,Supportive Care,19,True,True,Recovered,0.682,2020-11-28,51-65
+PT00546,50,Female,Critical,None,Monoclonal Antibodies,30,True,True,Recovered,0.779,2020-11-28,36-50
+PT00547,42,Female,Critical,Diabetes,Remdesivir,32,True,True,Deceased,0.797,2020-11-29,36-50
+PT00548,46,Male,Severe,Hypertension,Remdesivir,21,False,True,Deceased,0.793,2020-11-29,36-50
+PT00549,95,Male,Mild,Diabetes,Combination Therapy,1,False,False,Recovered,0.942,2020-11-30,65+
+PT00550,43,Male,Mild,None,Combination Therapy,3,False,False,Recovered,0.904,2020-11-30,36-50
+PT00551,57,Male,Mild,Hypertension,Combination Therapy,4,False,False,Recovered,0.947,2020-12-01,51-65
+PT00552,36,Female,Mild,Heart Disease,Combination Therapy,3,False,False,Recovered,0.789,2020-12-01,36-50
+PT00553,53,Male,Critical,Obesity,Remdesivir,24,True,True,Recovered,0.845,2020-12-02,51-65
+PT00554,43,Female,Moderate,None,Combination Therapy,7,False,True,Recovered,0.847,2020-12-02,36-50
+PT00555,40,Female,Moderate,Diabetes,Combination Therapy,5,False,True,Recovered,0.967,2020-12-03,36-50
+PT00556,80,Female,Severe,None,Combination Therapy,22,True,True,Recovered,0.935,2020-12-03,65+
+PT00557,69,Female,Severe,None,Combination Therapy,24,True,True,Recovered,0.971,2020-12-04,65+
+PT00558,50,Male,Severe,Hypertension,Combination Therapy,19,True,True,Recovered,0.784,2020-12-04,36-50
+PT00559,6,Male,Mild,None,Dexamethasone,3,False,False,Recovered,0.865,2020-12-05,0-18
+PT00560,41,Female,Severe,Diabetes,Dexamethasone,19,True,True,Recovered,0.827,2020-12-05,36-50
+PT00561,95,Male,Moderate,Diabetes,Dexamethasone,10,False,True,Recovered,0.887,2020-12-06,65+
+PT00562,43,Male,Mild,Hypertension,Remdesivir,4,False,False,Recovered,0.85,2020-12-06,36-50
+PT00563,67,Female,Moderate,Obesity,Combination Therapy,5,False,False,Recovered,0.896,2020-12-07,65+
+PT00564,73,Female,Critical,Hypertension,Supportive Care,43,False,True,Deceased,0.673,2020-12-07,65+
+PT00565,51,Male,Mild,Diabetes,Dexamethasone,3,False,False,Recovered,0.854,2020-12-08,51-65
+PT00566,32,Female,Mild,Heart Disease,Remdesivir,3,False,False,Recovered,0.799,2020-12-08,19-35
+PT00567,5,Female,Critical,Hypertension,Monoclonal Antibodies,34,True,False,Deceased,0.761,2020-12-09,0-18
+PT00568,60,Male,Moderate,None,Dexamethasone,9,False,True,Recovered,0.728,2020-12-09,51-65
+PT00569,33,Male,Moderate,None,Remdesivir,8,False,False,Recovered,0.948,2020-12-10,19-35
+PT00570,51,Female,Mild,None,Dexamethasone,2,False,False,Recovered,0.787,2020-12-10,51-65
+PT00571,25,Male,Mild,Diabetes,Supportive Care,1,False,False,Recovered,0.832,2020-12-11,19-35
+PT00572,43,Male,Mild,Heart Disease,Dexamethasone,1,False,False,Recovered,0.916,2020-12-11,36-50
+PT00573,48,Male,Mild,None,Combination Therapy,1,False,False,Recovered,0.988,2020-12-12,36-50
+PT00574,52,Female,Mild,Diabetes,Dexamethasone,1,False,False,Recovered,0.899,2020-12-12,51-65
+PT00575,27,Male,Mild,Obesity,Remdesivir,1,False,False,Recovered,0.934,2020-12-13,19-35
+PT00576,69,Male,Moderate,Heart Disease,Dexamethasone,8,False,True,Recovered,0.775,2020-12-13,65+
+PT00577,37,Male,Mild,Hypertension,Supportive Care,2,False,False,Recovered,0.693,2020-12-14,36-50
+PT00578,17,Female,Severe,None,Combination Therapy,17,True,True,Recovered,0.919,2020-12-14,0-18
+PT00579,46,Male,Mild,None,Remdesivir,1,False,False,Recovered,0.846,2020-12-15,36-50
+PT00580,48,Female,Moderate,None,Remdesivir,7,False,False,Deceased,0.761,2020-12-15,36-50
+PT00581,50,Female,Mild,None,Combination Therapy,3,False,False,Recovered,0.928,2020-12-16,36-50
+PT00582,72,Male,Mild,None,Supportive Care,1,False,False,Recovered,0.773,2020-12-16,65+
+PT00583,43,Female,Mild,Diabetes,Dexamethasone,2,False,False,Recovered,0.895,2020-12-17,36-50
+PT00584,45,Female,Critical,None,Combination Therapy,20,True,True,Deceased,0.912,2020-12-17,36-50
+PT00585,28,Female,Moderate,None,Remdesivir,5,False,True,Recovered,0.864,2020-12-18,19-35
+PT00586,62,Male,Moderate,None,Dexamethasone,11,False,True,Recovered,0.807,2020-12-18,51-65
+PT00587,51,Female,Mild,Hypertension,Remdesivir,4,False,False,Recovered,0.84,2020-12-19,51-65
+PT00588,40,Female,Moderate,Hypertension,Supportive Care,11,False,True,Recovered,0.849,2020-12-19,36-50
+PT00589,13,Female,Moderate,Diabetes,Dexamethasone,10,False,True,Recovered,0.743,2020-12-20,0-18
+PT00590,73,Male,Mild,None,Supportive Care,1,False,False,Recovered,0.75,2020-12-20,65+
+PT00591,25,Female,Moderate,None,Supportive Care,11,False,False,Recovered,0.791,2020-12-21,19-35
+PT00592,37,Male,Severe,None,Supportive Care,12,True,True,Recovered,0.747,2020-12-21,36-50
+PT00593,54,Male,Moderate,None,Dexamethasone,5,False,False,Recovered,0.773,2020-12-22,51-65
+PT00594,26,Male,Severe,Obesity,Remdesivir,13,True,True,Recovered,0.802,2020-12-22,19-35
+PT00595,21,Female,Severe,Respiratory,Monoclonal Antibodies,14,True,True,Deceased,0.808,2020-12-23,19-35
+PT00596,9,Male,Severe,Hypertension,Supportive Care,20,True,True,Recovered,0.73,2020-12-23,0-18
+PT00597,60,Female,Mild,Obesity,Supportive Care,4,False,False,Recovered,0.833,2020-12-24,51-65
+PT00598,38,Female,Moderate,Hypertension,Remdesivir,9,False,False,Recovered,0.849,2020-12-24,36-50
+PT00599,95,Male,Critical,None,Dexamethasone,39,True,True,Deceased,0.764,2020-12-25,65+
+PT00600,30,Female,Moderate,Respiratory,Supportive Care,9,False,True,Recovered,0.738,2020-12-25,19-35
+PT00601,31,Male,Critical,None,Remdesivir,35,True,True,Recovered,0.763,2020-12-26,19-35
+PT00602,37,Male,Mild,Hypertension,Combination Therapy,1,False,False,Recovered,0.979,2020-12-26,36-50
+PT00603,52,Female,Mild,None,Combination Therapy,3,False,False,Recovered,0.866,2020-12-27,51-65
+PT00604,39,Female,Mild,Diabetes,Remdesivir,1,False,False,Recovered,0.953,2020-12-27,36-50
+PT00605,59,Female,Mild,Hypertension,Dexamethasone,2,False,False,Recovered,0.787,2020-12-28,51-65
+PT00606,30,Female,Mild,Diabetes,Dexamethasone,4,False,False,Recovered,0.89,2020-12-28,19-35
+PT00607,23,Male,Moderate,None,Remdesivir,10,False,True,Recovered,0.795,2020-12-29,19-35
+PT00608,15,Male,Mild,None,Combination Therapy,4,False,False,Recovered,0.791,2020-12-29,0-18
+PT00609,7,Male,Moderate,None,Dexamethasone,5,False,True,Recovered,0.721,2020-12-30,0-18
+PT00610,38,Male,Moderate,Respiratory,Dexamethasone,11,False,True,Recovered,0.841,2020-12-30,36-50
+PT00611,42,Male,Mild,Heart Disease,Monoclonal Antibodies,2,False,False,Recovered,0.826,2020-12-31,36-50
+PT00612,36,Male,Mild,Diabetes,Combination Therapy,1,False,False,Recovered,0.874,2020-12-31,36-50
+PT00613,70,Male,Critical,None,Dexamethasone,34,True,True,Recovered,0.886,2021-01-01,65+
+PT00614,70,Male,Mild,Heart Disease,Supportive Care,1,False,False,Recovered,0.711,2021-01-01,65+
+PT00615,41,Male,Severe,None,Monoclonal Antibodies,13,True,True,Recovered,0.825,2021-01-02,36-50
+PT00616,15,Female,Severe,None,Remdesivir,20,True,True,Recovered,0.923,2021-01-02,0-18
+PT00617,37,Female,Critical,None,Combination Therapy,26,True,False,Recovered,0.886,2021-01-03,36-50
+PT00618,37,Female,Moderate,Obesity,Combination Therapy,10,False,True,Recovered,0.962,2021-01-03,36-50
+PT00619,36,Male,Severe,None,Dexamethasone,14,False,True,Recovered,0.793,2021-01-04,36-50
+PT00620,35,Female,Severe,None,Supportive Care,18,True,True,Recovered,0.741,2021-01-04,19-35
+PT00621,36,Female,Severe,Diabetes,Monoclonal Antibodies,15,True,True,Recovered,0.794,2021-01-05,36-50
+PT00622,41,Male,Mild,None,Monoclonal Antibodies,2,False,False,Recovered,0.96,2021-01-05,36-50
+PT00623,36,Male,Critical,Hypertension,Dexamethasone,24,True,True,Recovered,0.902,2021-01-06,36-50
+PT00624,51,Female,Moderate,Diabetes,Dexamethasone,7,False,True,Recovered,0.921,2021-01-06,51-65
+PT00625,54,Female,Moderate,Diabetes,Monoclonal Antibodies,7,False,True,Recovered,0.846,2021-01-07,51-65
+PT00626,31,Female,Mild,None,Combination Therapy,1,False,False,Recovered,0.96,2021-01-07,19-35
+PT00627,70,Female,Severe,None,Remdesivir,21,True,True,Recovered,0.83,2021-01-08,65+
+PT00628,30,Female,Mild,Heart Disease,Supportive Care,4,False,False,Recovered,0.752,2021-01-08,19-35
+PT00629,18,Female,Mild,Obesity,Dexamethasone,1,False,False,Recovered,0.888,2021-01-09,0-18
+PT00630,54,Female,Mild,None,Dexamethasone,2,False,False,Recovered,0.751,2021-01-09,51-65
+PT00631,33,Male,Severe,None,Supportive Care,18,True,True,Deceased,0.706,2021-01-10,19-35
+PT00632,53,Female,Mild,None,Remdesivir,1,False,False,Recovered,0.808,2021-01-10,51-65
+PT00633,5,Male,Mild,Hypertension,Remdesivir,2,False,False,Recovered,0.911,2021-01-11,0-18
+PT00634,73,Female,Mild,Hypertension,Dexamethasone,3,False,False,Recovered,0.792,2021-01-11,65+
+PT00635,60,Female,Moderate,None,Combination Therapy,8,False,True,Recovered,0.855,2021-01-12,51-65
+PT00636,20,Female,Mild,Hypertension,Remdesivir,2,False,False,Recovered,0.957,2021-01-12,19-35
+PT00637,21,Female,Mild,Hypertension,Combination Therapy,1,False,False,Recovered,0.861,2021-01-13,19-35
+PT00638,78,Male,Mild,Obesity,Combination Therapy,2,False,False,Recovered,0.83,2021-01-13,65+
+PT00639,34,Male,Moderate,None,Supportive Care,9,False,True,Recovered,0.785,2021-01-14,19-35
+PT00640,32,Male,Mild,None,Dexamethasone,3,False,False,Recovered,0.882,2021-01-14,19-35
+PT00641,7,Female,Mild,None,Supportive Care,4,False,False,Recovered,0.677,2021-01-15,0-18
+PT00642,41,Female,Mild,Obesity,Dexamethasone,3,False,False,Recovered,0.844,2021-01-15,36-50
+PT00643,43,Female,Critical,Heart Disease,Combination Therapy,28,False,True,Recovered,0.782,2021-01-16,36-50
+PT00644,60,Male,Mild,Hypertension,Combination Therapy,3,False,False,Recovered,0.893,2021-01-16,51-65
+PT00645,22,Male,Moderate,None,Remdesivir,5,False,True,Recovered,0.795,2021-01-17,19-35
+PT00646,20,Female,Mild,None,Supportive Care,4,False,False,Recovered,0.723,2021-01-17,19-35
+PT00647,56,Male,Moderate,None,Remdesivir,6,False,True,Recovered,0.841,2021-01-18,51-65
+PT00648,66,Female,Critical,Hypertension,Remdesivir,34,False,True,Deceased,0.941,2021-01-18,65+
+PT00649,19,Female,Mild,None,Dexamethasone,2,False,False,Recovered,0.863,2021-01-19,19-35
+PT00650,67,Female,Mild,None,Combination Therapy,4,False,False,Recovered,0.987,2021-01-19,65+
+PT00651,48,Male,Mild,Hypertension,Dexamethasone,1,False,False,Recovered,0.853,2021-01-20,36-50
+PT00652,67,Female,Severe,None,Remdesivir,17,True,True,Recovered,0.741,2021-01-20,65+
+PT00653,46,Male,Moderate,Diabetes,Remdesivir,11,False,False,Recovered,0.797,2021-01-21,36-50
+PT00654,5,Female,Critical,None,Combination Therapy,40,True,True,Deceased,0.98,2021-01-21,0-18
+PT00655,45,Male,Mild,Heart Disease,Combination Therapy,4,False,False,Recovered,0.92,2021-01-22,36-50
+PT00656,67,Male,Mild,Hypertension,Dexamethasone,3,False,False,Recovered,0.92,2021-01-22,65+
+PT00657,31,Female,Critical,Obesity,Remdesivir,28,True,True,Deceased,0.773,2021-01-23,19-35
+PT00658,41,Male,Severe,Diabetes,Combination Therapy,18,True,True,Recovered,0.841,2021-01-23,36-50
+PT00659,44,Female,Moderate,Respiratory,Supportive Care,11,False,False,Recovered,0.734,2021-01-24,36-50
+PT00660,5,Female,Moderate,Obesity,Supportive Care,9,False,False,Recovered,0.727,2021-01-24,0-18
+PT00661,78,Female,Mild,Hypertension,Supportive Care,4,False,False,Recovered,0.712,2021-01-25,65+
+PT00662,31,Female,Moderate,Obesity,Remdesivir,8,False,True,Recovered,0.836,2021-01-25,19-35
+PT00663,57,Male,Mild,None,Monoclonal Antibodies,3,False,False,Recovered,0.899,2021-01-26,51-65
+PT00664,46,Female,Mild,None,Dexamethasone,1,False,False,Recovered,0.779,2021-01-26,36-50
+PT00665,70,Male,Critical,None,Monoclonal Antibodies,35,False,True,Recovered,0.774,2021-01-27,65+
+PT00666,55,Male,Mild,Hypertension,Dexamethasone,2,False,False,Recovered,0.863,2021-01-27,51-65
+PT00667,43,Female,Moderate,Hypertension,Combination Therapy,8,False,True,Recovered,0.878,2021-01-28,36-50
+PT00668,31,Male,Moderate,Heart Disease,Dexamethasone,5,False,True,Recovered,0.831,2021-01-28,19-35
+PT00669,62,Female,Moderate,None,Dexamethasone,5,False,True,Recovered,0.81,2021-01-29,51-65
+PT00670,14,Male,Mild,Diabetes,Supportive Care,1,False,False,Recovered,0.837,2021-01-29,0-18
+PT00671,59,Female,Mild,None,Supportive Care,4,False,False,Recovered,0.772,2021-01-30,51-65
+PT00672,28,Female,Moderate,Hypertension,Monoclonal Antibodies,7,False,False,Recovered,0.962,2021-01-30,19-35
+PT00673,70,Male,Critical,None,Combination Therapy,34,True,True,Deceased,0.89,2021-01-31,65+
+PT00674,50,Female,Mild,Obesity,Combination Therapy,1,False,False,Recovered,0.84,2021-01-31,36-50
+PT00675,59,Female,Mild,None,Remdesivir,3,False,False,Recovered,0.817,2021-02-01,51-65
+PT00676,49,Male,Severe,None,Monoclonal Antibodies,21,False,False,Recovered,0.873,2021-02-01,36-50
+PT00677,16,Male,Mild,Heart Disease,Combination Therapy,1,False,False,Recovered,0.894,2021-02-02,0-18
+PT00678,32,Female,Severe,Diabetes,Supportive Care,24,True,True,Recovered,0.797,2021-02-02,19-35
+PT00679,60,Male,Moderate,None,Dexamethasone,8,False,False,Recovered,0.761,2021-02-03,51-65
+PT00680,50,Male,Mild,Diabetes,Combination Therapy,2,False,False,Recovered,0.923,2021-02-03,36-50
+PT00681,69,Female,Critical,None,Monoclonal Antibodies,34,True,True,Deceased,0.93,2021-02-04,65+
+PT00682,55,Male,Mild,Respiratory,Remdesivir,1,False,False,Recovered,0.887,2021-02-04,51-65
+PT00683,30,Female,Mild,Hypertension,Dexamethasone,2,False,False,Recovered,0.815,2021-02-05,19-35
+PT00684,33,Female,Severe,None,Remdesivir,12,True,True,Deceased,0.955,2021-02-05,19-35
+PT00685,49,Female,Moderate,Hypertension,Supportive Care,8,False,True,Recovered,0.742,2021-02-06,36-50
+PT00686,6,Male,Moderate,None,Remdesivir,9,False,True,Recovered,0.763,2021-02-06,0-18
+PT00687,78,Male,Mild,Heart Disease,Remdesivir,4,False,False,Recovered,0.918,2021-02-07,65+
+PT00688,55,Male,Mild,Obesity,Dexamethasone,3,False,False,Recovered,0.759,2021-02-07,51-65
+PT00689,70,Female,Severe,Obesity,Combination Therapy,15,True,True,Deceased,0.936,2021-02-08,65+
+PT00690,19,Male,Moderate,None,Dexamethasone,6,False,True,Recovered,0.752,2021-02-08,19-35
+PT00691,70,Male,Critical,None,Remdesivir,20,False,False,Deceased,0.743,2021-02-09,65+
+PT00692,88,Male,Moderate,None,Monoclonal Antibodies,11,False,True,Recovered,0.792,2021-02-09,65+
+PT00693,24,Male,Moderate,Hypertension,Monoclonal Antibodies,10,False,True,Recovered,0.84,2021-02-10,19-35
+PT00694,61,Male,Severe,Diabetes,Dexamethasone,19,False,True,Recovered,0.736,2021-02-10,51-65
+PT00695,48,Female,Mild,Diabetes,Supportive Care,3,False,False,Recovered,0.702,2021-02-11,36-50
+PT00696,20,Male,Mild,Obesity,Combination Therapy,3,False,False,Recovered,0.947,2021-02-11,19-35
+PT00697,56,Male,Moderate,None,Dexamethasone,5,False,True,Recovered,0.876,2021-02-12,51-65
+PT00698,63,Male,Mild,None,Dexamethasone,1,False,False,Recovered,0.886,2021-02-12,51-65
+PT00699,37,Female,Moderate,None,Combination Therapy,9,False,True,Recovered,0.965,2021-02-13,36-50
+PT00700,68,Female,Critical,None,Dexamethasone,30,True,True,Recovered,0.802,2021-02-13,65+
+PT00701,17,Male,Moderate,None,Dexamethasone,7,False,True,Recovered,0.896,2021-02-14,0-18
+PT00702,21,Female,Moderate,Diabetes,Supportive Care,9,False,True,Recovered,0.766,2021-02-14,19-35
+PT00703,50,Male,Moderate,None,Combination Therapy,5,False,True,Recovered,0.881,2021-02-15,36-50
+PT00704,48,Female,Mild,None,Combination Therapy,4,False,False,Recovered,0.937,2021-02-15,36-50
+PT00705,35,Male,Mild,Hypertension,Remdesivir,2,False,False,Recovered,0.786,2021-02-16,19-35
+PT00706,62,Female,Severe,None,Combination Therapy,14,False,False,Recovered,0.953,2021-02-16,51-65
+PT00707,57,Female,Moderate,Hypertension,Dexamethasone,7,False,True,Recovered,0.804,2021-02-17,51-65
+PT00708,63,Female,Mild,None,Combination Therapy,3,False,False,Recovered,0.802,2021-02-17,51-65
+PT00709,45,Male,Mild,Diabetes,Supportive Care,4,False,False,Recovered,0.686,2021-02-18,36-50
+PT00710,58,Male,Moderate,Obesity,Supportive Care,6,False,True,Recovered,0.695,2021-02-18,51-65
+PT00711,39,Female,Moderate,None,Dexamethasone,5,False,True,Recovered,0.901,2021-02-19,36-50
+PT00712,84,Male,Mild,Diabetes,Combination Therapy,2,False,False,Recovered,0.999,2021-02-19,65+
+PT00713,33,Female,Mild,Heart Disease,Monoclonal Antibodies,3,False,False,Recovered,0.836,2021-02-20,19-35
+PT00714,85,Female,Moderate,Hypertension,Combination Therapy,11,False,True,Recovered,0.84,2021-02-20,65+
+PT00715,48,Female,Moderate,None,Remdesivir,7,False,True,Recovered,0.787,2021-02-21,36-50
+PT00716,23,Male,Moderate,Diabetes,Combination Therapy,5,False,True,Recovered,0.961,2021-02-21,19-35
+PT00717,72,Female,Mild,Hypertension,Remdesivir,3,False,False,Recovered,0.785,2021-02-22,65+
+PT00718,50,Female,Mild,Obesity,Supportive Care,1,False,False,Recovered,0.843,2021-02-22,36-50
+PT00719,63,Female,Critical,None,Combination Therapy,31,False,True,Deceased,0.925,2021-02-23,51-65
+PT00720,70,Male,Mild,None,Dexamethasone,2,False,False,Recovered,0.902,2021-02-23,65+
+PT00721,54,Male,Mild,None,Remdesivir,4,False,False,Recovered,0.86,2021-02-24,51-65
+PT00722,37,Male,Severe,None,Dexamethasone,14,False,True,Recovered,0.859,2021-02-24,36-50
+PT00723,65,Male,Moderate,None,Monoclonal Antibodies,5,False,True,Recovered,0.894,2021-02-25,51-65
+PT00724,48,Female,Severe,None,Remdesivir,22,True,True,Recovered,0.92,2021-02-25,36-50
+PT00725,60,Female,Moderate,None,Combination Therapy,6,False,True,Recovered,0.964,2021-02-26,51-65
+PT00726,9,Male,Mild,None,Monoclonal Antibodies,3,False,False,Recovered,0.888,2021-02-26,0-18
+PT00727,56,Female,Severe,Obesity,Dexamethasone,12,True,True,Recovered,0.847,2021-02-27,51-65
+PT00728,36,Male,Mild,None,Combination Therapy,3,False,False,Recovered,0.983,2021-02-27,36-50
+PT00729,77,Male,Moderate,None,Combination Therapy,11,False,True,Recovered,0.985,2021-02-28,65+
+PT00730,59,Male,Mild,None,Combination Therapy,2,False,False,Recovered,0.925,2021-02-28,51-65
+PT00731,52,Male,Severe,Obesity,Remdesivir,22,True,True,Recovered,0.741,2021-03-01,51-65
+PT00732,56,Female,Mild,Hypertension,Remdesivir,2,False,False,Recovered,0.762,2021-03-01,51-65
+PT00733,30,Male,Moderate,Heart Disease,Combination Therapy,10,False,True,Recovered,0.969,2021-03-02,19-35
+PT00734,77,Female,Critical,None,Monoclonal Antibodies,25,False,True,Deceased,0.775,2021-03-02,65+
+PT00735,83,Male,Critical,Heart Disease,Remdesivir,22,True,False,Deceased,0.786,2021-03-03,65+
+PT00736,55,Female,Moderate,Diabetes,Remdesivir,9,False,True,Deceased,0.79,2021-03-03,51-65
+PT00737,76,Male,Critical,None,Dexamethasone,38,True,True,Recovered,0.84,2021-03-04,65+
+PT00738,37,Male,Moderate,Hypertension,Supportive Care,10,False,False,Recovered,0.775,2021-03-04,36-50
+PT00739,33,Male,Severe,Heart Disease,Dexamethasone,14,True,False,Recovered,0.775,2021-03-05,19-35
+PT00740,48,Male,Mild,Heart Disease,Monoclonal Antibodies,3,False,False,Recovered,0.803,2021-03-05,36-50
+PT00741,55,Male,Mild,Obesity,Remdesivir,2,False,False,Recovered,0.906,2021-03-06,51-65
+PT00742,40,Female,Mild,Obesity,Monoclonal Antibodies,3,False,False,Recovered,0.965,2021-03-06,36-50
+PT00743,57,Female,Mild,None,Combination Therapy,2,False,False,Recovered,0.786,2021-03-07,51-65
+PT00744,53,Female,Mild,Diabetes,Combination Therapy,3,False,False,Recovered,0.804,2021-03-07,51-65
+PT00745,30,Female,Moderate,None,Dexamethasone,8,False,True,Recovered,0.849,2021-03-08,19-35
+PT00746,57,Male,Mild,Obesity,Supportive Care,4,False,False,Recovered,0.82,2021-03-08,51-65
+PT00747,63,Male,Mild,None,Remdesivir,1,False,False,Recovered,0.912,2021-03-09,51-65
+PT00748,51,Female,Mild,Obesity,Remdesivir,4,False,False,Recovered,0.896,2021-03-09,51-65
+PT00749,68,Female,Moderate,None,Dexamethasone,8,False,False,Recovered,0.9,2021-03-10,65+
+PT00750,26,Female,Moderate,None,Supportive Care,9,False,True,Recovered,0.705,2021-03-10,19-35
+PT00751,56,Female,Mild,None,Supportive Care,1,False,False,Recovered,0.684,2021-03-11,51-65
+PT00752,26,Male,Severe,None,Combination Therapy,10,True,True,Recovered,0.913,2021-03-11,19-35
+PT00753,27,Male,Mild,Obesity,Combination Therapy,3,False,False,Recovered,0.961,2021-03-12,19-35
+PT00754,36,Male,Critical,None,Remdesivir,27,True,False,Recovered,0.866,2021-03-12,36-50
+PT00755,31,Male,Moderate,Diabetes,Supportive Care,11,False,True,Recovered,0.851,2021-03-13,19-35
+PT00756,38,Male,Mild,None,Supportive Care,3,False,False,Recovered,0.818,2021-03-13,36-50
+PT00757,44,Male,Moderate,None,Combination Therapy,8,False,True,Recovered,0.933,2021-03-14,36-50
+PT00758,63,Female,Moderate,None,Combination Therapy,7,False,True,Recovered,0.787,2021-03-14,51-65
+PT00759,42,Female,Mild,None,Monoclonal Antibodies,3,False,False,Recovered,0.78,2021-03-15,36-50
+PT00760,19,Female,Severe,Obesity,Supportive Care,21,True,True,Recovered,0.816,2021-03-15,19-35
+PT00761,68,Female,Mild,Diabetes,Combination Therapy,3,False,False,Recovered,0.819,2021-03-16,65+
+PT00762,32,Male,Mild,None,Dexamethasone,1,False,False,Recovered,0.72,2021-03-16,19-35
+PT00763,46,Male,Mild,Hypertension,Combination Therapy,2,False,False,Recovered,0.981,2021-03-17,36-50
+PT00764,56,Female,Mild,None,Combination Therapy,3,False,False,Recovered,0.976,2021-03-17,51-65
+PT00765,51,Male,Mild,None,Dexamethasone,2,False,False,Recovered,0.76,2021-03-18,51-65
+PT00766,67,Male,Severe,Diabetes,Dexamethasone,17,True,True,Recovered,0.878,2021-03-18,65+
+PT00767,56,Male,Mild,None,Dexamethasone,1,False,False,Recovered,0.724,2021-03-19,51-65
+PT00768,32,Male,Mild,Hypertension,Combination Therapy,4,False,False,Recovered,0.838,2021-03-19,19-35
+PT00769,87,Male,Moderate,Diabetes,Combination Therapy,11,False,False,Recovered,0.915,2021-03-20,65+
+PT00770,51,Male,Severe,Heart Disease,Dexamethasone,23,True,False,Recovered,0.874,2021-03-20,51-65
+PT00771,45,Male,Critical,Respiratory,Supportive Care,26,True,True,Recovered,0.665,2021-03-21,36-50
+PT00772,65,Female,Moderate,None,Combination Therapy,8,False,True,Recovered,0.848,2021-03-21,51-65
+PT00773,52,Male,Critical,None,Remdesivir,44,False,False,Recovered,0.786,2021-03-22,51-65
+PT00774,55,Male,Moderate,None,Dexamethasone,11,False,True,Recovered,0.924,2021-03-22,51-65
+PT00775,92,Male,Severe,None,Monoclonal Antibodies,10,True,False,Recovered,0.906,2021-03-23,65+
+PT00776,43,Male,Moderate,Heart Disease,Supportive Care,9,False,False,Recovered,0.742,2021-03-23,36-50
+PT00777,42,Female,Mild,Hypertension,Dexamethasone,2,False,False,Recovered,0.73,2021-03-24,36-50
+PT00778,50,Female,Mild,Diabetes,Monoclonal Antibodies,2,False,False,Recovered,0.89,2021-03-24,36-50
+PT00779,67,Female,Moderate,Diabetes,Remdesivir,7,False,True,Recovered,0.879,2021-03-25,65+
+PT00780,20,Male,Mild,None,Monoclonal Antibodies,1,False,False,Recovered,0.938,2021-03-25,19-35
+PT00781,12,Female,Mild,Diabetes,Dexamethasone,1,False,False,Recovered,0.775,2021-03-26,0-18
+PT00782,37,Female,Moderate,Heart Disease,Remdesivir,6,False,True,Recovered,0.953,2021-03-26,36-50
+PT00783,18,Male,Severe,Hypertension,Combination Therapy,16,False,True,Recovered,0.873,2021-03-27,0-18
+PT00784,40,Female,Mild,None,Dexamethasone,4,False,False,Recovered,0.776,2021-03-27,36-50
+PT00785,57,Male,Moderate,Hypertension,Combination Therapy,5,False,True,Recovered,0.853,2021-03-28,51-65
+PT00786,31,Female,Moderate,None,Supportive Care,8,False,True,Recovered,0.764,2021-03-28,19-35
+PT00787,22,Female,Critical,Diabetes,Supportive Care,30,True,True,Recovered,0.846,2021-03-29,19-35
+PT00788,49,Male,Severe,Diabetes,Dexamethasone,18,True,True,Recovered,0.868,2021-03-29,36-50
+PT00789,63,Female,Moderate,Diabetes,Combination Therapy,6,False,True,Recovered,0.905,2021-03-30,51-65
+PT00790,17,Male,Moderate,Hypertension,Remdesivir,8,False,True,Recovered,0.775,2021-03-30,0-18
+PT00791,62,Male,Mild,Obesity,Remdesivir,2,False,False,Recovered,0.772,2021-03-31,51-65
+PT00792,62,Female,Moderate,None,Combination Therapy,8,False,True,Recovered,0.888,2021-03-31,51-65
+PT00793,65,Female,Moderate,Obesity,Remdesivir,8,False,False,Recovered,0.898,2021-04-01,51-65
+PT00794,69,Male,Severe,Diabetes,Supportive Care,24,True,True,Recovered,0.809,2021-04-01,65+
+PT00795,87,Male,Mild,Hypertension,Combination Therapy,2,False,False,Recovered,0.825,2021-04-02,65+
+PT00796,41,Male,Mild,Heart Disease,Remdesivir,2,False,False,Recovered,0.761,2021-04-02,36-50
+PT00797,49,Male,Moderate,Diabetes,Combination Therapy,11,False,False,Recovered,0.861,2021-04-03,36-50
+PT00798,40,Female,Mild,Heart Disease,Remdesivir,1,False,False,Recovered,0.939,2021-04-03,36-50
+PT00799,48,Female,Mild,None,Combination Therapy,4,False,False,Recovered,0.898,2021-04-04,36-50
+PT00800,75,Female,Moderate,None,Supportive Care,10,False,True,Recovered,0.725,2021-04-04,65+
+PT00801,23,Male,Mild,Hypertension,Combination Therapy,4,False,False,Recovered,0.847,2021-04-05,19-35
+PT00802,32,Female,Severe,Obesity,Remdesivir,14,False,False,Recovered,0.768,2021-04-05,19-35
+PT00803,72,Male,Moderate,Obesity,Supportive Care,7,False,True,Recovered,0.755,2021-04-06,65+
+PT00804,66,Female,Mild,Hypertension,Remdesivir,3,False,False,Recovered,0.912,2021-04-06,65+
+PT00805,41,Female,Critical,Diabetes,Supportive Care,34,True,True,Deceased,0.852,2021-04-07,36-50
+PT00806,63,Female,Mild,None,Combination Therapy,2,False,False,Recovered,0.888,2021-04-07,51-65
+PT00807,54,Male,Mild,Respiratory,Combination Therapy,1,False,False,Recovered,0.812,2021-04-08,51-65
+PT00808,75,Male,Mild,None,Supportive Care,4,False,False,Recovered,0.796,2021-04-08,65+
+PT00809,49,Male,Mild,Hypertension,Supportive Care,3,False,False,Recovered,0.811,2021-04-09,36-50
+PT00810,66,Female,Critical,Diabetes,Remdesivir,29,True,False,Recovered,0.755,2021-04-09,65+
+PT00811,95,Male,Mild,Hypertension,Dexamethasone,3,False,False,Recovered,0.893,2021-04-10,65+
+PT00812,58,Male,Moderate,Diabetes,Supportive Care,10,False,True,Recovered,0.825,2021-04-10,51-65
+PT00813,48,Male,Mild,Respiratory,Remdesivir,4,False,False,Recovered,0.842,2021-04-11,36-50
+PT00814,61,Female,Mild,Hypertension,Combination Therapy,4,False,False,Recovered,0.901,2021-04-11,51-65
+PT00815,41,Male,Severe,Obesity,Supportive Care,11,False,True,Recovered,0.802,2021-04-12,36-50
+PT00816,90,Female,Mild,None,Combination Therapy,2,False,False,Recovered,0.927,2021-04-12,65+
+PT00817,51,Female,Severe,Hypertension,Supportive Care,10,True,True,Recovered,0.666,2021-04-13,51-65
+PT00818,43,Female,Moderate,Hypertension,Supportive Care,8,False,True,Deceased,0.687,2021-04-13,36-50
+PT00819,32,Male,Mild,Hypertension,Combination Therapy,2,False,False,Recovered,0.81,2021-04-14,19-35
+PT00820,67,Male,Moderate,Obesity,Supportive Care,5,False,True,Recovered,0.81,2021-04-14,65+
+PT00821,63,Male,Mild,None,Combination Therapy,4,False,False,Recovered,0.874,2021-04-15,51-65
+PT00822,39,Male,Mild,None,Dexamethasone,2,False,False,Recovered,0.829,2021-04-15,36-50
+PT00823,58,Male,Moderate,Diabetes,Combination Therapy,9,False,True,Recovered,0.949,2021-04-16,51-65
+PT00824,20,Female,Moderate,None,Supportive Care,10,False,True,Recovered,0.729,2021-04-16,19-35
+PT00825,51,Male,Moderate,Respiratory,Supportive Care,9,False,True,Recovered,0.809,2021-04-17,51-65
+PT00826,56,Female,Severe,None,Dexamethasone,23,True,True,Deceased,0.807,2021-04-17,51-65
+PT00827,78,Male,Moderate,Diabetes,Dexamethasone,6,False,True,Recovered,0.793,2021-04-18,65+
+PT00828,34,Female,Moderate,None,Monoclonal Antibodies,5,False,True,Recovered,0.831,2021-04-18,19-35
+PT00829,24,Female,Moderate,Diabetes,Combination Therapy,5,False,True,Recovered,0.993,2021-04-19,19-35
+PT00830,31,Female,Critical,None,Remdesivir,43,False,True,Deceased,0.907,2021-04-19,19-35
+PT00831,23,Female,Severe,None,Combination Therapy,15,True,True,Recovered,0.778,2021-04-20,19-35
+PT00832,72,Female,Moderate,None,Monoclonal Antibodies,5,False,False,Recovered,0.97,2021-04-20,65+
+PT00833,75,Female,Critical,Diabetes,Supportive Care,44,False,True,Deceased,0.814,2021-04-21,65+
+PT00834,53,Male,Moderate,Respiratory,Supportive Care,8,False,True,Recovered,0.692,2021-04-21,51-65
+PT00835,69,Male,Mild,None,Remdesivir,2,False,False,Recovered,0.756,2021-04-22,65+
+PT00836,50,Male,Mild,Diabetes,Supportive Care,1,False,False,Recovered,0.723,2021-04-22,36-50
+PT00837,46,Male,Severe,Respiratory,Combination Therapy,18,True,True,Deceased,0.916,2021-04-23,36-50
+PT00838,42,Male,Mild,Heart Disease,Monoclonal Antibodies,3,False,False,Recovered,0.894,2021-04-23,36-50
+PT00839,42,Male,Critical,Respiratory,Dexamethasone,20,True,True,Recovered,0.772,2021-04-24,36-50
+PT00840,20,Male,Mild,Respiratory,Remdesivir,3,False,False,Recovered,0.836,2021-04-24,19-35
+PT00841,52,Male,Severe,Diabetes,Combination Therapy,10,True,False,Recovered,0.822,2021-04-25,51-65
+PT00842,47,Male,Mild,Hypertension,Dexamethasone,3,False,False,Recovered,0.725,2021-04-25,36-50
+PT00843,61,Female,Mild,None,Supportive Care,3,False,False,Recovered,0.764,2021-04-26,51-65
+PT00844,49,Male,Mild,Diabetes,Monoclonal Antibodies,4,False,False,Recovered,0.834,2021-04-26,36-50
+PT00845,45,Female,Moderate,Heart Disease,Combination Therapy,10,False,True,Recovered,0.897,2021-04-27,36-50
+PT00846,32,Male,Mild,Diabetes,Monoclonal Antibodies,4,False,False,Recovered,0.967,2021-04-27,19-35
+PT00847,49,Female,Moderate,Hypertension,Combination Therapy,8,False,True,Recovered,0.806,2021-04-28,36-50
+PT00848,61,Female,Mild,Hypertension,Supportive Care,4,False,False,Recovered,0.663,2021-04-28,51-65
+PT00849,27,Female,Mild,None,Supportive Care,4,False,False,Recovered,0.678,2021-04-29,19-35
+PT00850,49,Female,Mild,Obesity,Supportive Care,1,False,False,Recovered,0.753,2021-04-29,36-50
+PT00851,52,Male,Mild,Diabetes,Combination Therapy,3,False,False,Recovered,0.934,2021-04-30,51-65
+PT00852,35,Female,Severe,None,Combination Therapy,20,True,True,Deceased,0.906,2021-04-30,19-35
+PT00853,37,Female,Severe,Obesity,Supportive Care,13,True,True,Deceased,0.76,2021-05-01,36-50
+PT00854,52,Female,Mild,Diabetes,Dexamethasone,3,False,False,Recovered,0.788,2021-05-01,51-65
+PT00855,27,Female,Moderate,Hypertension,Supportive Care,7,False,True,Recovered,0.723,2021-05-02,19-35
+PT00856,54,Male,Moderate,Diabetes,Monoclonal Antibodies,11,False,True,Recovered,0.84,2021-05-02,51-65
+PT00857,31,Female,Mild,Diabetes,Combination Therapy,4,False,False,Recovered,0.913,2021-05-03,19-35
+PT00858,67,Male,Critical,Heart Disease,Supportive Care,44,True,True,Deceased,0.696,2021-05-03,65+
+PT00859,90,Female,Moderate,Hypertension,Supportive Care,6,False,False,Recovered,0.813,2021-05-04,65+
+PT00860,32,Male,Mild,Diabetes,Combination Therapy,3,False,False,Recovered,0.904,2021-05-04,19-35
+PT00861,57,Female,Mild,None,Combination Therapy,4,False,False,Recovered,0.835,2021-05-05,51-65
+PT00862,34,Male,Mild,Obesity,Monoclonal Antibodies,3,False,False,Recovered,0.868,2021-05-05,19-35
+PT00863,66,Male,Severe,None,Combination Therapy,24,True,True,Recovered,0.993,2021-05-06,65+
+PT00864,25,Female,Mild,Obesity,Remdesivir,1,False,False,Recovered,0.744,2021-05-06,19-35
+PT00865,56,Female,Mild,None,Supportive Care,2,False,False,Recovered,0.702,2021-05-07,51-65
+PT00866,32,Female,Mild,Hypertension,Combination Therapy,2,False,False,Recovered,0.876,2021-05-07,19-35
+PT00867,44,Male,Mild,Obesity,Supportive Care,3,False,False,Recovered,0.787,2021-05-08,36-50
+PT00868,29,Male,Mild,None,Remdesivir,2,False,False,Recovered,0.786,2021-05-08,19-35
+PT00869,62,Female,Severe,Hypertension,Remdesivir,23,False,True,Recovered,0.942,2021-05-09,51-65
+PT00870,32,Female,Mild,Heart Disease,Monoclonal Antibodies,4,False,False,Recovered,0.899,2021-05-09,19-35
+PT00871,57,Female,Moderate,Hypertension,Remdesivir,6,False,False,Recovered,0.93,2021-05-10,51-65
+PT00872,41,Male,Mild,Diabetes,Supportive Care,1,False,False,Recovered,0.727,2021-05-10,36-50
+PT00873,45,Female,Moderate,Hypertension,Supportive Care,7,False,True,Recovered,0.825,2021-05-11,36-50
+PT00874,50,Male,Moderate,Hypertension,Supportive Care,9,False,True,Recovered,0.737,2021-05-11,36-50
+PT00875,34,Male,Mild,Heart Disease,Remdesivir,4,False,False,Recovered,0.794,2021-05-12,19-35
+PT00876,51,Male,Severe,Heart Disease,Combination Therapy,11,False,True,Recovered,0.981,2021-05-12,51-65
+PT00877,75,Male,Severe,None,Monoclonal Antibodies,11,False,False,Deceased,0.777,2021-05-13,65+
+PT00878,33,Female,Severe,Respiratory,Combination Therapy,15,True,False,Recovered,0.988,2021-05-13,19-35
+PT00879,69,Male,Mild,Diabetes,Dexamethasone,1,False,False,Recovered,0.81,2021-05-14,65+
+PT00880,74,Male,Moderate,None,Combination Therapy,10,False,True,Recovered,0.999,2021-05-14,65+
+PT00881,33,Male,Moderate,None,Remdesivir,5,False,True,Recovered,0.857,2021-05-15,19-35
+PT00882,21,Male,Critical,None,Monoclonal Antibodies,40,True,True,Recovered,0.925,2021-05-15,19-35
+PT00883,53,Female,Moderate,None,Supportive Care,8,False,True,Recovered,0.664,2021-05-16,51-65
+PT00884,38,Male,Moderate,None,Monoclonal Antibodies,8,False,True,Recovered,0.867,2021-05-16,36-50
+PT00885,81,Male,Critical,None,Combination Therapy,28,False,True,Recovered,0.941,2021-05-17,65+
+PT00886,48,Female,Severe,Hypertension,Supportive Care,21,False,True,Recovered,0.816,2021-05-17,36-50
+PT00887,33,Female,Critical,None,Remdesivir,29,True,True,Deceased,0.774,2021-05-18,19-35
+PT00888,27,Female,Mild,None,Combination Therapy,3,False,False,Recovered,0.869,2021-05-18,19-35
+PT00889,67,Male,Critical,None,Combination Therapy,27,True,True,Deceased,0.869,2021-05-19,65+
+PT00890,37,Female,Mild,None,Monoclonal Antibodies,4,False,False,Recovered,0.78,2021-05-19,36-50
+PT00891,48,Female,Moderate,None,Supportive Care,8,False,True,Recovered,0.749,2021-05-20,36-50
+PT00892,65,Female,Mild,Hypertension,Monoclonal Antibodies,3,False,False,Recovered,0.936,2021-05-20,51-65
+PT00893,39,Female,Mild,Respiratory,Supportive Care,4,False,False,Recovered,0.722,2021-05-21,36-50
+PT00894,47,Male,Severe,Obesity,Supportive Care,19,False,False,Recovered,0.747,2021-05-21,36-50
+PT00895,47,Female,Mild,Obesity,Remdesivir,4,False,False,Recovered,0.949,2021-05-22,36-50
+PT00896,60,Male,Moderate,None,Supportive Care,8,False,True,Deceased,0.669,2021-05-22,51-65
+PT00897,58,Male,Moderate,None,Combination Therapy,9,False,True,Deceased,0.908,2021-05-23,51-65
+PT00898,44,Male,Mild,None,Dexamethasone,1,False,False,Recovered,0.87,2021-05-23,36-50
+PT00899,49,Male,Mild,Heart Disease,Remdesivir,3,False,False,Recovered,0.905,2021-05-24,36-50
+PT00900,41,Female,Moderate,None,Combination Therapy,9,False,True,Recovered,0.936,2021-05-24,36-50
+PT00901,21,Female,Mild,Diabetes,Dexamethasone,3,False,False,Recovered,0.867,2021-05-25,19-35
+PT00902,52,Female,Severe,None,Combination Therapy,21,True,True,Recovered,0.787,2021-05-25,51-65
+PT00903,82,Female,Mild,None,Combination Therapy,1,False,False,Recovered,0.895,2021-05-26,65+
+PT00904,32,Male,Mild,Respiratory,Monoclonal Antibodies,3,False,False,Recovered,0.931,2021-05-26,19-35
+PT00905,34,Male,Mild,Hypertension,Supportive Care,3,False,False,Recovered,0.681,2021-05-27,19-35
+PT00906,32,Female,Moderate,Heart Disease,Combination Therapy,7,False,False,Recovered,0.776,2021-05-27,19-35
+PT00907,61,Female,Moderate,Hypertension,Dexamethasone,6,False,True,Recovered,0.885,2021-05-28,51-65
+PT00908,56,Male,Mild,Obesity,Dexamethasone,4,False,False,Recovered,0.864,2021-05-28,51-65
+PT00909,45,Female,Mild,Hypertension,Dexamethasone,1,False,False,Recovered,0.801,2021-05-29,36-50
+PT00910,31,Male,Moderate,Respiratory,Remdesivir,10,False,True,Recovered,0.944,2021-05-29,19-35
+PT00911,49,Male,Critical,None,Monoclonal Antibodies,24,True,False,Recovered,0.927,2021-05-30,36-50
+PT00912,19,Male,Mild,Hypertension,Combination Therapy,1,False,False,Recovered,0.994,2021-05-30,19-35
+PT00913,50,Male,Mild,Hypertension,Remdesivir,3,False,False,Recovered,0.942,2021-05-31,36-50
+PT00914,63,Female,Critical,Diabetes,Dexamethasone,31,True,True,Deceased,0.815,2021-05-31,51-65
+PT00915,25,Female,Moderate,Obesity,Combination Therapy,11,False,True,Recovered,0.945,2021-06-01,19-35
+PT00916,20,Male,Moderate,Respiratory,Combination Therapy,11,False,True,Recovered,0.926,2021-06-01,19-35
+PT00917,76,Female,Mild,Diabetes,Remdesivir,1,False,False,Recovered,0.916,2021-06-02,65+
+PT00918,36,Female,Critical,Diabetes,Monoclonal Antibodies,35,True,True,Deceased,0.932,2021-06-02,36-50
+PT00919,68,Male,Severe,Diabetes,Dexamethasone,18,False,False,Recovered,0.746,2021-06-03,65+
+PT00920,45,Male,Severe,Heart Disease,Remdesivir,23,True,True,Recovered,0.79,2021-06-03,36-50
+PT00921,45,Female,Moderate,Hypertension,Remdesivir,10,False,True,Recovered,0.797,2021-06-04,36-50
+PT00922,55,Female,Moderate,None,Combination Therapy,9,False,False,Recovered,0.96,2021-06-04,51-65
+PT00923,32,Female,Mild,Diabetes,Remdesivir,1,False,False,Recovered,0.916,2021-06-05,19-35
+PT00924,50,Male,Mild,None,Remdesivir,4,False,False,Recovered,0.847,2021-06-05,36-50
+PT00925,41,Female,Moderate,Heart Disease,Dexamethasone,10,False,True,Recovered,0.836,2021-06-06,36-50
+PT00926,24,Male,Mild,None,Combination Therapy,2,False,False,Recovered,0.962,2021-06-06,19-35
+PT00927,54,Male,Moderate,Diabetes,Remdesivir,9,False,False,Recovered,0.807,2021-06-07,51-65
+PT00928,43,Male,Mild,Heart Disease,Dexamethasone,3,False,False,Recovered,0.725,2021-06-07,36-50
+PT00929,45,Male,Severe,None,Dexamethasone,24,False,True,Recovered,0.815,2021-06-08,36-50
+PT00930,26,Male,Mild,None,Remdesivir,2,False,False,Recovered,0.938,2021-06-08,19-35
+PT00931,76,Male,Mild,Diabetes,Combination Therapy,1,False,False,Recovered,0.953,2021-06-09,65+
+PT00932,63,Male,Moderate,None,Remdesivir,7,False,True,Recovered,0.819,2021-06-09,51-65
+PT00933,65,Female,Mild,None,Remdesivir,4,False,False,Recovered,0.754,2021-06-10,51-65
+PT00934,42,Male,Moderate,Respiratory,Combination Therapy,11,False,False,Recovered,0.918,2021-06-10,36-50
+PT00935,16,Male,Mild,Heart Disease,Dexamethasone,2,False,False,Recovered,0.889,2021-06-11,0-18
+PT00936,83,Male,Mild,Obesity,Remdesivir,4,False,False,Recovered,0.884,2021-06-11,65+
+PT00937,46,Male,Mild,Obesity,Combination Therapy,4,False,False,Recovered,0.87,2021-06-12,36-50
+PT00938,34,Female,Mild,None,Monoclonal Antibodies,2,False,False,Recovered,0.784,2021-06-12,19-35
+PT00939,55,Male,Critical,None,Supportive Care,21,False,True,Deceased,0.841,2021-06-13,51-65
+PT00940,69,Female,Severe,None,Supportive Care,15,True,False,Recovered,0.717,2021-06-13,65+
+PT00941,47,Male,Moderate,Heart Disease,Supportive Care,10,False,True,Recovered,0.707,2021-06-14,36-50
+PT00942,71,Male,Moderate,Hypertension,Monoclonal Antibodies,7,False,False,Recovered,0.938,2021-06-14,65+
+PT00943,67,Female,Moderate,None,Supportive Care,6,False,True,Recovered,0.854,2021-06-15,65+
+PT00944,28,Female,Mild,None,Combination Therapy,3,False,False,Recovered,0.924,2021-06-15,19-35
+PT00945,35,Male,Moderate,Diabetes,Dexamethasone,9,False,True,Recovered,0.845,2021-06-16,19-35
+PT00946,65,Female,Moderate,Diabetes,Remdesivir,7,False,False,Recovered,0.809,2021-06-16,51-65
+PT00947,5,Male,Moderate,Obesity,Combination Therapy,10,False,True,Recovered,0.778,2021-06-17,0-18
+PT00948,45,Female,Mild,Diabetes,Monoclonal Antibodies,1,False,False,Recovered,0.799,2021-06-17,36-50
+PT00949,22,Female,Moderate,Obesity,Combination Therapy,10,False,True,Recovered,0.906,2021-06-18,19-35
+PT00950,39,Female,Mild,Diabetes,Supportive Care,2,False,False,Recovered,0.693,2021-06-18,36-50
+PT00951,42,Female,Mild,Hypertension,Combination Therapy,2,False,False,Recovered,0.975,2021-06-19,36-50
+PT00952,41,Male,Mild,Obesity,Combination Therapy,3,False,False,Recovered,0.816,2021-06-19,36-50
+PT00953,38,Female,Mild,Obesity,Dexamethasone,4,False,False,Recovered,0.824,2021-06-20,36-50
+PT00954,28,Male,Moderate,None,Combination Therapy,6,False,True,Recovered,0.89,2021-06-20,19-35
+PT00955,89,Male,Mild,None,Dexamethasone,3,False,False,Recovered,0.841,2021-06-21,65+
+PT00956,81,Male,Moderate,Diabetes,Supportive Care,11,False,True,Recovered,0.727,2021-06-21,65+
+PT00957,27,Male,Mild,Diabetes,Supportive Care,1,False,False,Recovered,0.833,2021-06-22,19-35
+PT00958,76,Female,Severe,Hypertension,Monoclonal Antibodies,22,True,True,Recovered,0.855,2021-06-22,65+
+PT00959,40,Female,Moderate,Respiratory,Dexamethasone,6,False,True,Recovered,0.861,2021-06-23,36-50
+PT00960,50,Female,Moderate,None,Monoclonal Antibodies,8,False,True,Recovered,0.898,2021-06-23,36-50
+PT00961,46,Male,Mild,Diabetes,Dexamethasone,4,False,False,Recovered,0.739,2021-06-24,36-50
+PT00962,36,Male,Moderate,None,Dexamethasone,7,False,True,Recovered,0.845,2021-06-24,36-50
+PT00963,65,Female,Moderate,Obesity,Supportive Care,10,False,True,Recovered,0.77,2021-06-25,51-65
+PT00964,50,Male,Moderate,Respiratory,Dexamethasone,8,False,False,Recovered,0.903,2021-06-25,36-50
+PT00965,39,Female,Moderate,Diabetes,Remdesivir,8,False,True,Recovered,0.931,2021-06-26,36-50
+PT00966,24,Female,Moderate,None,Dexamethasone,10,False,True,Recovered,0.746,2021-06-26,19-35
+PT00967,31,Female,Moderate,Heart Disease,Supportive Care,5,False,False,Recovered,0.679,2021-06-27,19-35
+PT00968,18,Male,Mild,Hypertension,Dexamethasone,4,False,False,Recovered,0.776,2021-06-27,0-18
+PT00969,48,Female,Mild,None,Combination Therapy,4,False,False,Recovered,0.998,2021-06-28,36-50
+PT00970,26,Male,Mild,Obesity,Combination Therapy,2,False,False,Recovered,0.778,2021-06-28,19-35
+PT00971,43,Female,Moderate,Respiratory,Supportive Care,11,False,False,Recovered,0.794,2021-06-29,36-50
+PT00972,72,Male,Moderate,Diabetes,Monoclonal Antibodies,6,False,True,Recovered,0.892,2021-06-29,65+
+PT00973,69,Male,Mild,Hypertension,Combination Therapy,4,False,False,Recovered,0.921,2021-06-30,65+
+PT00974,47,Male,Mild,None,Remdesivir,1,False,False,Recovered,0.787,2021-06-30,36-50
+PT00975,46,Female,Moderate,Hypertension,Dexamethasone,10,False,False,Recovered,0.762,2021-07-01,36-50
+PT00976,81,Male,Moderate,Diabetes,Combination Therapy,9,False,True,Recovered,0.871,2021-07-01,65+
+PT00977,57,Male,Severe,None,Supportive Care,20,True,False,Recovered,0.682,2021-07-02,51-65
+PT00978,42,Male,Moderate,None,Remdesivir,9,False,True,Recovered,0.756,2021-07-02,36-50
+PT00979,22,Female,Severe,None,Dexamethasone,17,True,True,Recovered,0.733,2021-07-03,19-35
+PT00980,55,Female,Mild,None,Supportive Care,2,False,False,Recovered,0.775,2021-07-03,51-65
+PT00981,62,Female,Mild,Diabetes,Combination Therapy,3,False,False,Recovered,0.864,2021-07-04,51-65
+PT00982,36,Female,Mild,Hypertension,Supportive Care,2,False,False,Recovered,0.72,2021-07-04,36-50
+PT00983,53,Male,Moderate,Hypertension,Supportive Care,11,False,False,Recovered,0.725,2021-07-05,51-65
+PT00984,41,Male,Mild,Diabetes,Supportive Care,4,False,False,Recovered,0.703,2021-07-05,36-50
+PT00985,44,Female,Moderate,Diabetes,Combination Therapy,11,False,True,Deceased,0.867,2021-07-06,36-50
+PT00986,5,Male,Moderate,Heart Disease,Combination Therapy,10,False,False,Recovered,0.82,2021-07-06,0-18
+PT00987,44,Male,Mild,Diabetes,Monoclonal Antibodies,2,False,False,Recovered,0.912,2021-07-07,36-50
+PT00988,65,Male,Severe,Respiratory,Combination Therapy,23,True,True,Recovered,0.802,2021-07-07,51-65
+PT00989,36,Male,Mild,Diabetes,Remdesivir,2,False,False,Recovered,0.946,2021-07-08,36-50
+PT00990,48,Male,Mild,Hypertension,Dexamethasone,4,False,False,Recovered,0.733,2021-07-08,36-50
+PT00991,34,Male,Moderate,None,Combination Therapy,5,False,False,Recovered,0.988,2021-07-09,19-35
+PT00992,54,Male,Mild,Hypertension,Monoclonal Antibodies,1,False,False,Recovered,0.942,2021-07-09,51-65
+PT00993,44,Male,Moderate,Heart Disease,Remdesivir,5,False,True,Recovered,0.888,2021-07-10,36-50
+PT00994,31,Male,Severe,Respiratory,Remdesivir,11,True,True,Recovered,0.938,2021-07-10,19-35
+PT00995,71,Male,Severe,Respiratory,Monoclonal Antibodies,23,False,True,Recovered,0.787,2021-07-11,65+
+PT00996,64,Male,Severe,None,Monoclonal Antibodies,18,True,False,Recovered,0.796,2021-07-11,51-65
+PT00997,37,Female,Mild,Hypertension,Dexamethasone,4,False,False,Recovered,0.767,2021-07-12,36-50
+PT00998,56,Male,Moderate,Diabetes,Dexamethasone,5,False,True,Recovered,0.765,2021-07-12,51-65
+PT00999,57,Female,Mild,Hypertension,Combination Therapy,1,False,False,Recovered,0.844,2021-07-13,51-65
+PT01000,59,Female,Mild,None,Dexamethasone,2,False,False,Recovered,0.835,2021-07-13,51-65
+PT01001,17,Female,Mild,Heart Disease,Supportive Care,4,False,False,Recovered,0.668,2021-07-14,0-18
+PT01002,66,Male,Critical,Obesity,Remdesivir,43,False,True,Deceased,0.823,2021-07-14,65+
+PT01003,37,Male,Severe,Diabetes,Remdesivir,23,False,False,Recovered,0.793,2021-07-15,36-50
+PT01004,41,Male,Mild,None,Remdesivir,1,False,False,Recovered,0.871,2021-07-15,36-50
+PT01005,95,Female,Mild,None,Dexamethasone,3,False,False,Recovered,0.921,2021-07-16,65+
+PT01006,53,Male,Mild,Hypertension,Remdesivir,4,False,False,Recovered,0.852,2021-07-16,51-65
+PT01007,41,Female,Moderate,None,Remdesivir,8,False,False,Recovered,0.832,2021-07-17,36-50
+PT01008,8,Female,Critical,Obesity,Supportive Care,38,True,True,Deceased,0.735,2021-07-17,0-18
+PT01009,73,Male,Moderate,Hypertension,Remdesivir,5,False,True,Recovered,0.91,2021-07-18,65+
+PT01010,23,Male,Moderate,Hypertension,Monoclonal Antibodies,5,False,True,Deceased,0.773,2021-07-18,19-35
+PT01011,29,Female,Mild,Diabetes,Dexamethasone,2,False,False,Recovered,0.916,2021-07-19,19-35
+PT01012,42,Male,Mild,None,Combination Therapy,2,False,False,Recovered,0.869,2021-07-19,36-50
+PT01013,73,Male,Critical,Obesity,Dexamethasone,31,True,True,Recovered,0.78,2021-07-20,65+
+PT01014,61,Female,Severe,Hypertension,Dexamethasone,13,False,True,Recovered,0.919,2021-07-20,51-65
+PT01015,45,Male,Mild,Respiratory,Combination Therapy,3,False,False,Recovered,0.986,2021-07-21,36-50
+PT01016,53,Female,Mild,Diabetes,Combination Therapy,3,False,False,Recovered,0.92,2021-07-21,51-65
+PT01017,37,Female,Mild,Hypertension,Supportive Care,3,False,False,Recovered,0.667,2021-07-22,36-50
+PT01018,50,Female,Moderate,None,Supportive Care,6,False,True,Recovered,0.809,2021-07-22,36-50
+PT01019,49,Male,Moderate,Hypertension,Combination Therapy,10,False,True,Recovered,0.85,2021-07-23,36-50
+PT01020,65,Male,Moderate,Heart Disease,Combination Therapy,9,False,True,Recovered,0.862,2021-07-23,51-65
+PT01021,65,Male,Moderate,Heart Disease,Monoclonal Antibodies,11,False,True,Recovered,0.792,2021-07-24,51-65
+PT01022,56,Male,Severe,Heart Disease,Combination Therapy,14,True,True,Recovered,0.893,2021-07-24,51-65
+PT01023,41,Male,Moderate,None,Monoclonal Antibodies,7,False,True,Recovered,0.922,2021-07-25,36-50
+PT01024,61,Male,Severe,Respiratory,Supportive Care,10,True,True,Recovered,0.716,2021-07-25,51-65
+PT01025,46,Male,Severe,Respiratory,Remdesivir,10,True,True,Recovered,0.944,2021-07-26,36-50
+PT01026,28,Male,Moderate,None,Dexamethasone,7,False,False,Recovered,0.755,2021-07-26,19-35
+PT01027,40,Female,Moderate,Obesity,Combination Therapy,11,False,False,Recovered,0.789,2021-07-27,36-50
+PT01028,49,Male,Severe,None,Supportive Care,16,True,False,Recovered,0.789,2021-07-27,36-50
+PT01029,64,Male,Severe,Hypertension,Combination Therapy,13,True,True,Recovered,0.967,2021-07-28,51-65
+PT01030,44,Female,Mild,None,Supportive Care,2,False,False,Deceased,0.849,2021-07-28,36-50
+PT01031,26,Female,Mild,Respiratory,Dexamethasone,3,False,False,Recovered,0.875,2021-07-29,19-35
+PT01032,49,Male,Critical,None,Remdesivir,33,True,True,Deceased,0.783,2021-07-29,36-50
+PT01033,50,Male,Mild,Diabetes,Remdesivir,4,False,False,Recovered,0.952,2021-07-30,36-50
+PT01034,51,Female,Severe,Diabetes,Combination Therapy,24,True,True,Recovered,0.983,2021-07-30,51-65
+PT01035,64,Female,Mild,None,Combination Therapy,1,False,False,Recovered,0.811,2021-07-31,51-65
+PT01036,66,Female,Moderate,Hypertension,Dexamethasone,5,False,False,Recovered,0.831,2021-07-31,65+
+PT01037,37,Female,Mild,None,Combination Therapy,3,False,False,Recovered,0.9,2021-08-01,36-50
+PT01038,36,Male,Mild,Hypertension,Remdesivir,3,False,False,Recovered,0.836,2021-08-01,36-50
+PT01039,29,Female,Mild,Respiratory,Remdesivir,2,False,False,Recovered,0.954,2021-08-02,19-35
+PT01040,60,Male,Moderate,Heart Disease,Supportive Care,9,False,True,Recovered,0.675,2021-08-02,51-65
+PT01041,74,Female,Mild,Obesity,Dexamethasone,2,False,False,Recovered,0.846,2021-08-03,65+
+PT01042,42,Female,Critical,None,Combination Therapy,33,True,True,Recovered,0.82,2021-08-03,36-50
+PT01043,43,Female,Mild,None,Supportive Care,3,False,False,Recovered,0.766,2021-08-04,36-50
+PT01044,74,Male,Moderate,Diabetes,Supportive Care,6,False,True,Recovered,0.815,2021-08-04,65+
+PT01045,57,Male,Moderate,None,Remdesivir,11,False,True,Recovered,0.793,2021-08-05,51-65
+PT01046,55,Female,Moderate,Respiratory,Combination Therapy,11,False,False,Recovered,0.863,2021-08-05,51-65
+PT01047,26,Female,Moderate,None,Supportive Care,10,False,True,Recovered,0.848,2021-08-06,19-35
+PT01048,60,Female,Mild,Obesity,Supportive Care,2,False,False,Recovered,0.811,2021-08-06,51-65
+PT01049,31,Male,Mild,None,Supportive Care,1,False,False,Recovered,0.775,2021-08-07,19-35
+PT01050,27,Male,Mild,Heart Disease,Dexamethasone,4,False,False,Recovered,0.761,2021-08-07,19-35
+PT01051,41,Male,Mild,None,Remdesivir,2,False,False,Recovered,0.832,2021-08-08,36-50
+PT01052,37,Male,Moderate,None,Combination Therapy,9,False,False,Recovered,0.95,2021-08-08,36-50
+PT01053,44,Female,Mild,Hypertension,Supportive Care,2,False,False,Recovered,0.823,2021-08-09,36-50
+PT01054,22,Male,Severe,None,Dexamethasone,16,True,True,Recovered,0.765,2021-08-09,19-35
+PT01055,65,Female,Severe,Hypertension,Remdesivir,18,True,True,Recovered,0.883,2021-08-10,51-65
+PT01056,68,Female,Critical,Diabetes,Supportive Care,21,False,True,Deceased,0.682,2021-08-10,65+
+PT01057,12,Female,Severe,None,Dexamethasone,13,True,True,Deceased,0.719,2021-08-11,0-18
+PT01058,65,Male,Mild,Obesity,Remdesivir,2,False,False,Recovered,0.859,2021-08-11,51-65
+PT01059,33,Female,Moderate,Diabetes,Remdesivir,6,False,False,Recovered,0.788,2021-08-12,19-35
+PT01060,63,Male,Mild,Hypertension,Dexamethasone,1,False,False,Recovered,0.731,2021-08-12,51-65
+PT01061,46,Female,Severe,Diabetes,Combination Therapy,19,True,True,Recovered,0.94,2021-08-13,36-50
+PT01062,48,Male,Severe,Hypertension,Dexamethasone,21,False,True,Recovered,0.819,2021-08-13,36-50
+PT01063,44,Male,Severe,None,Remdesivir,11,True,True,Deceased,0.913,2021-08-14,36-50
+PT01064,69,Male,Critical,None,Remdesivir,44,True,True,Recovered,0.884,2021-08-14,65+
+PT01065,25,Male,Moderate,Diabetes,Dexamethasone,8,False,True,Recovered,0.867,2021-08-15,19-35
+PT01066,58,Female,Mild,Diabetes,Combination Therapy,4,False,False,Recovered,0.843,2021-08-15,51-65
+PT01067,67,Male,Mild,Diabetes,Remdesivir,3,False,False,Recovered,0.797,2021-08-16,65+
+PT01068,60,Female,Moderate,Hypertension,Combination Therapy,11,False,True,Recovered,0.91,2021-08-16,51-65
+PT01069,89,Female,Mild,Hypertension,Remdesivir,4,False,False,Recovered,0.783,2021-08-17,65+
+PT01070,38,Male,Critical,None,Remdesivir,30,True,True,Recovered,0.917,2021-08-17,36-50
+PT01071,65,Female,Mild,None,Remdesivir,1,False,False,Recovered,0.853,2021-08-18,51-65
+PT01072,46,Male,Severe,Diabetes,Remdesivir,16,False,False,Recovered,0.789,2021-08-18,36-50
+PT01073,70,Male,Severe,None,Combination Therapy,19,True,True,Recovered,0.916,2021-08-19,65+
+PT01074,47,Male,Severe,None,Combination Therapy,24,False,True,Recovered,0.988,2021-08-19,36-50
+PT01075,41,Female,Severe,None,Supportive Care,16,True,True,Recovered,0.679,2021-08-20,36-50
+PT01076,71,Male,Moderate,Respiratory,Remdesivir,10,False,True,Recovered,0.763,2021-08-20,65+
+PT01077,39,Female,Mild,Hypertension,Remdesivir,3,False,False,Recovered,0.923,2021-08-21,36-50
+PT01078,22,Male,Severe,None,Dexamethasone,20,True,True,Deceased,0.737,2021-08-21,19-35
+PT01079,38,Female,Mild,None,Supportive Care,1,False,False,Recovered,0.671,2021-08-22,36-50
+PT01080,59,Male,Mild,Hypertension,Dexamethasone,2,False,False,Recovered,0.787,2021-08-22,51-65
+PT01081,73,Female,Critical,Diabetes,Dexamethasone,34,True,False,Recovered,0.812,2021-08-23,65+
+PT01082,50,Female,Severe,Heart Disease,Dexamethasone,21,True,True,Recovered,0.834,2021-08-23,36-50
+PT01083,71,Female,Severe,Obesity,Remdesivir,18,True,True,Recovered,0.85,2021-08-24,65+
+PT01084,23,Female,Severe,Hypertension,Monoclonal Antibodies,20,True,True,Recovered,0.96,2021-08-24,19-35
+PT01085,40,Female,Moderate,None,Combination Therapy,6,False,True,Recovered,0.948,2021-08-25,36-50
+PT01086,42,Male,Mild,Heart Disease,Supportive Care,4,False,False,Recovered,0.855,2021-08-25,36-50
+PT01087,45,Male,Severe,Respiratory,Combination Therapy,10,False,True,Recovered,0.882,2021-08-26,36-50
+PT01088,49,Male,Mild,Hypertension,Combination Therapy,2,False,False,Recovered,0.793,2021-08-26,36-50
+PT01089,60,Male,Severe,Hypertension,Remdesivir,16,True,False,Recovered,0.947,2021-08-27,51-65
+PT01090,39,Male,Mild,None,Combination Therapy,1,False,False,Recovered,0.774,2021-08-27,36-50
+PT01091,50,Male,Moderate,Diabetes,Remdesivir,5,False,False,Recovered,0.908,2021-08-28,36-50
+PT01092,47,Male,Mild,Hypertension,Dexamethasone,2,False,False,Recovered,0.721,2021-08-28,36-50
+PT01093,31,Female,Mild,Obesity,Combination Therapy,1,False,False,Recovered,0.947,2021-08-29,19-35
+PT01094,45,Male,Mild,Hypertension,Supportive Care,3,False,False,Recovered,0.846,2021-08-29,36-50
+PT01095,45,Female,Mild,Heart Disease,Combination Therapy,4,False,False,Recovered,0.862,2021-08-30,36-50
+PT01096,45,Male,Mild,None,Combination Therapy,4,False,False,Recovered,0.828,2021-08-30,36-50
+PT01097,48,Female,Mild,None,Remdesivir,2,False,False,Recovered,0.789,2021-08-31,36-50
+PT01098,49,Female,Moderate,Diabetes,Dexamethasone,8,False,True,Deceased,0.817,2021-08-31,36-50
+PT01099,40,Male,Moderate,None,Remdesivir,10,False,False,Recovered,0.777,2021-09-01,36-50
+PT01100,70,Male,Moderate,Hypertension,Supportive Care,10,False,True,Recovered,0.794,2021-09-01,65+
+PT01101,26,Male,Severe,None,Monoclonal Antibodies,10,False,True,Recovered,0.838,2021-09-02,19-35
+PT01102,35,Male,Moderate,Heart Disease,Dexamethasone,8,False,True,Recovered,0.782,2021-09-02,19-35
+PT01103,95,Female,Mild,Heart Disease,Remdesivir,1,False,False,Recovered,0.84,2021-09-03,65+
+PT01104,29,Female,Moderate,Diabetes,Combination Therapy,6,False,False,Recovered,0.897,2021-09-03,19-35
+PT01105,23,Male,Mild,None,Supportive Care,4,False,False,Recovered,0.691,2021-09-04,19-35
+PT01106,61,Male,Moderate,Hypertension,Combination Therapy,8,False,True,Recovered,0.935,2021-09-04,51-65
+PT01107,10,Male,Mild,Respiratory,Remdesivir,2,False,False,Recovered,0.932,2021-09-05,0-18
+PT01108,43,Male,Severe,Hypertension,Monoclonal Antibodies,22,True,False,Recovered,0.818,2021-09-05,36-50
+PT01109,86,Female,Mild,None,Supportive Care,1,False,False,Recovered,0.698,2021-09-06,65+
+PT01110,20,Male,Mild,None,Remdesivir,4,False,False,Recovered,0.905,2021-09-06,19-35
+PT01111,12,Male,Moderate,None,Monoclonal Antibodies,7,False,True,Recovered,0.797,2021-09-07,0-18
+PT01112,21,Male,Mild,None,Combination Therapy,1,False,False,Recovered,0.783,2021-09-07,19-35
+PT01113,64,Male,Mild,Heart Disease,Dexamethasone,3,False,False,Recovered,0.844,2021-09-08,51-65
+PT01114,68,Female,Moderate,Heart Disease,Combination Therapy,11,False,True,Recovered,0.828,2021-09-08,65+
+PT01115,38,Male,Moderate,None,Supportive Care,8,False,True,Recovered,0.697,2021-09-09,36-50
+PT01116,60,Female,Moderate,None,Combination Therapy,5,False,False,Recovered,0.997,2021-09-09,51-65
+PT01117,73,Female,Moderate,None,Remdesivir,10,False,True,Recovered,0.803,2021-09-10,65+
+PT01118,80,Male,Moderate,Obesity,Monoclonal Antibodies,7,False,False,Recovered,0.958,2021-09-10,65+
+PT01119,43,Male,Moderate,Diabetes,Remdesivir,9,False,True,Recovered,0.778,2021-09-11,36-50
+PT01120,6,Female,Moderate,Hypertension,Supportive Care,11,False,True,Recovered,0.823,2021-09-11,0-18
+PT01121,33,Female,Mild,Diabetes,Combination Therapy,1,False,False,Recovered,0.888,2021-09-12,19-35
+PT01122,40,Female,Moderate,Hypertension,Remdesivir,8,False,True,Recovered,0.757,2021-09-12,36-50
+PT01123,43,Male,Mild,Diabetes,Remdesivir,3,False,False,Recovered,0.899,2021-09-13,36-50
+PT01124,44,Female,Mild,None,Supportive Care,4,False,False,Recovered,0.837,2021-09-13,36-50
+PT01125,68,Male,Critical,Hypertension,Dexamethasone,23,True,True,Deceased,0.748,2021-09-14,65+
+PT01126,70,Female,Moderate,Hypertension,Combination Therapy,7,False,False,Deceased,0.939,2021-09-14,65+
+PT01127,44,Female,Mild,None,Combination Therapy,1,False,False,Recovered,0.875,2021-09-15,36-50
+PT01128,67,Male,Critical,None,Supportive Care,38,True,True,Deceased,0.81,2021-09-15,65+
+PT01129,54,Female,Mild,None,Combination Therapy,4,False,False,Recovered,0.936,2021-09-16,51-65
+PT01130,49,Male,Mild,Diabetes,Dexamethasone,4,False,False,Recovered,0.72,2021-09-16,36-50
+PT01131,64,Female,Mild,Hypertension,Dexamethasone,4,False,False,Recovered,0.752,2021-09-17,51-65
+PT01132,49,Male,Mild,Obesity,Supportive Care,2,False,False,Deceased,0.755,2021-09-17,36-50
+PT01133,85,Female,Moderate,None,Combination Therapy,7,False,False,Recovered,0.986,2021-09-18,65+
+PT01134,22,Male,Mild,None,Remdesivir,2,False,False,Recovered,0.814,2021-09-18,19-35
+PT01135,38,Female,Moderate,None,Monoclonal Antibodies,6,False,True,Recovered,0.896,2021-09-19,36-50
+PT01136,45,Female,Moderate,Diabetes,Supportive Care,11,False,False,Recovered,0.665,2021-09-19,36-50
+PT01137,55,Male,Mild,Diabetes,Remdesivir,1,False,False,Recovered,0.894,2021-09-20,51-65
+PT01138,70,Male,Mild,Hypertension,Monoclonal Antibodies,3,False,False,Recovered,0.891,2021-09-20,65+
+PT01139,47,Female,Severe,None,Combination Therapy,22,True,True,Recovered,0.936,2021-09-21,36-50
+PT01140,22,Male,Mild,Hypertension,Remdesivir,1,False,False,Recovered,0.936,2021-09-21,19-35
+PT01141,63,Female,Mild,Obesity,Dexamethasone,4,False,False,Recovered,0.745,2021-09-22,51-65
+PT01142,61,Male,Mild,Obesity,Combination Therapy,3,False,False,Recovered,0.833,2021-09-22,51-65
+PT01143,13,Female,Moderate,Respiratory,Supportive Care,9,False,False,Recovered,0.857,2021-09-23,0-18
+PT01144,47,Male,Moderate,Heart Disease,Dexamethasone,10,False,True,Recovered,0.747,2021-09-23,36-50
+PT01145,19,Male,Critical,Obesity,Dexamethasone,42,True,True,Deceased,0.865,2021-09-24,19-35
+PT01146,36,Male,Severe,None,Dexamethasone,11,True,True,Recovered,0.866,2021-09-24,36-50
+PT01147,31,Male,Mild,None,Combination Therapy,4,False,False,Recovered,0.929,2021-09-25,19-35
+PT01148,62,Male,Mild,None,Remdesivir,1,False,False,Recovered,0.789,2021-09-25,51-65
+PT01149,50,Male,Mild,Hypertension,Remdesivir,4,False,False,Recovered,0.786,2021-09-26,36-50
+PT01150,24,Female,Mild,Obesity,Combination Therapy,1,False,False,Recovered,0.925,2021-09-26,19-35
+PT01151,63,Female,Mild,None,Supportive Care,2,False,False,Recovered,0.699,2021-09-27,51-65
+PT01152,22,Female,Mild,Hypertension,Combination Therapy,1,False,False,Recovered,0.924,2021-09-27,19-35
+PT01153,53,Male,Mild,Hypertension,Dexamethasone,4,False,False,Recovered,0.817,2021-09-28,51-65
+PT01154,33,Female,Mild,Obesity,Combination Therapy,4,False,False,Recovered,0.861,2021-09-28,19-35
+PT01155,41,Male,Mild,Hypertension,Dexamethasone,4,False,False,Recovered,0.777,2021-09-29,36-50
+PT01156,57,Female,Critical,Respiratory,Monoclonal Antibodies,34,True,False,Recovered,0.967,2021-09-29,51-65
+PT01157,57,Male,Moderate,None,Supportive Care,9,False,True,Deceased,0.762,2021-09-30,51-65
+PT01158,72,Male,Moderate,None,Remdesivir,8,False,True,Recovered,0.862,2021-09-30,65+
+PT01159,46,Male,Mild,Diabetes,Dexamethasone,1,False,False,Recovered,0.913,2021-10-01,36-50
+PT01160,53,Female,Moderate,Diabetes,Combination Therapy,8,False,True,Recovered,0.922,2021-10-01,51-65
+PT01161,40,Male,Mild,None,Combination Therapy,2,False,False,Recovered,0.991,2021-10-02,36-50
+PT01162,51,Female,Mild,Hypertension,Combination Therapy,2,False,False,Recovered,0.798,2021-10-02,51-65
+PT01163,55,Male,Mild,Hypertension,Supportive Care,1,False,False,Recovered,0.828,2021-10-03,51-65
+PT01164,46,Female,Severe,Hypertension,Supportive Care,12,True,True,Recovered,0.728,2021-10-03,36-50
+PT01165,15,Female,Critical,None,Combination Therapy,29,True,True,Deceased,0.958,2021-10-04,0-18
+PT01166,53,Male,Mild,Diabetes,Supportive Care,3,False,False,Recovered,0.83,2021-10-04,51-65
+PT01167,54,Male,Mild,None,Supportive Care,3,False,False,Recovered,0.716,2021-10-05,51-65
+PT01168,35,Female,Mild,None,Supportive Care,2,False,False,Recovered,0.743,2021-10-05,19-35
+PT01169,24,Male,Mild,Hypertension,Monoclonal Antibodies,2,False,False,Recovered,0.918,2021-10-06,19-35
+PT01170,74,Male,Mild,None,Dexamethasone,3,False,False,Recovered,0.735,2021-10-06,65+
+PT01171,56,Female,Mild,None,Dexamethasone,4,False,False,Recovered,0.873,2021-10-07,51-65
+PT01172,43,Female,Moderate,Hypertension,Monoclonal Antibodies,9,False,False,Recovered,0.781,2021-10-07,36-50
+PT01173,27,Male,Mild,None,Supportive Care,2,False,False,Recovered,0.841,2021-10-08,19-35
+PT01174,33,Female,Mild,Respiratory,Monoclonal Antibodies,3,False,False,Recovered,0.818,2021-10-08,19-35
+PT01175,71,Male,Moderate,Diabetes,Remdesivir,6,False,False,Recovered,0.865,2021-10-09,65+
+PT01176,50,Male,Mild,Respiratory,Combination Therapy,2,False,False,Recovered,0.8,2021-10-09,36-50
+PT01177,38,Female,Critical,None,Remdesivir,40,True,True,Recovered,0.798,2021-10-10,36-50
+PT01178,57,Male,Mild,Hypertension,Combination Therapy,2,False,False,Recovered,0.865,2021-10-10,51-65
+PT01179,33,Male,Severe,None,Remdesivir,23,True,True,Deceased,0.845,2021-10-11,19-35
+PT01180,75,Female,Moderate,Heart Disease,Remdesivir,5,False,True,Recovered,0.74,2021-10-11,65+
+PT01181,72,Female,Severe,None,Remdesivir,11,True,True,Recovered,0.933,2021-10-12,65+
+PT01182,39,Female,Moderate,None,Combination Therapy,6,False,True,Recovered,0.775,2021-10-12,36-50
+PT01183,36,Female,Moderate,Heart Disease,Dexamethasone,8,False,True,Recovered,0.876,2021-10-13,36-50
+PT01184,5,Female,Severe,None,Remdesivir,16,True,True,Recovered,0.842,2021-10-13,0-18
+PT01185,21,Male,Mild,None,Dexamethasone,3,False,False,Recovered,0.824,2021-10-14,19-35
+PT01186,23,Male,Moderate,Diabetes,Remdesivir,8,False,True,Recovered,0.785,2021-10-14,19-35
+PT01187,50,Female,Critical,Hypertension,Monoclonal Antibodies,33,True,True,Recovered,0.892,2021-10-15,36-50
+PT01188,42,Male,Moderate,None,Dexamethasone,5,False,True,Recovered,0.827,2021-10-15,36-50
+PT01189,23,Female,Critical,Diabetes,Dexamethasone,28,False,True,Recovered,0.748,2021-10-16,19-35
+PT01190,42,Female,Moderate,None,Supportive Care,10,False,True,Recovered,0.709,2021-10-16,36-50
+PT01191,57,Male,Severe,Hypertension,Combination Therapy,15,True,True,Recovered,0.789,2021-10-17,51-65
+PT01192,57,Female,Moderate,Hypertension,Supportive Care,9,False,True,Recovered,0.676,2021-10-17,51-65
+PT01193,13,Male,Moderate,Diabetes,Combination Therapy,9,False,True,Recovered,0.777,2021-10-18,0-18
+PT01194,45,Male,Moderate,Diabetes,Monoclonal Antibodies,11,False,False,Recovered,0.806,2021-10-18,36-50
+PT01195,23,Female,Severe,None,Remdesivir,10,True,True,Recovered,0.887,2021-10-19,19-35
+PT01196,64,Male,Severe,None,Monoclonal Antibodies,18,True,False,Deceased,0.827,2021-10-19,51-65
+PT01197,62,Male,Severe,None,Supportive Care,11,True,False,Recovered,0.73,2021-10-20,51-65
+PT01198,31,Male,Moderate,Diabetes,Combination Therapy,10,False,False,Deceased,0.804,2021-10-20,19-35
+PT01199,34,Female,Mild,Diabetes,Combination Therapy,2,False,False,Recovered,0.904,2021-10-21,19-35
+PT01200,39,Female,Mild,Respiratory,Combination Therapy,3,False,False,Recovered,0.851,2021-10-21,36-50
+PT01201,7,Female,Severe,None,Remdesivir,20,True,True,Recovered,0.887,2021-10-22,0-18
+PT01202,54,Female,Moderate,Hypertension,Remdesivir,11,False,True,Recovered,0.901,2021-10-22,51-65
+PT01203,43,Male,Mild,Diabetes,Monoclonal Antibodies,4,False,False,Recovered,0.887,2021-10-23,36-50
+PT01204,65,Female,Mild,Diabetes,Combination Therapy,2,False,False,Recovered,0.836,2021-10-23,51-65
+PT01205,28,Female,Severe,Obesity,Dexamethasone,12,True,True,Deceased,0.821,2021-10-24,19-35
+PT01206,36,Male,Severe,None,Supportive Care,19,True,True,Recovered,0.712,2021-10-24,36-50
+PT01207,20,Male,Severe,None,Combination Therapy,22,True,True,Recovered,0.979,2021-10-25,19-35
+PT01208,29,Female,Moderate,Hypertension,Remdesivir,9,False,True,Recovered,0.906,2021-10-25,19-35
+PT01209,26,Female,Mild,None,Supportive Care,1,False,False,Recovered,0.759,2021-10-26,19-35
+PT01210,65,Female,Mild,None,Supportive Care,2,False,False,Recovered,0.851,2021-10-26,51-65
+PT01211,35,Female,Mild,None,Remdesivir,4,False,False,Recovered,0.858,2021-10-27,19-35
+PT01212,50,Female,Severe,None,Monoclonal Antibodies,18,True,False,Recovered,0.83,2021-10-27,36-50
+PT01213,41,Female,Mild,Hypertension,Dexamethasone,1,False,False,Recovered,0.734,2021-10-28,36-50
+PT01214,25,Female,Moderate,None,Combination Therapy,8,False,True,Recovered,0.897,2021-10-28,19-35
+PT01215,44,Male,Moderate,Diabetes,Remdesivir,9,False,False,Recovered,0.927,2021-10-29,36-50
+PT01216,58,Female,Moderate,Diabetes,Combination Therapy,7,False,True,Recovered,0.971,2021-10-29,51-65
+PT01217,26,Male,Severe,Diabetes,Dexamethasone,21,True,False,Deceased,0.841,2021-10-30,19-35
+PT01218,62,Female,Mild,Respiratory,Dexamethasone,3,False,False,Recovered,0.797,2021-10-30,51-65
+PT01219,32,Male,Moderate,None,Supportive Care,5,False,True,Recovered,0.79,2021-10-31,19-35
+PT01220,39,Male,Mild,Respiratory,Remdesivir,3,False,False,Recovered,0.905,2021-10-31,36-50
+PT01221,57,Male,Mild,Hypertension,Supportive Care,4,False,False,Recovered,0.743,2021-11-01,51-65
+PT01222,36,Male,Mild,Heart Disease,Combination Therapy,1,False,False,Recovered,0.882,2021-11-01,36-50
+PT01223,48,Male,Mild,Diabetes,Monoclonal Antibodies,2,False,False,Recovered,0.908,2021-11-02,36-50
+PT01224,42,Male,Moderate,Diabetes,Combination Therapy,5,False,True,Recovered,0.973,2021-11-02,36-50
+PT01225,50,Female,Moderate,Obesity,Remdesivir,8,False,True,Recovered,0.912,2021-11-03,36-50
+PT01226,5,Male,Mild,Obesity,Remdesivir,2,False,False,Recovered,0.744,2021-11-03,0-18
+PT01227,15,Male,Mild,None,Monoclonal Antibodies,4,False,False,Recovered,0.784,2021-11-04,0-18
+PT01228,59,Female,Moderate,None,Supportive Care,9,False,True,Recovered,0.829,2021-11-04,51-65
+PT01229,66,Female,Critical,Diabetes,Dexamethasone,37,False,True,Deceased,0.889,2021-11-05,65+
+PT01230,31,Male,Mild,Obesity,Combination Therapy,3,False,False,Recovered,0.862,2021-11-05,19-35
+PT01231,43,Female,Moderate,None,Combination Therapy,11,False,True,Recovered,0.906,2021-11-06,36-50
+PT01232,53,Female,Moderate,Hypertension,Monoclonal Antibodies,7,False,True,Recovered,0.958,2021-11-06,51-65
+PT01233,60,Male,Moderate,Hypertension,Monoclonal Antibodies,10,False,True,Recovered,0.959,2021-11-07,51-65
+PT01234,11,Male,Mild,Heart Disease,Monoclonal Antibodies,1,False,False,Recovered,0.931,2021-11-07,0-18
+PT01235,32,Female,Moderate,Hypertension,Supportive Care,8,False,False,Deceased,0.704,2021-11-08,19-35
+PT01236,42,Female,Moderate,Diabetes,Monoclonal Antibodies,10,False,False,Recovered,0.919,2021-11-08,36-50
+PT01237,60,Female,Moderate,Respiratory,Remdesivir,10,False,True,Recovered,0.761,2021-11-09,51-65
+PT01238,92,Male,Moderate,Hypertension,Supportive Care,8,False,True,Recovered,0.837,2021-11-09,65+
+PT01239,43,Male,Critical,Hypertension,Supportive Care,40,False,True,Deceased,0.692,2021-11-10,36-50
+PT01240,22,Female,Mild,None,Monoclonal Antibodies,1,False,False,Recovered,0.904,2021-11-10,19-35
+PT01241,55,Male,Critical,Hypertension,Combination Therapy,38,True,True,Recovered,0.912,2021-11-11,51-65
+PT01242,71,Male,Moderate,None,Remdesivir,5,False,False,Recovered,0.908,2021-11-11,65+
+PT01243,49,Female,Moderate,None,Combination Therapy,10,False,True,Recovered,0.899,2021-11-12,36-50
+PT01244,31,Male,Mild,Hypertension,Combination Therapy,1,False,False,Recovered,0.787,2021-11-12,19-35
+PT01245,65,Female,Mild,Diabetes,Dexamethasone,2,False,False,Recovered,0.862,2021-11-13,51-65
+PT01246,59,Female,Moderate,Hypertension,Dexamethasone,8,False,True,Recovered,0.794,2021-11-13,51-65
+PT01247,29,Male,Moderate,None,Combination Therapy,10,False,True,Recovered,0.846,2021-11-14,19-35
+PT01248,54,Female,Mild,Hypertension,Dexamethasone,2,False,False,Recovered,0.922,2021-11-14,51-65
+PT01249,65,Male,Moderate,Diabetes,Dexamethasone,7,False,True,Deceased,0.838,2021-11-15,51-65
+PT01250,69,Female,Severe,Hypertension,Remdesivir,19,True,True,Recovered,0.894,2021-11-15,65+
+PT01251,46,Male,Critical,None,Monoclonal Antibodies,33,True,True,Recovered,0.874,2021-11-16,36-50
+PT01252,41,Male,Severe,Hypertension,Supportive Care,21,True,False,Deceased,0.813,2021-11-16,36-50
+PT01253,70,Female,Critical,Heart Disease,Remdesivir,42,True,False,Recovered,0.903,2021-11-17,65+
+PT01254,26,Male,Severe,None,Supportive Care,15,True,False,Recovered,0.791,2021-11-17,19-35
+PT01255,55,Female,Severe,None,Supportive Care,12,True,True,Recovered,0.858,2021-11-18,51-65
+PT01256,23,Male,Mild,Hypertension,Remdesivir,3,False,False,Recovered,0.84,2021-11-18,19-35
+PT01257,67,Male,Moderate,Hypertension,Dexamethasone,11,False,False,Recovered,0.862,2021-11-19,65+
+PT01258,43,Male,Mild,Hypertension,Combination Therapy,1,False,False,Recovered,0.955,2021-11-19,36-50
+PT01259,70,Male,Mild,Hypertension,Combination Therapy,4,False,False,Recovered,0.859,2021-11-20,65+
+PT01260,56,Male,Mild,Diabetes,Supportive Care,3,False,False,Recovered,0.752,2021-11-20,51-65
+PT01261,25,Female,Mild,Diabetes,Combination Therapy,1,False,False,Recovered,0.994,2021-11-21,19-35
+PT01262,73,Female,Severe,None,Remdesivir,13,True,True,Recovered,0.747,2021-11-21,65+
+PT01263,75,Female,Critical,None,Monoclonal Antibodies,43,True,True,Recovered,0.831,2021-11-22,65+
+PT01264,63,Female,Severe,Hypertension,Dexamethasone,11,False,True,Deceased,0.816,2021-11-22,51-65
+PT01265,34,Male,Mild,None,Supportive Care,2,False,False,Recovered,0.663,2021-11-23,19-35
+PT01266,42,Female,Mild,Obesity,Remdesivir,1,False,False,Recovered,0.935,2021-11-23,36-50
+PT01267,50,Male,Severe,Heart Disease,Dexamethasone,21,True,True,Recovered,0.774,2021-11-24,36-50
+PT01268,35,Female,Moderate,Heart Disease,Combination Therapy,10,False,True,Recovered,0.832,2021-11-24,19-35
+PT01269,78,Male,Severe,Obesity,Remdesivir,12,True,True,Recovered,0.918,2021-11-25,65+
+PT01270,50,Female,Critical,Diabetes,Combination Therapy,23,True,True,Recovered,0.837,2021-11-25,36-50
+PT01271,5,Female,Severe,Heart Disease,Remdesivir,21,True,True,Recovered,0.883,2021-11-26,0-18
+PT01272,54,Female,Mild,None,Combination Therapy,3,False,False,Recovered,0.96,2021-11-26,51-65
+PT01273,41,Female,Moderate,None,Combination Therapy,9,False,True,Recovered,0.954,2021-11-27,36-50
+PT01274,46,Female,Critical,Heart Disease,Remdesivir,22,True,True,Deceased,0.91,2021-11-27,36-50
+PT01275,41,Female,Mild,None,Supportive Care,2,False,False,Recovered,0.68,2021-11-28,36-50
+PT01276,62,Male,Mild,Respiratory,Remdesivir,2,False,False,Recovered,0.757,2021-11-28,51-65
+PT01277,68,Male,Mild,Hypertension,Dexamethasone,2,False,False,Recovered,0.778,2021-11-29,65+
+PT01278,53,Male,Mild,Hypertension,Combination Therapy,2,False,False,Recovered,0.782,2021-11-29,51-65
+PT01279,41,Male,Moderate,None,Combination Therapy,9,False,True,Recovered,0.887,2021-11-30,36-50
+PT01280,47,Male,Moderate,Hypertension,Combination Therapy,10,False,True,Deceased,0.863,2021-11-30,36-50
+PT01281,48,Male,Critical,None,Remdesivir,40,True,True,Recovered,0.861,2021-12-01,36-50
+PT01282,33,Male,Moderate,Heart Disease,Supportive Care,8,False,False,Recovered,0.721,2021-12-01,19-35
+PT01283,58,Female,Mild,None,Combination Therapy,3,False,False,Recovered,0.884,2021-12-02,51-65
+PT01284,56,Female,Mild,Hypertension,Remdesivir,4,False,False,Recovered,0.812,2021-12-02,51-65
+PT01285,75,Male,Moderate,None,Dexamethasone,10,False,False,Recovered,0.755,2021-12-03,65+
+PT01286,70,Male,Mild,None,Supportive Care,1,False,False,Recovered,0.79,2021-12-03,65+
+PT01287,35,Male,Mild,Diabetes,Combination Therapy,1,False,False,Recovered,0.927,2021-12-04,19-35
+PT01288,62,Male,Severe,None,Remdesivir,10,True,True,Recovered,0.92,2021-12-04,51-65
+PT01289,30,Female,Moderate,Hypertension,Dexamethasone,9,False,True,Recovered,0.898,2021-12-05,19-35
+PT01290,60,Male,Mild,None,Dexamethasone,2,False,False,Recovered,0.862,2021-12-05,51-65
+PT01291,38,Female,Severe,None,Combination Therapy,10,True,True,Recovered,0.93,2021-12-06,36-50
+PT01292,29,Female,Critical,Hypertension,Supportive Care,37,True,False,Deceased,0.674,2021-12-06,19-35
+PT01293,53,Female,Mild,None,Combination Therapy,3,False,False,Recovered,0.798,2021-12-07,51-65
+PT01294,5,Male,Severe,None,Combination Therapy,18,True,True,Recovered,0.958,2021-12-07,0-18
+PT01295,16,Female,Mild,Heart Disease,Monoclonal Antibodies,1,False,False,Recovered,0.808,2021-12-08,0-18
+PT01296,44,Male,Moderate,None,Combination Therapy,11,False,False,Recovered,0.854,2021-12-08,36-50
+PT01297,49,Male,Severe,None,Combination Therapy,19,True,True,Recovered,0.807,2021-12-09,36-50
+PT01298,41,Male,Critical,None,Dexamethasone,31,True,False,Recovered,0.755,2021-12-09,36-50
+PT01299,19,Male,Mild,Diabetes,Combination Therapy,1,False,False,Recovered,0.95,2021-12-10,19-35
+PT01300,33,Male,Mild,Diabetes,Combination Therapy,3,False,False,Recovered,0.833,2021-12-10,19-35
+PT01301,55,Male,Mild,None,Dexamethasone,2,False,False,Recovered,0.808,2021-12-11,51-65
+PT01302,58,Female,Moderate,Heart Disease,Monoclonal Antibodies,5,False,False,Recovered,0.79,2021-12-11,51-65
+PT01303,47,Female,Mild,None,Monoclonal Antibodies,1,False,False,Recovered,0.907,2021-12-12,36-50
+PT01304,68,Male,Mild,Diabetes,Supportive Care,2,False,False,Recovered,0.805,2021-12-12,65+
+PT01305,55,Male,Mild,Diabetes,Combination Therapy,4,False,False,Recovered,0.856,2021-12-13,51-65
+PT01306,34,Female,Mild,Hypertension,Combination Therapy,3,False,False,Recovered,0.952,2021-12-13,19-35
+PT01307,42,Male,Mild,Respiratory,Remdesivir,4,False,False,Recovered,0.792,2021-12-14,36-50
+PT01308,22,Female,Severe,Diabetes,Dexamethasone,13,False,False,Recovered,0.859,2021-12-14,19-35
+PT01309,46,Female,Mild,Respiratory,Supportive Care,1,False,False,Recovered,0.805,2021-12-15,36-50
+PT01310,68,Male,Severe,None,Combination Therapy,10,True,True,Recovered,0.994,2021-12-15,65+
+PT01311,60,Male,Severe,None,Monoclonal Antibodies,18,True,True,Recovered,0.808,2021-12-16,51-65
+PT01312,73,Male,Mild,None,Remdesivir,4,False,False,Recovered,0.76,2021-12-16,65+
+PT01313,42,Male,Mild,Diabetes,Combination Therapy,3,False,False,Recovered,0.833,2021-12-17,36-50
+PT01314,72,Male,Mild,None,Combination Therapy,3,False,False,Recovered,0.801,2021-12-17,65+
+PT01315,44,Female,Moderate,None,Combination Therapy,11,False,False,Recovered,0.812,2021-12-18,36-50
+PT01316,74,Male,Critical,Diabetes,Monoclonal Antibodies,33,True,True,Recovered,0.831,2021-12-18,65+
+PT01317,47,Male,Moderate,None,Monoclonal Antibodies,9,False,True,Recovered,0.849,2021-12-19,36-50
+PT01318,60,Female,Mild,None,Remdesivir,3,False,False,Recovered,0.936,2021-12-19,51-65
+PT01319,74,Male,Severe,None,Remdesivir,23,True,True,Recovered,0.782,2021-12-20,65+
+PT01320,44,Male,Moderate,Obesity,Remdesivir,11,False,False,Recovered,0.951,2021-12-20,36-50
+PT01321,51,Male,Moderate,None,Combination Therapy,11,False,True,Recovered,0.958,2021-12-21,51-65
+PT01322,71,Male,Mild,Hypertension,Dexamethasone,3,False,False,Recovered,0.899,2021-12-21,65+
+PT01323,45,Female,Mild,Hypertension,Supportive Care,2,False,False,Recovered,0.844,2021-12-22,36-50
+PT01324,24,Male,Moderate,Diabetes,Dexamethasone,7,False,True,Recovered,0.872,2021-12-22,19-35
+PT01325,86,Female,Moderate,None,Combination Therapy,10,False,True,Recovered,0.953,2021-12-23,65+
+PT01326,39,Male,Moderate,None,Supportive Care,11,False,False,Recovered,0.748,2021-12-23,36-50
+PT01327,50,Male,Severe,Hypertension,Combination Therapy,10,True,True,Recovered,0.89,2021-12-24,36-50
+PT01328,68,Male,Critical,None,Combination Therapy,27,True,False,Deceased,0.986,2021-12-24,65+
+PT01329,37,Female,Severe,None,Remdesivir,11,False,True,Recovered,0.822,2021-12-25,36-50
+PT01330,29,Male,Moderate,None,Dexamethasone,10,False,True,Recovered,0.723,2021-12-25,19-35
+PT01331,52,Male,Severe,Obesity,Combination Therapy,23,False,True,Recovered,0.947,2021-12-26,51-65
+PT01332,15,Female,Moderate,Diabetes,Combination Therapy,9,False,True,Deceased,0.904,2021-12-26,0-18
+PT01333,42,Male,Mild,Hypertension,Monoclonal Antibodies,2,False,False,Recovered,0.938,2021-12-27,36-50
+PT01334,52,Male,Mild,Diabetes,Monoclonal Antibodies,1,False,False,Recovered,0.773,2021-12-27,51-65
+PT01335,43,Female,Mild,Obesity,Supportive Care,2,False,False,Recovered,0.784,2021-12-28,36-50
+PT01336,20,Male,Mild,Diabetes,Dexamethasone,2,False,False,Recovered,0.766,2021-12-28,19-35
+PT01337,76,Female,Moderate,Diabetes,Supportive Care,6,False,True,Recovered,0.839,2021-12-29,65+
+PT01338,49,Female,Moderate,Obesity,Dexamethasone,5,False,True,Recovered,0.737,2021-12-29,36-50
+PT01339,73,Female,Moderate,Hypertension,Dexamethasone,8,False,False,Recovered,0.891,2021-12-30,65+
+PT01340,43,Female,Mild,None,Dexamethasone,1,False,False,Recovered,0.733,2021-12-30,36-50
+PT01341,32,Female,Moderate,None,Remdesivir,6,False,True,Recovered,0.745,2021-12-31,19-35
+PT01342,52,Female,Severe,Heart Disease,Dexamethasone,17,True,True,Recovered,0.763,2021-12-31,51-65
+PT01343,44,Female,Severe,Heart Disease,Combination Therapy,20,False,True,Recovered,0.849,2022-01-01,36-50
+PT01344,26,Male,Mild,Diabetes,Monoclonal Antibodies,1,False,False,Recovered,0.896,2022-01-01,19-35
+PT01345,74,Male,Mild,Diabetes,Dexamethasone,3,False,False,Recovered,0.742,2022-01-02,65+
+PT01346,36,Female,Mild,Hypertension,Monoclonal Antibodies,3,False,False,Recovered,0.854,2022-01-02,36-50
+PT01347,14,Female,Mild,Diabetes,Dexamethasone,3,False,False,Recovered,0.757,2022-01-03,0-18
+PT01348,71,Male,Mild,Hypertension,Remdesivir,3,False,False,Recovered,0.926,2022-01-03,65+
+PT01349,38,Female,Severe,None,Combination Therapy,13,True,False,Recovered,0.784,2022-01-04,36-50
+PT01350,37,Male,Moderate,Respiratory,Combination Therapy,9,False,True,Recovered,0.854,2022-01-04,36-50
+PT01351,16,Female,Moderate,Hypertension,Remdesivir,5,False,True,Recovered,0.877,2022-01-05,0-18
+PT01352,79,Female,Severe,Hypertension,Dexamethasone,23,True,True,Recovered,0.906,2022-01-05,65+
+PT01353,24,Female,Mild,None,Combination Therapy,3,False,False,Recovered,0.971,2022-01-06,19-35
+PT01354,49,Male,Moderate,None,Dexamethasone,11,False,True,Recovered,0.902,2022-01-06,36-50
+PT01355,64,Female,Moderate,Diabetes,Supportive Care,8,False,False,Recovered,0.675,2022-01-07,51-65
+PT01356,55,Male,Mild,Hypertension,Combination Therapy,3,False,False,Recovered,0.965,2022-01-07,51-65
+PT01357,46,Male,Moderate,Hypertension,Remdesivir,8,False,True,Recovered,0.909,2022-01-08,36-50
+PT01358,17,Male,Mild,Diabetes,Monoclonal Antibodies,4,False,False,Recovered,0.957,2022-01-08,0-18
+PT01359,33,Female,Severe,Hypertension,Dexamethasone,22,False,True,Recovered,0.779,2022-01-09,19-35
+PT01360,51,Male,Mild,Heart Disease,Supportive Care,2,False,False,Recovered,0.841,2022-01-09,51-65
+PT01361,33,Male,Mild,None,Supportive Care,4,False,False,Recovered,0.742,2022-01-10,19-35
+PT01362,51,Female,Moderate,Diabetes,Monoclonal Antibodies,5,False,True,Deceased,0.898,2022-01-10,51-65
+PT01363,60,Female,Mild,Hypertension,Combination Therapy,2,False,False,Recovered,0.87,2022-01-11,51-65
+PT01364,65,Female,Mild,Diabetes,Combination Therapy,4,False,False,Recovered,0.871,2022-01-11,51-65
+PT01365,25,Female,Mild,Hypertension,Dexamethasone,3,False,False,Recovered,0.829,2022-01-12,19-35
+PT01366,87,Male,Mild,Diabetes,Combination Therapy,2,False,False,Recovered,0.854,2022-01-12,65+
+PT01367,61,Female,Moderate,Respiratory,Combination Therapy,6,False,True,Recovered,0.954,2022-01-13,51-65
+PT01368,47,Female,Moderate,None,Combination Therapy,11,False,True,Recovered,0.918,2022-01-13,36-50
+PT01369,67,Male,Severe,Diabetes,Supportive Care,21,True,False,Deceased,0.798,2022-01-14,65+
+PT01370,90,Male,Critical,None,Remdesivir,20,True,True,Deceased,0.79,2022-01-14,65+
+PT01371,22,Male,Mild,None,Monoclonal Antibodies,2,False,False,Recovered,0.972,2022-01-15,19-35
+PT01372,43,Male,Mild,Diabetes,Supportive Care,4,False,False,Recovered,0.792,2022-01-15,36-50
+PT01373,5,Female,Moderate,None,Combination Therapy,11,False,True,Recovered,0.818,2022-01-16,0-18
+PT01374,51,Female,Severe,Respiratory,Combination Therapy,21,False,True,Recovered,0.944,2022-01-16,51-65
+PT01375,54,Female,Mild,Respiratory,Dexamethasone,1,False,False,Recovered,0.75,2022-01-17,51-65
+PT01376,47,Male,Mild,None,Monoclonal Antibodies,3,False,False,Recovered,0.771,2022-01-17,36-50
+PT01377,36,Male,Moderate,Hypertension,Remdesivir,8,False,True,Recovered,0.854,2022-01-18,36-50
+PT01378,11,Female,Moderate,Diabetes,Combination Therapy,9,False,True,Recovered,0.899,2022-01-18,0-18
+PT01379,54,Male,Moderate,Heart Disease,Combination Therapy,6,False,True,Recovered,0.816,2022-01-19,51-65
+PT01380,74,Female,Moderate,Hypertension,Monoclonal Antibodies,10,False,True,Recovered,0.834,2022-01-19,65+
+PT01381,37,Male,Moderate,None,Supportive Care,10,False,True,Recovered,0.847,2022-01-20,36-50
+PT01382,55,Female,Mild,Heart Disease,Combination Therapy,3,False,False,Recovered,0.838,2022-01-20,51-65
+PT01383,19,Male,Moderate,Hypertension,Remdesivir,10,False,False,Deceased,0.773,2022-01-21,19-35
+PT01384,56,Male,Severe,Diabetes,Dexamethasone,20,True,True,Recovered,0.922,2022-01-21,51-65
+PT01385,40,Male,Moderate,Obesity,Remdesivir,7,False,True,Recovered,0.805,2022-01-22,36-50
+PT01386,34,Female,Mild,Obesity,Monoclonal Antibodies,4,False,False,Recovered,0.908,2022-01-22,19-35
+PT01387,34,Female,Critical,Diabetes,Supportive Care,28,True,True,Recovered,0.708,2022-01-23,19-35
+PT01388,40,Male,Severe,Hypertension,Supportive Care,21,True,False,Recovered,0.77,2022-01-23,36-50
+PT01389,54,Female,Moderate,Respiratory,Combination Therapy,9,False,True,Recovered,0.861,2022-01-24,51-65
+PT01390,24,Female,Mild,None,Combination Therapy,3,False,False,Recovered,0.992,2022-01-24,19-35
+PT01391,40,Female,Mild,None,Remdesivir,4,False,False,Recovered,0.834,2022-01-25,36-50
+PT01392,47,Female,Severe,None,Dexamethasone,11,True,True,Recovered,0.837,2022-01-25,36-50
+PT01393,28,Male,Moderate,Obesity,Remdesivir,9,False,True,Recovered,0.945,2022-01-26,19-35
+PT01394,80,Male,Mild,Hypertension,Supportive Care,4,False,False,Recovered,0.856,2022-01-26,65+
+PT01395,32,Female,Mild,None,Remdesivir,3,False,False,Recovered,0.762,2022-01-27,19-35
+PT01396,35,Female,Mild,Respiratory,Supportive Care,2,False,False,Recovered,0.826,2022-01-27,19-35
+PT01397,30,Female,Critical,Hypertension,Combination Therapy,34,False,True,Deceased,0.86,2022-01-28,19-35
+PT01398,80,Female,Moderate,Heart Disease,Combination Therapy,5,False,False,Recovered,0.909,2022-01-28,65+
+PT01399,57,Male,Mild,None,Remdesivir,3,False,False,Recovered,0.821,2022-01-29,51-65
+PT01400,31,Female,Mild,Diabetes,Dexamethasone,4,False,False,Recovered,0.798,2022-01-29,19-35
+PT01401,67,Male,Severe,Hypertension,Dexamethasone,24,True,True,Deceased,0.747,2022-01-30,65+
+PT01402,51,Female,Mild,Diabetes,Supportive Care,3,False,False,Recovered,0.775,2022-01-30,51-65
+PT01403,52,Male,Moderate,Hypertension,Remdesivir,10,False,True,Recovered,0.858,2022-01-31,51-65
+PT01404,41,Female,Mild,Heart Disease,Supportive Care,2,False,False,Recovered,0.7,2022-01-31,36-50
+PT01405,34,Male,Moderate,None,Supportive Care,10,False,True,Deceased,0.769,2022-02-01,19-35
+PT01406,54,Male,Mild,Heart Disease,Remdesivir,3,False,False,Recovered,0.951,2022-02-01,51-65
+PT01407,38,Male,Critical,None,Supportive Care,30,True,True,Recovered,0.802,2022-02-02,36-50
+PT01408,80,Female,Severe,None,Combination Therapy,13,True,False,Recovered,0.883,2022-02-02,65+
+PT01409,25,Female,Moderate,None,Supportive Care,6,False,True,Deceased,0.842,2022-02-03,19-35
+PT01410,75,Male,Severe,None,Remdesivir,19,False,True,Deceased,0.865,2022-02-03,65+
+PT01411,45,Female,Moderate,None,Remdesivir,6,False,False,Recovered,0.769,2022-02-04,36-50
+PT01412,53,Female,Critical,Heart Disease,Dexamethasone,30,True,True,Deceased,0.829,2022-02-04,51-65
+PT01413,62,Male,Severe,Hypertension,Dexamethasone,21,True,True,Recovered,0.752,2022-02-05,51-65
+PT01414,36,Male,Moderate,Diabetes,Supportive Care,6,False,True,Recovered,0.813,2022-02-05,36-50
+PT01415,63,Female,Moderate,Hypertension,Supportive Care,8,False,False,Recovered,0.852,2022-02-06,51-65
+PT01416,5,Female,Severe,None,Monoclonal Antibodies,20,True,True,Recovered,0.837,2022-02-06,0-18
+PT01417,35,Female,Severe,None,Remdesivir,10,True,True,Recovered,0.834,2022-02-07,19-35
+PT01418,31,Female,Critical,Hypertension,Remdesivir,20,False,True,Recovered,0.831,2022-02-07,19-35
+PT01419,25,Male,Mild,Hypertension,Combination Therapy,3,False,False,Recovered,0.838,2022-02-08,19-35
+PT01420,44,Male,Critical,Heart Disease,Dexamethasone,25,False,False,Deceased,0.881,2022-02-08,36-50
+PT01421,54,Male,Mild,Diabetes,Dexamethasone,1,False,False,Recovered,0.844,2022-02-09,51-65
+PT01422,60,Male,Mild,Hypertension,Combination Therapy,3,False,False,Recovered,0.788,2022-02-09,51-65
+PT01423,52,Female,Mild,Hypertension,Remdesivir,2,False,False,Recovered,0.922,2022-02-10,51-65
+PT01424,36,Female,Mild,Respiratory,Combination Therapy,3,False,False,Recovered,0.816,2022-02-10,36-50
+PT01425,54,Male,Moderate,None,Dexamethasone,11,False,False,Recovered,0.92,2022-02-11,51-65
+PT01426,50,Male,Severe,Diabetes,Combination Therapy,16,True,True,Deceased,0.859,2022-02-11,36-50
+PT01427,64,Female,Moderate,Hypertension,Supportive Care,11,False,True,Recovered,0.783,2022-02-12,51-65
+PT01428,61,Female,Moderate,Respiratory,Remdesivir,10,False,True,Recovered,0.756,2022-02-12,51-65
+PT01429,48,Female,Moderate,None,Monoclonal Antibodies,6,False,False,Recovered,0.833,2022-02-13,36-50
+PT01430,31,Female,Moderate,Diabetes,Combination Therapy,11,False,False,Recovered,0.956,2022-02-13,19-35
+PT01431,36,Female,Mild,None,Monoclonal Antibodies,1,False,False,Recovered,0.863,2022-02-14,36-50
+PT01432,38,Female,Severe,Diabetes,Remdesivir,24,False,True,Recovered,0.936,2022-02-14,36-50
+PT01433,42,Male,Moderate,None,Combination Therapy,6,False,False,Recovered,0.904,2022-02-15,36-50
+PT01434,52,Male,Moderate,None,Dexamethasone,9,False,True,Deceased,0.909,2022-02-15,51-65
+PT01435,60,Male,Moderate,Hypertension,Supportive Care,9,False,True,Recovered,0.855,2022-02-16,51-65
+PT01436,47,Male,Severe,None,Combination Therapy,18,True,False,Recovered,0.877,2022-02-16,36-50
+PT01437,48,Female,Mild,None,Combination Therapy,1,False,False,Recovered,0.902,2022-02-17,36-50
+PT01438,50,Female,Mild,None,Monoclonal Antibodies,1,False,False,Recovered,0.942,2022-02-17,36-50
+PT01439,38,Male,Moderate,None,Dexamethasone,9,False,True,Recovered,0.761,2022-02-18,36-50
+PT01440,31,Male,Moderate,Respiratory,Remdesivir,11,False,True,Recovered,0.927,2022-02-18,19-35
+PT01441,16,Male,Severe,Hypertension,Combination Therapy,13,False,True,Recovered,0.908,2022-02-19,0-18
+PT01442,35,Male,Mild,Heart Disease,Combination Therapy,1,False,False,Recovered,0.939,2022-02-19,19-35
+PT01443,56,Female,Mild,Diabetes,Combination Therapy,3,False,False,Recovered,0.792,2022-02-20,51-65
+PT01444,35,Female,Severe,Obesity,Combination Therapy,15,True,True,Recovered,0.948,2022-02-20,19-35
+PT01445,43,Female,Moderate,Diabetes,Monoclonal Antibodies,6,False,True,Recovered,0.826,2022-02-21,36-50
+PT01446,56,Female,Moderate,Hypertension,Supportive Care,5,False,True,Recovered,0.82,2022-02-21,51-65
+PT01447,57,Female,Mild,Diabetes,Remdesivir,1,False,False,Recovered,0.85,2022-02-22,51-65
+PT01448,28,Male,Mild,Hypertension,Remdesivir,4,False,False,Recovered,0.799,2022-02-22,19-35
+PT01449,65,Male,Moderate,Hypertension,Monoclonal Antibodies,5,False,False,Recovered,0.968,2022-02-23,51-65
+PT01450,68,Male,Severe,None,Supportive Care,16,True,True,Deceased,0.812,2022-02-23,65+
+PT01451,27,Female,Severe,None,Monoclonal Antibodies,23,True,True,Deceased,0.976,2022-02-24,19-35
+PT01452,33,Female,Moderate,Hypertension,Dexamethasone,7,False,False,Recovered,0.791,2022-02-24,19-35
+PT01453,69,Male,Mild,Diabetes,Supportive Care,3,False,False,Recovered,0.79,2022-02-25,65+
+PT01454,45,Male,Moderate,None,Supportive Care,9,False,False,Recovered,0.782,2022-02-25,36-50
+PT01455,8,Male,Moderate,Diabetes,Dexamethasone,10,False,True,Recovered,0.858,2022-02-26,0-18
+PT01456,22,Female,Mild,Diabetes,Combination Therapy,4,False,False,Recovered,0.782,2022-02-26,19-35
+PT01457,43,Male,Mild,Heart Disease,Combination Therapy,3,False,False,Recovered,0.84,2022-02-27,36-50
+PT01458,27,Female,Mild,None,Combination Therapy,4,False,False,Recovered,0.98,2022-02-27,19-35
+PT01459,40,Female,Moderate,None,Supportive Care,10,False,False,Recovered,0.746,2022-02-28,36-50
+PT01460,48,Male,Moderate,Heart Disease,Supportive Care,8,False,False,Deceased,0.85,2022-02-28,36-50
+PT01461,74,Female,Moderate,Hypertension,Supportive Care,10,False,False,Recovered,0.705,2022-03-01,65+
+PT01462,42,Female,Moderate,None,Supportive Care,5,False,False,Recovered,0.857,2022-03-01,36-50
+PT01463,67,Male,Severe,Heart Disease,Combination Therapy,21,True,False,Recovered,0.932,2022-03-02,65+
+PT01464,73,Female,Critical,Diabetes,Dexamethasone,36,False,True,Recovered,0.877,2022-03-02,65+
+PT01465,73,Male,Moderate,Diabetes,Supportive Care,11,False,False,Recovered,0.74,2022-03-03,65+
+PT01466,53,Male,Mild,Respiratory,Combination Therapy,1,False,False,Recovered,0.98,2022-03-03,51-65
+PT01467,12,Female,Severe,Respiratory,Dexamethasone,11,True,True,Recovered,0.829,2022-03-04,0-18
+PT01468,56,Female,Moderate,None,Combination Therapy,9,False,True,Recovered,0.928,2022-03-04,51-65
+PT01469,66,Female,Severe,None,Remdesivir,11,True,False,Recovered,0.76,2022-03-05,65+
+PT01470,46,Female,Moderate,None,Combination Therapy,10,False,True,Recovered,0.917,2022-03-05,36-50
+PT01471,79,Female,Moderate,None,Dexamethasone,9,False,False,Recovered,0.899,2022-03-06,65+
+PT01472,63,Female,Moderate,None,Dexamethasone,11,False,True,Recovered,0.751,2022-03-06,51-65
+PT01473,58,Female,Mild,Diabetes,Monoclonal Antibodies,2,False,False,Recovered,0.921,2022-03-07,51-65
+PT01474,67,Female,Moderate,Respiratory,Supportive Care,5,False,False,Recovered,0.668,2022-03-07,65+
+PT01475,54,Male,Moderate,Obesity,Supportive Care,9,False,True,Recovered,0.844,2022-03-08,51-65
+PT01476,5,Female,Severe,Diabetes,Combination Therapy,15,True,False,Deceased,0.997,2022-03-08,0-18
+PT01477,39,Male,Moderate,Hypertension,Supportive Care,9,False,True,Recovered,0.732,2022-03-09,36-50
+PT01478,69,Female,Mild,None,Supportive Care,2,False,False,Recovered,0.684,2022-03-09,65+
+PT01479,33,Male,Mild,None,Combination Therapy,4,False,False,Recovered,0.923,2022-03-10,19-35
+PT01480,43,Female,Critical,None,Monoclonal Antibodies,44,True,True,Recovered,0.763,2022-03-10,36-50
+PT01481,29,Male,Severe,Hypertension,Remdesivir,15,True,True,Deceased,0.844,2022-03-11,19-35
+PT01482,80,Male,Severe,None,Monoclonal Antibodies,18,True,True,Deceased,0.817,2022-03-11,65+
+PT01483,78,Female,Severe,Obesity,Dexamethasone,10,True,True,Recovered,0.813,2022-03-12,65+
+PT01484,32,Male,Moderate,Hypertension,Combination Therapy,5,False,True,Recovered,0.778,2022-03-12,19-35
+PT01485,50,Female,Mild,None,Remdesivir,2,False,False,Recovered,0.751,2022-03-13,36-50
+PT01486,35,Male,Moderate,None,Combination Therapy,8,False,False,Recovered,0.777,2022-03-13,19-35
+PT01487,59,Male,Mild,Hypertension,Combination Therapy,3,False,False,Recovered,0.914,2022-03-14,51-65
+PT01488,57,Male,Moderate,Obesity,Monoclonal Antibodies,5,False,True,Recovered,0.881,2022-03-14,51-65
+PT01489,62,Female,Moderate,Hypertension,Monoclonal Antibodies,9,False,False,Recovered,0.808,2022-03-15,51-65
+PT01490,53,Male,Mild,None,Monoclonal Antibodies,1,False,False,Recovered,0.9,2022-03-15,51-65
+PT01491,95,Female,Mild,Hypertension,Dexamethasone,4,False,False,Recovered,0.9,2022-03-16,65+
+PT01492,29,Male,Severe,None,Monoclonal Antibodies,13,True,True,Recovered,0.818,2022-03-16,19-35
+PT01493,17,Male,Mild,Respiratory,Combination Therapy,4,False,False,Recovered,0.963,2022-03-17,0-18
+PT01494,40,Male,Moderate,Hypertension,Supportive Care,5,False,True,Recovered,0.792,2022-03-17,36-50
+PT01495,19,Male,Mild,Hypertension,Remdesivir,1,False,False,Recovered,0.747,2022-03-18,19-35
+PT01496,21,Female,Mild,Diabetes,Combination Therapy,4,False,False,Recovered,0.859,2022-03-18,19-35
+PT01497,29,Female,Mild,Hypertension,Monoclonal Antibodies,3,False,False,Recovered,0.869,2022-03-19,19-35
+PT01498,31,Female,Moderate,None,Monoclonal Antibodies,11,False,True,Recovered,0.919,2022-03-19,19-35
+PT01499,30,Male,Mild,None,Combination Therapy,2,False,False,Recovered,0.839,2022-03-20,19-35
+PT01500,57,Male,Severe,Diabetes,Supportive Care,15,True,True,Recovered,0.855,2022-03-20,51-65
+PT01501,38,Male,Moderate,Obesity,Remdesivir,10,False,True,Recovered,0.888,2022-03-21,36-50
+PT01502,44,Female,Mild,Hypertension,Supportive Care,1,False,False,Recovered,0.736,2022-03-21,36-50
+PT01503,64,Male,Moderate,None,Combination Therapy,9,False,True,Recovered,0.796,2022-03-22,51-65
+PT01504,34,Female,Mild,Obesity,Remdesivir,3,False,False,Recovered,0.779,2022-03-22,19-35
+PT01505,43,Male,Moderate,None,Remdesivir,11,False,True,Deceased,0.846,2022-03-23,36-50
+PT01506,54,Male,Mild,None,Remdesivir,3,False,False,Recovered,0.847,2022-03-23,51-65
+PT01507,13,Male,Mild,None,Supportive Care,2,False,False,Recovered,0.813,2022-03-24,0-18
+PT01508,5,Male,Moderate,Hypertension,Remdesivir,10,False,True,Recovered,0.897,2022-03-24,0-18
+PT01509,54,Female,Critical,Diabetes,Combination Therapy,38,False,True,Deceased,0.819,2022-03-25,51-65
+PT01510,56,Male,Mild,Diabetes,Dexamethasone,2,False,False,Recovered,0.839,2022-03-25,51-65
+PT01511,85,Female,Moderate,Hypertension,Combination Therapy,5,False,True,Recovered,0.778,2022-03-26,65+
+PT01512,50,Male,Mild,None,Supportive Care,4,False,False,Recovered,0.741,2022-03-26,36-50
+PT01513,62,Female,Severe,Heart Disease,Combination Therapy,16,True,True,Recovered,0.947,2022-03-27,51-65
+PT01514,44,Male,Moderate,None,Combination Therapy,11,False,True,Recovered,0.864,2022-03-27,36-50
+PT01515,53,Female,Mild,Heart Disease,Combination Therapy,1,False,False,Recovered,0.964,2022-03-28,51-65
+PT01516,78,Female,Severe,Hypertension,Dexamethasone,12,False,True,Recovered,0.919,2022-03-28,65+
+PT01517,9,Female,Mild,Hypertension,Supportive Care,2,False,False,Recovered,0.781,2022-03-29,0-18
+PT01518,55,Male,Mild,Diabetes,Dexamethasone,2,False,False,Recovered,0.744,2022-03-29,51-65
+PT01519,86,Female,Critical,Hypertension,Dexamethasone,30,True,True,Deceased,0.794,2022-03-30,65+
+PT01520,53,Male,Moderate,None,Supportive Care,8,False,True,Deceased,0.665,2022-03-30,51-65
+PT01521,77,Male,Moderate,Heart Disease,Dexamethasone,7,False,True,Recovered,0.841,2022-03-31,65+
+PT01522,36,Male,Mild,None,Supportive Care,3,False,False,Recovered,0.823,2022-03-31,36-50
+PT01523,47,Male,Moderate,None,Dexamethasone,8,False,True,Recovered,0.846,2022-04-01,36-50
+PT01524,48,Female,Moderate,Hypertension,Supportive Care,7,False,True,Recovered,0.816,2022-04-01,36-50
+PT01525,8,Male,Severe,Hypertension,Remdesivir,16,False,False,Recovered,0.913,2022-04-02,0-18
+PT01526,26,Female,Moderate,None,Dexamethasone,11,False,True,Recovered,0.893,2022-04-02,19-35
+PT01527,28,Female,Moderate,Obesity,Dexamethasone,5,False,True,Recovered,0.77,2022-04-03,19-35
+PT01528,62,Female,Moderate,Respiratory,Supportive Care,6,False,True,Recovered,0.833,2022-04-03,51-65
+PT01529,63,Female,Mild,Hypertension,Monoclonal Antibodies,3,False,False,Recovered,0.902,2022-04-04,51-65
+PT01530,53,Male,Mild,Diabetes,Combination Therapy,4,False,False,Recovered,0.839,2022-04-04,51-65
+PT01531,62,Female,Mild,Hypertension,Supportive Care,4,False,False,Recovered,0.856,2022-04-05,51-65
+PT01532,45,Male,Mild,None,Combination Therapy,1,False,False,Recovered,0.99,2022-04-05,36-50
+PT01533,69,Female,Severe,Diabetes,Monoclonal Antibodies,13,True,True,Recovered,0.884,2022-04-06,65+
+PT01534,48,Female,Mild,Obesity,Supportive Care,1,False,False,Recovered,0.827,2022-04-06,36-50
+PT01535,49,Female,Moderate,Respiratory,Remdesivir,9,False,True,Recovered,0.796,2022-04-07,36-50
+PT01536,43,Male,Mild,Obesity,Supportive Care,4,False,False,Recovered,0.744,2022-04-07,36-50
+PT01537,60,Male,Severe,None,Combination Therapy,16,True,True,Recovered,0.815,2022-04-08,51-65
+PT01538,40,Male,Severe,None,Remdesivir,22,False,True,Recovered,0.853,2022-04-08,36-50
+PT01539,65,Male,Mild,None,Dexamethasone,4,False,False,Recovered,0.818,2022-04-09,51-65
+PT01540,27,Male,Mild,Diabetes,Monoclonal Antibodies,2,False,False,Recovered,0.804,2022-04-09,19-35
+PT01541,28,Female,Moderate,None,Monoclonal Antibodies,5,False,False,Recovered,0.906,2022-04-10,19-35
+PT01542,60,Male,Mild,None,Supportive Care,3,False,False,Recovered,0.686,2022-04-10,51-65
+PT01543,46,Male,Mild,Hypertension,Monoclonal Antibodies,3,False,False,Recovered,0.77,2022-04-11,36-50
+PT01544,39,Female,Mild,Heart Disease,Supportive Care,3,False,False,Recovered,0.738,2022-04-11,36-50
+PT01545,64,Female,Severe,Hypertension,Remdesivir,12,True,True,Recovered,0.829,2022-04-12,51-65
+PT01546,37,Male,Severe,Heart Disease,Dexamethasone,23,True,True,Recovered,0.781,2022-04-12,36-50
+PT01547,44,Male,Moderate,None,Remdesivir,10,False,True,Recovered,0.796,2022-04-13,36-50
+PT01548,73,Male,Severe,None,Remdesivir,14,False,True,Recovered,0.813,2022-04-13,65+
+PT01549,75,Male,Moderate,Heart Disease,Remdesivir,9,False,True,Deceased,0.775,2022-04-14,65+
+PT01550,76,Female,Moderate,Diabetes,Combination Therapy,5,False,True,Deceased,0.865,2022-04-14,65+
+PT01551,42,Male,Critical,Hypertension,Supportive Care,29,True,True,Recovered,0.839,2022-04-15,36-50
+PT01552,70,Female,Moderate,None,Supportive Care,5,False,True,Recovered,0.707,2022-04-15,65+
+PT01553,30,Female,Mild,None,Combination Therapy,4,False,False,Recovered,0.929,2022-04-16,19-35
+PT01554,31,Female,Moderate,Hypertension,Monoclonal Antibodies,9,False,True,Deceased,0.788,2022-04-16,19-35
+PT01555,5,Male,Moderate,Heart Disease,Combination Therapy,5,False,True,Recovered,0.854,2022-04-17,0-18
+PT01556,78,Male,Moderate,Obesity,Monoclonal Antibodies,10,False,True,Recovered,0.828,2022-04-17,65+
+PT01557,32,Female,Mild,Diabetes,Combination Therapy,4,False,False,Recovered,0.987,2022-04-18,19-35
+PT01558,45,Male,Severe,Diabetes,Dexamethasone,18,False,False,Recovered,0.804,2022-04-18,36-50
+PT01559,31,Male,Severe,Heart Disease,Monoclonal Antibodies,21,True,True,Recovered,0.91,2022-04-19,19-35
+PT01560,60,Male,Mild,Diabetes,Dexamethasone,3,False,False,Recovered,0.841,2022-04-19,51-65
+PT01561,41,Male,Severe,Diabetes,Combination Therapy,21,True,True,Recovered,0.806,2022-04-20,36-50
+PT01562,24,Female,Moderate,Obesity,Dexamethasone,5,False,False,Recovered,0.911,2022-04-20,19-35
+PT01563,55,Male,Severe,Heart Disease,Combination Therapy,22,True,True,Deceased,0.852,2022-04-21,51-65
+PT01564,22,Male,Mild,Obesity,Monoclonal Antibodies,3,False,False,Recovered,0.766,2022-04-21,19-35
+PT01565,32,Male,Mild,None,Remdesivir,3,False,False,Recovered,0.805,2022-04-22,19-35
+PT01566,10,Female,Mild,Diabetes,Monoclonal Antibodies,2,False,False,Recovered,0.831,2022-04-22,0-18
+PT01567,22,Female,Moderate,Heart Disease,Remdesivir,9,False,True,Recovered,0.76,2022-04-23,19-35
+PT01568,51,Female,Moderate,None,Dexamethasone,5,False,True,Recovered,0.844,2022-04-23,51-65
+PT01569,12,Male,Mild,Heart Disease,Remdesivir,1,False,False,Recovered,0.815,2022-04-24,0-18
+PT01570,21,Male,Critical,None,Supportive Care,43,False,True,Deceased,0.786,2022-04-24,19-35
+PT01571,47,Male,Mild,Heart Disease,Remdesivir,3,False,False,Recovered,0.741,2022-04-25,36-50
+PT01572,38,Female,Mild,Hypertension,Combination Therapy,3,False,False,Recovered,0.997,2022-04-25,36-50
+PT01573,83,Female,Mild,None,Dexamethasone,2,False,False,Recovered,0.75,2022-04-26,65+
+PT01574,81,Female,Mild,Diabetes,Remdesivir,3,False,False,Recovered,0.883,2022-04-26,65+
+PT01575,32,Male,Mild,Hypertension,Supportive Care,1,False,False,Recovered,0.803,2022-04-27,19-35
+PT01576,58,Female,Moderate,Hypertension,Remdesivir,6,False,True,Recovered,0.777,2022-04-27,51-65
+PT01577,61,Male,Moderate,Diabetes,Dexamethasone,9,False,True,Recovered,0.737,2022-04-28,51-65
+PT01578,37,Female,Moderate,Obesity,Dexamethasone,10,False,True,Recovered,0.746,2022-04-28,36-50
+PT01579,21,Male,Moderate,Diabetes,Combination Therapy,8,False,True,Recovered,0.83,2022-04-29,19-35
+PT01580,47,Female,Mild,Diabetes,Combination Therapy,2,False,False,Recovered,0.812,2022-04-29,36-50
+PT01581,44,Male,Moderate,None,Remdesivir,7,False,True,Recovered,0.886,2022-04-30,36-50
+PT01582,40,Male,Severe,Obesity,Dexamethasone,20,True,True,Recovered,0.802,2022-04-30,36-50
+PT01583,55,Female,Mild,None,Combination Therapy,2,False,False,Recovered,0.896,2022-05-01,51-65
+PT01584,34,Male,Mild,Diabetes,Dexamethasone,3,False,False,Recovered,0.724,2022-05-01,19-35
+PT01585,27,Female,Severe,Heart Disease,Monoclonal Antibodies,11,True,True,Recovered,0.948,2022-05-02,19-35
+PT01586,49,Female,Mild,None,Supportive Care,4,False,False,Recovered,0.696,2022-05-02,36-50
+PT01587,54,Female,Moderate,Diabetes,Combination Therapy,7,False,True,Recovered,0.855,2022-05-03,51-65
+PT01588,26,Male,Critical,None,Dexamethasone,33,True,True,Deceased,0.729,2022-05-03,19-35
+PT01589,64,Male,Mild,Hypertension,Supportive Care,3,False,False,Recovered,0.69,2022-05-04,51-65
+PT01590,16,Female,Mild,Hypertension,Supportive Care,1,False,False,Recovered,0.793,2022-05-04,0-18
+PT01591,37,Male,Severe,Heart Disease,Combination Therapy,13,False,True,Recovered,0.931,2022-05-05,36-50
+PT01592,43,Female,Severe,Obesity,Supportive Care,22,True,True,Recovered,0.795,2022-05-05,36-50
+PT01593,36,Male,Moderate,Hypertension,Supportive Care,8,False,True,Recovered,0.771,2022-05-06,36-50
+PT01594,37,Male,Moderate,Hypertension,Combination Therapy,9,False,True,Recovered,0.99,2022-05-06,36-50
+PT01595,81,Male,Moderate,Diabetes,Dexamethasone,11,False,False,Recovered,0.821,2022-05-07,65+
+PT01596,32,Male,Moderate,Diabetes,Supportive Care,10,False,True,Recovered,0.751,2022-05-07,19-35
+PT01597,91,Male,Mild,Hypertension,Remdesivir,4,False,False,Recovered,0.793,2022-05-08,65+
+PT01598,55,Female,Mild,Obesity,Supportive Care,4,False,False,Recovered,0.682,2022-05-08,51-65
+PT01599,49,Female,Moderate,Diabetes,Supportive Care,7,False,True,Recovered,0.77,2022-05-09,36-50
+PT01600,56,Male,Severe,None,Supportive Care,14,True,True,Recovered,0.724,2022-05-09,51-65
+PT01601,93,Female,Severe,Diabetes,Combination Therapy,18,False,True,Recovered,0.893,2022-05-10,65+
+PT01602,30,Male,Critical,Diabetes,Remdesivir,34,True,True,Deceased,0.784,2022-05-10,19-35
+PT01603,27,Female,Severe,None,Remdesivir,16,True,True,Recovered,0.922,2022-05-11,19-35
+PT01604,34,Female,Moderate,Diabetes,Supportive Care,7,False,False,Deceased,0.858,2022-05-11,19-35
+PT01605,48,Female,Mild,Diabetes,Monoclonal Antibodies,3,False,False,Recovered,0.828,2022-05-12,36-50
+PT01606,16,Male,Moderate,Hypertension,Combination Therapy,8,False,True,Recovered,0.965,2022-05-12,0-18
+PT01607,48,Male,Moderate,None,Remdesivir,5,False,True,Recovered,0.929,2022-05-13,36-50
+PT01608,78,Male,Critical,Hypertension,Monoclonal Antibodies,26,True,True,Recovered,0.978,2022-05-13,65+
+PT01609,50,Female,Mild,Obesity,Monoclonal Antibodies,4,False,False,Recovered,0.833,2022-05-14,36-50
+PT01610,42,Male,Severe,Respiratory,Combination Therapy,17,True,True,Recovered,0.945,2022-05-14,36-50
+PT01611,36,Female,Moderate,Hypertension,Combination Therapy,11,False,False,Recovered,0.826,2022-05-15,36-50
+PT01612,64,Male,Mild,None,Supportive Care,2,False,False,Recovered,0.785,2022-05-15,51-65
+PT01613,33,Female,Moderate,Respiratory,Supportive Care,5,False,True,Recovered,0.8,2022-05-16,19-35
+PT01614,81,Male,Critical,Hypertension,Monoclonal Antibodies,24,False,True,Recovered,0.921,2022-05-16,65+
+PT01615,82,Male,Moderate,None,Remdesivir,6,False,False,Recovered,0.785,2022-05-17,65+
+PT01616,52,Male,Severe,None,Combination Therapy,18,True,True,Recovered,0.967,2022-05-17,51-65
+PT01617,47,Male,Mild,None,Combination Therapy,4,False,False,Recovered,0.869,2022-05-18,36-50
+PT01618,66,Male,Moderate,None,Monoclonal Antibodies,5,False,True,Recovered,0.805,2022-05-18,65+
+PT01619,67,Female,Severe,None,Supportive Care,12,True,True,Recovered,0.769,2022-05-19,65+
+PT01620,33,Male,Moderate,Obesity,Monoclonal Antibodies,9,False,True,Recovered,0.949,2022-05-19,19-35
+PT01621,38,Male,Critical,Diabetes,Combination Therapy,29,False,False,Deceased,0.994,2022-05-20,36-50
+PT01622,24,Female,Severe,Hypertension,Supportive Care,10,False,False,Recovered,0.809,2022-05-20,19-35
+PT01623,55,Male,Severe,Heart Disease,Combination Therapy,18,True,True,Recovered,0.775,2022-05-21,51-65
+PT01624,59,Female,Mild,Heart Disease,Combination Therapy,1,False,False,Recovered,0.804,2022-05-21,51-65
+PT01625,23,Female,Mild,Obesity,Dexamethasone,3,False,False,Recovered,0.73,2022-05-22,19-35
+PT01626,39,Male,Moderate,Respiratory,Supportive Care,8,False,True,Recovered,0.683,2022-05-22,36-50
+PT01627,23,Male,Mild,Diabetes,Monoclonal Antibodies,3,False,False,Recovered,0.842,2022-05-23,19-35
+PT01628,31,Male,Severe,Respiratory,Dexamethasone,14,True,True,Recovered,0.785,2022-05-23,19-35
+PT01629,57,Female,Moderate,Hypertension,Remdesivir,11,False,True,Recovered,0.764,2022-05-24,51-65
+PT01630,34,Female,Critical,None,Supportive Care,36,True,True,Recovered,0.835,2022-05-24,19-35
+PT01631,42,Female,Mild,Hypertension,Combination Therapy,2,False,False,Recovered,0.914,2022-05-25,36-50
+PT01632,18,Female,Moderate,Hypertension,Monoclonal Antibodies,5,False,True,Recovered,0.934,2022-05-25,0-18
+PT01633,51,Male,Moderate,Obesity,Dexamethasone,11,False,True,Recovered,0.792,2022-05-26,51-65
+PT01634,47,Female,Mild,None,Remdesivir,3,False,False,Recovered,0.829,2022-05-26,36-50
+PT01635,34,Female,Moderate,Hypertension,Combination Therapy,11,False,True,Recovered,0.846,2022-05-27,19-35
+PT01636,44,Female,Mild,None,Remdesivir,2,False,False,Recovered,0.835,2022-05-27,36-50
+PT01637,51,Female,Mild,None,Dexamethasone,4,False,False,Recovered,0.842,2022-05-28,51-65
+PT01638,33,Female,Mild,None,Remdesivir,3,False,False,Recovered,0.847,2022-05-28,19-35
+PT01639,21,Male,Mild,Diabetes,Dexamethasone,2,False,False,Recovered,0.89,2022-05-29,19-35
+PT01640,80,Male,Moderate,Heart Disease,Remdesivir,7,False,True,Recovered,0.935,2022-05-29,65+
+PT01641,36,Male,Mild,None,Monoclonal Antibodies,2,False,False,Recovered,0.861,2022-05-30,36-50
+PT01642,46,Male,Mild,Diabetes,Dexamethasone,2,False,False,Recovered,0.764,2022-05-30,36-50
+PT01643,66,Female,Mild,None,Combination Therapy,4,False,False,Recovered,0.989,2022-05-31,65+
+PT01644,95,Male,Severe,None,Monoclonal Antibodies,24,True,True,Recovered,0.92,2022-05-31,65+
+PT01645,25,Female,Mild,Diabetes,Combination Therapy,1,False,False,Recovered,0.919,2022-06-01,19-35
+PT01646,56,Male,Mild,None,Combination Therapy,3,False,False,Recovered,0.943,2022-06-01,51-65
+PT01647,35,Male,Moderate,Hypertension,Supportive Care,11,False,True,Recovered,0.678,2022-06-02,19-35
+PT01648,38,Female,Moderate,None,Supportive Care,7,False,True,Recovered,0.676,2022-06-02,36-50
+PT01649,35,Female,Moderate,None,Supportive Care,9,False,True,Recovered,0.693,2022-06-03,19-35
+PT01650,27,Male,Severe,Diabetes,Combination Therapy,12,True,False,Recovered,0.807,2022-06-03,19-35
+PT01651,47,Male,Moderate,Hypertension,Monoclonal Antibodies,10,False,True,Recovered,0.85,2022-06-04,36-50
+PT01652,21,Male,Moderate,None,Combination Therapy,7,False,False,Recovered,0.809,2022-06-04,19-35
+PT01653,65,Male,Severe,Hypertension,Dexamethasone,13,True,True,Recovered,0.893,2022-06-05,51-65
+PT01654,48,Male,Mild,Heart Disease,Monoclonal Antibodies,2,False,False,Recovered,0.885,2022-06-05,36-50
+PT01655,55,Male,Moderate,Hypertension,Combination Therapy,7,False,True,Recovered,0.857,2022-06-06,51-65
+PT01656,39,Female,Mild,None,Monoclonal Antibodies,3,False,False,Recovered,0.772,2022-06-06,36-50
+PT01657,41,Female,Mild,Hypertension,Remdesivir,4,False,False,Recovered,0.868,2022-06-07,36-50
+PT01658,53,Female,Moderate,Hypertension,Dexamethasone,11,False,True,Recovered,0.738,2022-06-07,51-65
+PT01659,27,Female,Mild,None,Monoclonal Antibodies,1,False,False,Recovered,0.922,2022-06-08,19-35
+PT01660,41,Male,Mild,Heart Disease,Dexamethasone,1,False,False,Recovered,0.883,2022-06-08,36-50
+PT01661,32,Female,Mild,Obesity,Monoclonal Antibodies,2,False,False,Recovered,0.878,2022-06-09,19-35
+PT01662,31,Male,Mild,Heart Disease,Monoclonal Antibodies,2,False,False,Recovered,0.79,2022-06-09,19-35
+PT01663,10,Female,Mild,Heart Disease,Monoclonal Antibodies,3,False,False,Recovered,0.932,2022-06-10,0-18
+PT01664,72,Male,Mild,Hypertension,Combination Therapy,4,False,False,Recovered,0.844,2022-06-10,65+
+PT01665,35,Male,Moderate,Hypertension,Combination Therapy,7,False,True,Recovered,0.824,2022-06-11,19-35
+PT01666,68,Female,Moderate,Hypertension,Supportive Care,10,False,True,Recovered,0.755,2022-06-11,65+
+PT01667,67,Female,Critical,Heart Disease,Supportive Care,34,True,False,Deceased,0.843,2022-06-12,65+
+PT01668,24,Female,Critical,Hypertension,Combination Therapy,23,False,True,Deceased,0.841,2022-06-12,19-35
+PT01669,28,Female,Moderate,None,Monoclonal Antibodies,6,False,True,Recovered,0.958,2022-06-13,19-35
+PT01670,94,Male,Moderate,None,Combination Therapy,8,False,False,Recovered,0.786,2022-06-13,65+
+PT01671,79,Male,Mild,Obesity,Monoclonal Antibodies,1,False,False,Recovered,0.775,2022-06-14,65+
+PT01672,47,Male,Moderate,None,Remdesivir,11,False,True,Recovered,0.891,2022-06-14,36-50
+PT01673,52,Female,Moderate,Hypertension,Remdesivir,7,False,True,Recovered,0.781,2022-06-15,51-65
+PT01674,36,Female,Mild,Respiratory,Combination Therapy,3,False,False,Recovered,0.846,2022-06-15,36-50
+PT01675,55,Male,Moderate,Hypertension,Dexamethasone,5,False,True,Recovered,0.743,2022-06-16,51-65
+PT01676,35,Female,Severe,Respiratory,Supportive Care,13,True,True,Recovered,0.728,2022-06-16,19-35
+PT01677,11,Female,Moderate,Hypertension,Remdesivir,10,False,True,Recovered,0.801,2022-06-17,0-18
+PT01678,24,Male,Moderate,None,Monoclonal Antibodies,7,False,True,Recovered,0.92,2022-06-17,19-35
+PT01679,48,Female,Moderate,Heart Disease,Dexamethasone,9,False,True,Recovered,0.861,2022-06-18,36-50
+PT01680,27,Female,Severe,None,Combination Therapy,24,True,False,Deceased,0.991,2022-06-18,19-35
+PT01681,46,Female,Mild,Diabetes,Dexamethasone,4,False,False,Recovered,0.866,2022-06-19,36-50
+PT01682,28,Male,Moderate,None,Combination Therapy,11,False,True,Recovered,0.932,2022-06-19,19-35
+PT01683,33,Male,Mild,None,Remdesivir,3,False,False,Recovered,0.89,2022-06-20,19-35
+PT01684,63,Male,Moderate,Diabetes,Remdesivir,7,False,False,Recovered,0.932,2022-06-20,51-65
+PT01685,52,Male,Moderate,None,Supportive Care,11,False,True,Recovered,0.721,2022-06-21,51-65
+PT01686,47,Female,Mild,Hypertension,Remdesivir,1,False,False,Recovered,0.805,2022-06-21,36-50
+PT01687,63,Male,Moderate,Heart Disease,Dexamethasone,11,False,True,Recovered,0.87,2022-06-22,51-65
+PT01688,56,Female,Mild,None,Supportive Care,3,False,False,Recovered,0.708,2022-06-22,51-65
+PT01689,74,Male,Moderate,None,Remdesivir,9,False,True,Recovered,0.938,2022-06-23,65+
+PT01690,39,Male,Mild,Hypertension,Combination Therapy,4,False,False,Recovered,0.895,2022-06-23,36-50
+PT01691,40,Male,Mild,Hypertension,Remdesivir,2,False,False,Recovered,0.805,2022-06-24,36-50
+PT01692,24,Female,Mild,Obesity,Dexamethasone,2,False,False,Recovered,0.877,2022-06-24,19-35
+PT01693,40,Female,Mild,None,Combination Therapy,4,False,False,Recovered,0.845,2022-06-25,36-50
+PT01694,65,Male,Moderate,Heart Disease,Remdesivir,5,False,True,Recovered,0.949,2022-06-25,51-65
+PT01695,71,Female,Critical,Diabetes,Monoclonal Antibodies,41,True,True,Deceased,0.975,2022-06-26,65+
+PT01696,65,Male,Moderate,Hypertension,Monoclonal Antibodies,8,False,True,Recovered,0.905,2022-06-26,51-65
+PT01697,15,Male,Mild,None,Remdesivir,1,False,False,Recovered,0.764,2022-06-27,0-18
+PT01698,67,Female,Severe,Diabetes,Monoclonal Antibodies,10,False,True,Deceased,0.815,2022-06-27,65+
+PT01699,14,Male,Moderate,None,Dexamethasone,6,False,False,Recovered,0.822,2022-06-28,0-18
+PT01700,64,Female,Mild,None,Remdesivir,4,False,False,Recovered,0.925,2022-06-28,51-65
+PT01701,41,Male,Severe,Diabetes,Remdesivir,19,True,True,Recovered,0.78,2022-06-29,36-50
+PT01702,60,Male,Mild,Heart Disease,Dexamethasone,2,False,False,Recovered,0.736,2022-06-29,51-65
+PT01703,24,Male,Moderate,Hypertension,Combination Therapy,5,False,True,Recovered,0.79,2022-06-30,19-35
+PT01704,69,Female,Moderate,Hypertension,Dexamethasone,6,False,True,Deceased,0.82,2022-06-30,65+
+PT01705,21,Male,Mild,Diabetes,Supportive Care,2,False,False,Recovered,0.836,2022-07-01,19-35
+PT01706,35,Female,Severe,Diabetes,Supportive Care,23,True,True,Deceased,0.671,2022-07-01,19-35
+PT01707,30,Male,Mild,Respiratory,Dexamethasone,1,False,False,Recovered,0.759,2022-07-02,19-35
+PT01708,16,Male,Mild,Hypertension,Supportive Care,1,False,False,Recovered,0.798,2022-07-02,0-18
+PT01709,49,Female,Severe,None,Monoclonal Antibodies,14,False,True,Recovered,0.94,2022-07-03,36-50
+PT01710,80,Male,Severe,None,Remdesivir,23,True,True,Deceased,0.915,2022-07-03,65+
+PT01711,95,Female,Severe,Hypertension,Dexamethasone,22,True,False,Recovered,0.879,2022-07-04,65+
+PT01712,49,Male,Moderate,Diabetes,Combination Therapy,11,False,False,Recovered,0.803,2022-07-04,36-50
+PT01713,68,Female,Mild,None,Combination Therapy,4,False,False,Recovered,0.864,2022-07-05,65+
+PT01714,52,Male,Moderate,Heart Disease,Combination Therapy,9,False,True,Recovered,0.998,2022-07-05,51-65
+PT01715,56,Female,Mild,Hypertension,Dexamethasone,3,False,False,Recovered,0.922,2022-07-06,51-65
+PT01716,41,Male,Mild,Hypertension,Combination Therapy,4,False,False,Recovered,0.911,2022-07-06,36-50
+PT01717,51,Male,Moderate,None,Combination Therapy,8,False,True,Recovered,0.935,2022-07-07,51-65
+PT01718,57,Male,Mild,None,Combination Therapy,2,False,False,Recovered,0.99,2022-07-07,51-65
+PT01719,37,Male,Mild,Obesity,Remdesivir,2,False,False,Recovered,0.837,2022-07-08,36-50
+PT01720,46,Male,Mild,Obesity,Combination Therapy,4,False,False,Recovered,0.805,2022-07-08,36-50
+PT01721,46,Male,Mild,None,Dexamethasone,4,False,False,Recovered,0.854,2022-07-09,36-50
+PT01722,62,Female,Mild,None,Combination Therapy,1,False,False,Recovered,0.992,2022-07-09,51-65
+PT01723,28,Female,Mild,Diabetes,Monoclonal Antibodies,1,False,False,Recovered,0.912,2022-07-10,19-35
+PT01724,47,Female,Mild,None,Combination Therapy,2,False,False,Recovered,0.956,2022-07-10,36-50
+PT01725,82,Female,Critical,Hypertension,Remdesivir,37,True,True,Deceased,0.831,2022-07-11,65+
+PT01726,68,Male,Moderate,Respiratory,Combination Therapy,6,False,True,Recovered,0.795,2022-07-11,65+
+PT01727,72,Male,Moderate,None,Supportive Care,9,False,True,Deceased,0.696,2022-07-12,65+
+PT01728,48,Male,Moderate,None,Supportive Care,8,False,True,Recovered,0.855,2022-07-12,36-50
+PT01729,53,Female,Mild,Obesity,Combination Therapy,1,False,False,Recovered,0.886,2022-07-13,51-65
+PT01730,66,Male,Critical,None,Dexamethasone,31,True,True,Deceased,0.717,2022-07-13,65+
+PT01731,76,Male,Moderate,Respiratory,Combination Therapy,8,False,False,Recovered,0.991,2022-07-14,65+
+PT01732,12,Female,Moderate,Hypertension,Combination Therapy,10,False,False,Recovered,0.887,2022-07-14,0-18
+PT01733,24,Male,Moderate,Respiratory,Monoclonal Antibodies,8,False,True,Recovered,0.943,2022-07-15,19-35
+PT01734,71,Female,Mild,None,Combination Therapy,4,False,False,Recovered,0.898,2022-07-15,65+
+PT01735,43,Female,Mild,None,Combination Therapy,3,False,False,Recovered,0.797,2022-07-16,36-50
+PT01736,35,Male,Mild,Diabetes,Combination Therapy,1,False,False,Recovered,0.914,2022-07-16,19-35
+PT01737,25,Male,Moderate,Diabetes,Dexamethasone,10,False,True,Recovered,0.923,2022-07-17,19-35
+PT01738,38,Male,Mild,None,Supportive Care,3,False,False,Recovered,0.67,2022-07-17,36-50
+PT01739,22,Female,Moderate,Respiratory,Combination Therapy,5,False,True,Recovered,0.965,2022-07-18,19-35
+PT01740,85,Male,Moderate,Heart Disease,Monoclonal Antibodies,8,False,True,Recovered,0.809,2022-07-18,65+
+PT01741,47,Female,Moderate,Hypertension,Combination Therapy,11,False,True,Recovered,0.863,2022-07-19,36-50
+PT01742,46,Female,Severe,None,Remdesivir,22,True,True,Recovered,0.821,2022-07-19,36-50
+PT01743,58,Male,Severe,Hypertension,Combination Therapy,20,False,True,Recovered,0.978,2022-07-20,51-65
+PT01744,65,Male,Moderate,Hypertension,Remdesivir,5,False,True,Recovered,0.849,2022-07-20,51-65
+PT01745,65,Female,Moderate,Diabetes,Dexamethasone,7,False,True,Recovered,0.808,2022-07-21,51-65
+PT01746,67,Male,Moderate,Obesity,Dexamethasone,6,False,False,Recovered,0.886,2022-07-21,65+
+PT01747,36,Female,Severe,None,Supportive Care,24,True,True,Recovered,0.673,2022-07-22,36-50
+PT01748,42,Male,Moderate,None,Combination Therapy,7,False,True,Recovered,0.793,2022-07-22,36-50
+PT01749,61,Female,Mild,None,Remdesivir,4,False,False,Recovered,0.744,2022-07-23,51-65
+PT01750,38,Female,Mild,Heart Disease,Combination Therapy,3,False,False,Recovered,0.93,2022-07-23,36-50
+PT01751,47,Female,Mild,Hypertension,Dexamethasone,1,False,False,Recovered,0.824,2022-07-24,36-50
+PT01752,55,Male,Moderate,None,Monoclonal Antibodies,6,False,True,Recovered,0.951,2022-07-24,51-65
+PT01753,62,Male,Moderate,None,Combination Therapy,9,False,True,Recovered,0.887,2022-07-25,51-65
+PT01754,16,Female,Mild,None,Supportive Care,3,False,False,Recovered,0.706,2022-07-25,0-18
+PT01755,60,Male,Mild,None,Remdesivir,1,False,False,Recovered,0.915,2022-07-26,51-65
+PT01756,43,Male,Severe,Diabetes,Supportive Care,22,True,True,Recovered,0.72,2022-07-26,36-50
+PT01757,60,Female,Moderate,None,Supportive Care,5,False,True,Recovered,0.845,2022-07-27,51-65
+PT01758,61,Male,Severe,None,Monoclonal Antibodies,22,True,True,Recovered,0.812,2022-07-27,51-65
+PT01759,76,Male,Mild,Obesity,Remdesivir,4,False,False,Recovered,0.776,2022-07-28,65+
+PT01760,72,Male,Moderate,Diabetes,Combination Therapy,9,False,False,Recovered,0.886,2022-07-28,65+
+PT01761,72,Female,Moderate,Hypertension,Combination Therapy,8,False,True,Recovered,0.785,2022-07-29,65+
+PT01762,73,Female,Severe,None,Remdesivir,21,True,False,Recovered,0.747,2022-07-29,65+
+PT01763,53,Male,Mild,None,Dexamethasone,3,False,False,Recovered,0.818,2022-07-30,51-65
+PT01764,48,Male,Mild,Diabetes,Monoclonal Antibodies,4,False,False,Recovered,0.804,2022-07-30,36-50
+PT01765,63,Male,Mild,None,Combination Therapy,2,False,False,Recovered,0.776,2022-07-31,51-65
+PT01766,61,Female,Critical,None,Monoclonal Antibodies,38,False,True,Recovered,0.822,2022-07-31,51-65
+PT01767,42,Male,Mild,Obesity,Remdesivir,4,False,False,Recovered,0.843,2022-08-01,36-50
+PT01768,55,Female,Mild,Obesity,Supportive Care,4,False,False,Recovered,0.74,2022-08-01,51-65
+PT01769,47,Male,Moderate,None,Combination Therapy,11,False,True,Recovered,0.804,2022-08-02,36-50
+PT01770,32,Female,Mild,None,Combination Therapy,2,False,False,Recovered,0.905,2022-08-02,19-35
+PT01771,71,Male,Moderate,Respiratory,Monoclonal Antibodies,7,False,True,Recovered,0.915,2022-08-03,65+
+PT01772,48,Female,Mild,None,Remdesivir,4,False,False,Recovered,0.886,2022-08-03,36-50
+PT01773,84,Male,Severe,Hypertension,Monoclonal Antibodies,17,True,False,Deceased,0.844,2022-08-04,65+
+PT01774,18,Male,Mild,Respiratory,Combination Therapy,4,False,False,Recovered,0.805,2022-08-04,0-18
+PT01775,37,Female,Moderate,Respiratory,Dexamethasone,7,False,False,Recovered,0.819,2022-08-05,36-50
+PT01776,48,Female,Moderate,Diabetes,Monoclonal Antibodies,5,False,False,Recovered,0.955,2022-08-05,36-50
+PT01777,68,Male,Critical,None,Combination Therapy,37,True,True,Recovered,0.88,2022-08-06,65+
+PT01778,55,Female,Severe,None,Supportive Care,15,True,True,Deceased,0.701,2022-08-06,51-65
+PT01779,53,Female,Moderate,Obesity,Dexamethasone,6,False,True,Recovered,0.734,2022-08-07,51-65
+PT01780,27,Female,Mild,Obesity,Supportive Care,3,False,False,Recovered,0.847,2022-08-07,19-35
+PT01781,27,Male,Moderate,Hypertension,Combination Therapy,9,False,True,Recovered,0.943,2022-08-08,19-35
+PT01782,53,Male,Moderate,Heart Disease,Remdesivir,7,False,True,Recovered,0.808,2022-08-08,51-65
+PT01783,23,Male,Severe,Hypertension,Combination Therapy,14,True,True,Recovered,0.841,2022-08-09,19-35
+PT01784,38,Male,Mild,Hypertension,Remdesivir,2,False,False,Recovered,0.934,2022-08-09,36-50
+PT01785,57,Female,Mild,Heart Disease,Dexamethasone,4,False,False,Recovered,0.751,2022-08-10,51-65
+PT01786,30,Male,Moderate,Hypertension,Remdesivir,5,False,False,Recovered,0.856,2022-08-10,19-35
+PT01787,76,Male,Moderate,Diabetes,Remdesivir,11,False,True,Recovered,0.895,2022-08-11,65+
+PT01788,70,Female,Severe,None,Remdesivir,11,False,True,Recovered,0.826,2022-08-11,65+
+PT01789,19,Female,Mild,Hypertension,Combination Therapy,1,False,False,Recovered,0.783,2022-08-12,19-35
+PT01790,31,Male,Moderate,Diabetes,Combination Therapy,7,False,True,Recovered,0.825,2022-08-12,19-35
+PT01791,6,Male,Critical,None,Combination Therapy,44,True,True,Recovered,0.979,2022-08-13,0-18
+PT01792,33,Female,Moderate,Heart Disease,Dexamethasone,6,False,True,Recovered,0.824,2022-08-13,19-35
+PT01793,61,Male,Mild,Hypertension,Combination Therapy,3,False,False,Recovered,0.959,2022-08-14,51-65
+PT01794,40,Female,Mild,Obesity,Supportive Care,2,False,False,Recovered,0.771,2022-08-14,36-50
+PT01795,56,Female,Mild,None,Dexamethasone,4,False,False,Recovered,0.912,2022-08-15,51-65
+PT01796,20,Male,Moderate,Hypertension,Monoclonal Antibodies,11,False,True,Recovered,0.959,2022-08-15,19-35
+PT01797,62,Female,Moderate,None,Combination Therapy,6,False,True,Recovered,0.883,2022-08-16,51-65
+PT01798,38,Female,Mild,Obesity,Supportive Care,1,False,False,Recovered,0.725,2022-08-16,36-50
+PT01799,48,Male,Moderate,None,Dexamethasone,10,False,True,Recovered,0.84,2022-08-17,36-50
+PT01800,46,Female,Moderate,Hypertension,Remdesivir,7,False,False,Recovered,0.886,2022-08-17,36-50
+PT01801,25,Female,Mild,Heart Disease,Supportive Care,2,False,False,Recovered,0.76,2022-08-18,19-35
+PT01802,27,Female,Mild,None,Supportive Care,2,False,False,Recovered,0.823,2022-08-18,19-35
+PT01803,65,Female,Critical,Respiratory,Remdesivir,24,True,True,Recovered,0.779,2022-08-19,51-65
+PT01804,55,Male,Mild,Heart Disease,Dexamethasone,1,False,False,Recovered,0.784,2022-08-19,51-65
+PT01805,66,Male,Moderate,None,Combination Therapy,7,False,False,Recovered,0.93,2022-08-20,65+
+PT01806,53,Male,Moderate,None,Combination Therapy,8,False,True,Recovered,0.83,2022-08-20,51-65
+PT01807,50,Male,Moderate,None,Supportive Care,11,False,True,Recovered,0.749,2022-08-21,36-50
+PT01808,16,Male,Moderate,None,Remdesivir,6,False,True,Recovered,0.949,2022-08-21,0-18
+PT01809,43,Female,Moderate,Obesity,Combination Therapy,10,False,True,Recovered,0.916,2022-08-22,36-50
+PT01810,47,Female,Severe,Respiratory,Remdesivir,14,True,True,Recovered,0.946,2022-08-22,36-50
+PT01811,83,Female,Critical,None,Dexamethasone,41,True,True,Recovered,0.866,2022-08-23,65+
+PT01812,60,Female,Moderate,Diabetes,Remdesivir,6,False,True,Recovered,0.897,2022-08-23,51-65
+PT01813,75,Female,Mild,Diabetes,Monoclonal Antibodies,2,False,False,Recovered,0.888,2022-08-24,65+
+PT01814,58,Male,Mild,None,Combination Therapy,1,False,False,Recovered,0.806,2022-08-24,51-65
+PT01815,35,Female,Moderate,None,Supportive Care,5,False,False,Recovered,0.764,2022-08-25,19-35
+PT01816,50,Male,Moderate,None,Remdesivir,5,False,False,Recovered,0.794,2022-08-25,36-50
+PT01817,52,Female,Mild,Diabetes,Dexamethasone,3,False,False,Recovered,0.924,2022-08-26,51-65
+PT01818,31,Female,Mild,Hypertension,Dexamethasone,2,False,False,Recovered,0.77,2022-08-26,19-35
+PT01819,41,Male,Moderate,Hypertension,Dexamethasone,10,False,False,Recovered,0.762,2022-08-27,36-50
+PT01820,44,Female,Mild,None,Supportive Care,3,False,False,Recovered,0.785,2022-08-27,36-50
+PT01821,76,Female,Critical,Heart Disease,Dexamethasone,29,True,True,Deceased,0.821,2022-08-28,65+
+PT01822,10,Male,Moderate,Hypertension,Remdesivir,5,False,True,Recovered,0.744,2022-08-28,0-18
+PT01823,69,Female,Critical,Obesity,Remdesivir,42,True,True,Recovered,0.768,2022-08-29,65+
+PT01824,31,Male,Mild,Diabetes,Remdesivir,2,False,False,Recovered,0.916,2022-08-29,19-35
+PT01825,23,Male,Mild,Obesity,Supportive Care,4,False,False,Recovered,0.757,2022-08-30,19-35
+PT01826,69,Female,Severe,Obesity,Combination Therapy,10,True,True,Recovered,0.807,2022-08-30,65+
+PT01827,61,Female,Mild,Diabetes,Supportive Care,4,False,False,Recovered,0.754,2022-08-31,51-65
+PT01828,70,Female,Critical,Diabetes,Combination Therapy,30,False,True,Deceased,0.831,2022-08-31,65+
+PT01829,62,Female,Moderate,Obesity,Remdesivir,11,False,False,Recovered,0.788,2022-09-01,51-65
+PT01830,85,Male,Mild,Hypertension,Remdesivir,2,False,False,Recovered,0.948,2022-09-01,65+
+PT01831,58,Male,Mild,Obesity,Supportive Care,3,False,False,Recovered,0.734,2022-09-02,51-65
+PT01832,45,Female,Mild,Heart Disease,Supportive Care,3,False,False,Recovered,0.672,2022-09-02,36-50
+PT01833,54,Female,Critical,Hypertension,Dexamethasone,21,True,True,Deceased,0.918,2022-09-03,51-65
+PT01834,70,Male,Mild,None,Remdesivir,2,False,False,Recovered,0.912,2022-09-03,65+
+PT01835,33,Female,Severe,None,Remdesivir,14,True,True,Recovered,0.795,2022-09-04,19-35
+PT01836,36,Female,Severe,Respiratory,Dexamethasone,10,True,False,Recovered,0.8,2022-09-04,36-50
+PT01837,42,Female,Moderate,None,Remdesivir,6,False,False,Recovered,0.927,2022-09-05,36-50
+PT01838,10,Female,Moderate,None,Dexamethasone,10,False,True,Recovered,0.789,2022-09-05,0-18
+PT01839,50,Male,Mild,Hypertension,Dexamethasone,1,False,False,Recovered,0.833,2022-09-06,36-50
+PT01840,14,Female,Moderate,Hypertension,Remdesivir,11,False,True,Recovered,0.856,2022-09-06,0-18
+PT01841,48,Female,Mild,None,Remdesivir,2,False,False,Recovered,0.827,2022-09-07,36-50
+PT01842,63,Male,Severe,None,Monoclonal Antibodies,14,False,False,Recovered,0.899,2022-09-07,51-65
+PT01843,39,Female,Mild,Diabetes,Combination Therapy,3,False,False,Recovered,0.881,2022-09-08,36-50
+PT01844,78,Male,Severe,None,Monoclonal Antibodies,15,True,False,Recovered,0.761,2022-09-08,65+
+PT01845,21,Male,Mild,Heart Disease,Dexamethasone,2,False,False,Recovered,0.885,2022-09-09,19-35
+PT01846,69,Female,Mild,None,Combination Therapy,4,False,False,Recovered,0.799,2022-09-09,65+
+PT01847,60,Male,Mild,Heart Disease,Remdesivir,2,False,False,Recovered,0.84,2022-09-10,51-65
+PT01848,17,Male,Moderate,Heart Disease,Combination Therapy,7,False,True,Recovered,0.905,2022-09-10,0-18
+PT01849,95,Female,Mild,Hypertension,Remdesivir,2,False,False,Recovered,0.893,2022-09-11,65+
+PT01850,46,Male,Mild,None,Remdesivir,4,False,False,Recovered,0.829,2022-09-11,36-50
+PT01851,32,Male,Moderate,Diabetes,Monoclonal Antibodies,11,False,False,Recovered,0.92,2022-09-12,19-35
+PT01852,22,Male,Severe,Diabetes,Combination Therapy,10,True,True,Recovered,0.803,2022-09-12,19-35
+PT01853,44,Male,Mild,None,Monoclonal Antibodies,2,False,False,Recovered,0.902,2022-09-13,36-50
+PT01854,45,Female,Severe,Heart Disease,Dexamethasone,12,False,True,Recovered,0.888,2022-09-13,36-50
+PT01855,49,Female,Moderate,Diabetes,Dexamethasone,6,False,False,Recovered,0.901,2022-09-14,36-50
+PT01856,42,Female,Severe,Heart Disease,Dexamethasone,21,True,True,Deceased,0.836,2022-09-14,36-50
+PT01857,59,Female,Mild,None,Supportive Care,1,False,False,Recovered,0.724,2022-09-15,51-65
+PT01858,41,Male,Moderate,None,Combination Therapy,6,False,False,Recovered,0.811,2022-09-15,36-50
+PT01859,13,Female,Severe,Respiratory,Monoclonal Antibodies,15,True,True,Recovered,0.833,2022-09-16,0-18
+PT01860,45,Female,Mild,Hypertension,Remdesivir,3,False,False,Recovered,0.857,2022-09-16,36-50
+PT01861,5,Female,Moderate,Diabetes,Supportive Care,8,False,True,Recovered,0.701,2022-09-17,0-18
+PT01862,54,Female,Mild,Diabetes,Dexamethasone,3,False,False,Recovered,0.914,2022-09-17,51-65
+PT01863,30,Female,Mild,None,Remdesivir,1,False,False,Recovered,0.935,2022-09-18,19-35
+PT01864,50,Female,Moderate,Hypertension,Combination Therapy,9,False,False,Recovered,0.781,2022-09-18,36-50
+PT01865,71,Male,Moderate,None,Combination Therapy,5,False,False,Recovered,0.901,2022-09-19,65+
+PT01866,30,Female,Moderate,Hypertension,Remdesivir,5,False,True,Recovered,0.911,2022-09-19,19-35
+PT01867,67,Male,Mild,Hypertension,Remdesivir,4,False,False,Recovered,0.793,2022-09-20,65+
+PT01868,40,Male,Mild,Obesity,Dexamethasone,2,False,False,Recovered,0.824,2022-09-20,36-50
+PT01869,79,Male,Critical,Diabetes,Dexamethasone,20,False,True,Deceased,0.799,2022-09-21,65+
+PT01870,41,Male,Moderate,None,Dexamethasone,7,False,True,Recovered,0.755,2022-09-21,36-50
+PT01871,32,Male,Severe,Hypertension,Remdesivir,24,True,False,Recovered,0.873,2022-09-22,19-35
+PT01872,60,Male,Moderate,None,Remdesivir,6,False,True,Recovered,0.956,2022-09-22,51-65
+PT01873,40,Female,Mild,None,Monoclonal Antibodies,3,False,False,Recovered,0.838,2022-09-23,36-50
+PT01874,32,Female,Severe,None,Monoclonal Antibodies,19,True,True,Recovered,0.879,2022-09-23,19-35
+PT01875,39,Female,Moderate,Diabetes,Combination Therapy,10,False,True,Recovered,0.848,2022-09-24,36-50
+PT01876,47,Male,Moderate,None,Monoclonal Antibodies,8,False,True,Recovered,0.952,2022-09-24,36-50
+PT01877,72,Female,Moderate,Diabetes,Combination Therapy,8,False,True,Recovered,0.97,2022-09-25,65+
+PT01878,13,Female,Moderate,Obesity,Remdesivir,10,False,False,Recovered,0.778,2022-09-25,0-18
+PT01879,48,Male,Mild,Hypertension,Remdesivir,3,False,False,Recovered,0.935,2022-09-26,36-50
+PT01880,59,Female,Mild,None,Monoclonal Antibodies,2,False,False,Recovered,0.79,2022-09-26,51-65
+PT01881,51,Female,Mild,None,Combination Therapy,4,False,False,Recovered,0.795,2022-09-27,51-65
+PT01882,71,Male,Moderate,Hypertension,Supportive Care,6,False,False,Recovered,0.79,2022-09-27,65+
+PT01883,46,Female,Mild,Obesity,Monoclonal Antibodies,3,False,False,Recovered,0.842,2022-09-28,36-50
+PT01884,44,Female,Mild,None,Combination Therapy,2,False,False,Recovered,0.894,2022-09-28,36-50
+PT01885,58,Male,Mild,Heart Disease,Remdesivir,4,False,False,Recovered,0.881,2022-09-29,51-65
+PT01886,49,Male,Moderate,Hypertension,Remdesivir,9,False,True,Recovered,0.751,2022-09-29,36-50
+PT01887,40,Male,Mild,Diabetes,Remdesivir,2,False,False,Recovered,0.803,2022-09-30,36-50
+PT01888,57,Male,Moderate,Respiratory,Remdesivir,11,False,True,Recovered,0.84,2022-09-30,51-65
+PT01889,36,Male,Mild,Hypertension,Dexamethasone,3,False,False,Recovered,0.77,2022-10-01,36-50
+PT01890,36,Female,Severe,Heart Disease,Remdesivir,23,True,True,Recovered,0.75,2022-10-01,36-50
+PT01891,38,Male,Severe,None,Remdesivir,14,True,False,Recovered,0.758,2022-10-02,36-50
+PT01892,72,Female,Critical,Diabetes,Combination Therapy,39,False,False,Recovered,0.956,2022-10-02,65+
+PT01893,5,Male,Moderate,Hypertension,Dexamethasone,7,False,False,Recovered,0.905,2022-10-03,0-18
+PT01894,55,Male,Mild,None,Combination Therapy,3,False,False,Recovered,0.808,2022-10-03,51-65
+PT01895,48,Male,Severe,Hypertension,Combination Therapy,21,True,True,Recovered,0.83,2022-10-04,36-50
+PT01896,17,Female,Moderate,None,Combination Therapy,10,False,True,Recovered,0.922,2022-10-04,0-18
+PT01897,53,Male,Mild,None,Monoclonal Antibodies,3,False,False,Recovered,0.969,2022-10-05,51-65
+PT01898,56,Male,Mild,None,Remdesivir,4,False,False,Recovered,0.805,2022-10-05,51-65
+PT01899,58,Male,Mild,Hypertension,Remdesivir,4,False,False,Recovered,0.926,2022-10-06,51-65
+PT01900,5,Female,Mild,Obesity,Supportive Care,1,False,False,Recovered,0.762,2022-10-06,0-18
+PT01901,72,Female,Moderate,Diabetes,Combination Therapy,10,False,True,Recovered,0.991,2022-10-07,65+
+PT01902,34,Male,Moderate,Hypertension,Supportive Care,7,False,True,Recovered,0.69,2022-10-07,19-35
+PT01903,60,Male,Mild,None,Remdesivir,3,False,False,Recovered,0.951,2022-10-08,51-65
+PT01904,61,Female,Mild,Obesity,Supportive Care,1,False,False,Recovered,0.749,2022-10-08,51-65
+PT01905,32,Female,Mild,Hypertension,Monoclonal Antibodies,2,False,False,Recovered,0.969,2022-10-09,19-35
+PT01906,59,Male,Mild,Heart Disease,Combination Therapy,1,False,False,Recovered,0.878,2022-10-09,51-65
+PT01907,41,Female,Severe,Heart Disease,Remdesivir,18,True,True,Recovered,0.855,2022-10-10,36-50
+PT01908,10,Female,Mild,None,Monoclonal Antibodies,2,False,False,Deceased,0.936,2022-10-10,0-18
+PT01909,69,Male,Severe,Diabetes,Supportive Care,19,False,False,Recovered,0.804,2022-10-11,65+
+PT01910,34,Female,Mild,Respiratory,Supportive Care,1,False,False,Recovered,0.784,2022-10-11,19-35
+PT01911,32,Female,Mild,None,Remdesivir,1,False,False,Recovered,0.83,2022-10-12,19-35
+PT01912,40,Female,Moderate,Hypertension,Supportive Care,6,False,True,Recovered,0.818,2022-10-12,36-50
+PT01913,52,Male,Moderate,Respiratory,Remdesivir,7,False,True,Recovered,0.946,2022-10-13,51-65
+PT01914,46,Male,Mild,None,Dexamethasone,4,False,False,Recovered,0.716,2022-10-13,36-50
+PT01915,57,Male,Moderate,Obesity,Combination Therapy,7,False,True,Recovered,0.907,2022-10-14,51-65
+PT01916,23,Male,Moderate,Obesity,Dexamethasone,9,False,True,Recovered,0.896,2022-10-14,19-35
+PT01917,34,Female,Mild,Hypertension,Combination Therapy,3,False,False,Recovered,0.922,2022-10-15,19-35
+PT01918,45,Female,Moderate,None,Combination Therapy,7,False,False,Recovered,0.956,2022-10-15,36-50
+PT01919,82,Female,Moderate,None,Remdesivir,6,False,True,Recovered,0.934,2022-10-16,65+
+PT01920,45,Female,Mild,None,Combination Therapy,1,False,False,Recovered,0.944,2022-10-16,36-50
+PT01921,67,Male,Mild,Heart Disease,Monoclonal Antibodies,4,False,False,Recovered,0.916,2022-10-17,65+
+PT01922,48,Female,Mild,Heart Disease,Remdesivir,4,False,False,Recovered,0.949,2022-10-17,36-50
+PT01923,39,Female,Mild,Hypertension,Combination Therapy,1,False,False,Recovered,0.97,2022-10-18,36-50
+PT01924,43,Male,Moderate,None,Dexamethasone,9,False,True,Recovered,0.885,2022-10-18,36-50
+PT01925,44,Female,Severe,None,Combination Therapy,19,True,True,Recovered,0.793,2022-10-19,36-50
+PT01926,58,Male,Severe,Hypertension,Dexamethasone,10,False,True,Deceased,0.764,2022-10-19,51-65
+PT01927,72,Female,Moderate,Hypertension,Dexamethasone,5,False,False,Recovered,0.831,2022-10-20,65+
+PT01928,54,Female,Mild,Obesity,Remdesivir,3,False,False,Recovered,0.894,2022-10-20,51-65
+PT01929,69,Male,Critical,Hypertension,Monoclonal Antibodies,33,True,True,Recovered,0.824,2022-10-21,65+
+PT01930,30,Female,Mild,Heart Disease,Combination Therapy,2,False,False,Recovered,0.795,2022-10-21,19-35
+PT01931,40,Female,Moderate,Hypertension,Combination Therapy,5,False,True,Recovered,0.844,2022-10-22,36-50
+PT01932,34,Male,Moderate,Hypertension,Dexamethasone,10,False,True,Recovered,0.876,2022-10-22,19-35
+PT01933,53,Male,Severe,Diabetes,Combination Therapy,16,False,False,Recovered,0.973,2022-10-23,51-65
+PT01934,41,Male,Mild,Obesity,Dexamethasone,3,False,False,Recovered,0.906,2022-10-23,36-50
+PT01935,61,Female,Mild,Hypertension,Dexamethasone,3,False,False,Recovered,0.794,2022-10-24,51-65
+PT01936,31,Female,Severe,Diabetes,Combination Therapy,17,True,True,Recovered,0.858,2022-10-24,19-35
+PT01937,48,Female,Moderate,None,Dexamethasone,7,False,True,Recovered,0.799,2022-10-25,36-50
+PT01938,60,Male,Severe,None,Remdesivir,20,True,True,Recovered,0.821,2022-10-25,51-65
+PT01939,10,Female,Mild,Diabetes,Combination Therapy,2,False,False,Recovered,0.925,2022-10-26,0-18
+PT01940,86,Male,Mild,None,Supportive Care,1,False,False,Recovered,0.733,2022-10-26,65+
+PT01941,42,Female,Moderate,None,Remdesivir,7,False,True,Recovered,0.744,2022-10-27,36-50
+PT01942,11,Male,Mild,Diabetes,Remdesivir,4,False,False,Recovered,0.835,2022-10-27,0-18
+PT01943,50,Male,Moderate,None,Dexamethasone,10,False,True,Recovered,0.761,2022-10-28,36-50
+PT01944,48,Female,Moderate,Heart Disease,Monoclonal Antibodies,7,False,True,Recovered,0.763,2022-10-28,36-50
+PT01945,46,Male,Mild,Diabetes,Supportive Care,1,False,False,Recovered,0.755,2022-10-29,36-50
+PT01946,65,Female,Mild,Hypertension,Combination Therapy,3,False,False,Recovered,0.82,2022-10-29,51-65
+PT01947,61,Female,Moderate,None,Monoclonal Antibodies,11,False,True,Recovered,0.857,2022-10-30,51-65
+PT01948,53,Male,Moderate,None,Combination Therapy,9,False,True,Recovered,0.837,2022-10-30,51-65
+PT01949,56,Male,Severe,Diabetes,Monoclonal Antibodies,11,True,True,Deceased,0.891,2022-10-31,51-65
+PT01950,46,Female,Mild,Heart Disease,Dexamethasone,4,False,False,Recovered,0.922,2022-10-31,36-50
+PT01951,79,Female,Severe,Heart Disease,Dexamethasone,23,True,True,Recovered,0.829,2022-11-01,65+
+PT01952,21,Male,Critical,None,Combination Therapy,32,True,True,Recovered,0.921,2022-11-01,19-35
+PT01953,50,Male,Severe,Hypertension,Dexamethasone,20,True,True,Recovered,0.907,2022-11-02,36-50
+PT01954,49,Female,Mild,None,Combination Therapy,2,False,False,Recovered,0.859,2022-11-02,36-50
+PT01955,62,Female,Moderate,Respiratory,Dexamethasone,7,False,True,Recovered,0.749,2022-11-03,51-65
+PT01956,32,Male,Mild,Respiratory,Combination Therapy,3,False,False,Recovered,0.838,2022-11-03,19-35
+PT01957,16,Male,Mild,Hypertension,Dexamethasone,2,False,False,Recovered,0.799,2022-11-04,0-18
+PT01958,50,Female,Mild,Hypertension,Remdesivir,2,False,False,Recovered,0.88,2022-11-04,36-50
+PT01959,53,Female,Mild,Heart Disease,Monoclonal Antibodies,2,False,False,Recovered,0.758,2022-11-05,51-65
+PT01960,74,Female,Mild,Hypertension,Monoclonal Antibodies,4,False,False,Recovered,0.946,2022-11-05,65+
+PT01961,25,Female,Moderate,Hypertension,Monoclonal Antibodies,10,False,False,Recovered,0.773,2022-11-06,19-35
+PT01962,68,Female,Moderate,Respiratory,Supportive Care,9,False,True,Recovered,0.839,2022-11-06,65+
+PT01963,90,Male,Moderate,Hypertension,Combination Therapy,8,False,True,Recovered,0.989,2022-11-07,65+
+PT01964,41,Female,Mild,Hypertension,Combination Therapy,3,False,False,Recovered,0.999,2022-11-07,36-50
+PT01965,24,Male,Moderate,Heart Disease,Remdesivir,10,False,True,Recovered,0.916,2022-11-08,19-35
+PT01966,40,Female,Critical,Hypertension,Remdesivir,21,True,True,Deceased,0.77,2022-11-08,36-50
+PT01967,48,Male,Moderate,Hypertension,Dexamethasone,6,False,True,Recovered,0.862,2022-11-09,36-50
+PT01968,58,Male,Moderate,None,Monoclonal Antibodies,7,False,True,Recovered,0.802,2022-11-09,51-65
+PT01969,37,Female,Severe,None,Remdesivir,16,True,True,Recovered,0.935,2022-11-10,36-50
+PT01970,75,Female,Severe,None,Monoclonal Antibodies,20,True,False,Recovered,0.827,2022-11-10,65+
+PT01971,27,Male,Moderate,Diabetes,Combination Therapy,7,False,True,Recovered,0.848,2022-11-11,19-35
+PT01972,16,Female,Severe,Diabetes,Supportive Care,17,True,False,Recovered,0.842,2022-11-11,0-18
+PT01973,67,Male,Mild,Respiratory,Remdesivir,2,False,False,Recovered,0.742,2022-11-12,65+
+PT01974,7,Male,Mild,Hypertension,Dexamethasone,1,False,False,Recovered,0.755,2022-11-12,0-18
+PT01975,44,Female,Moderate,Heart Disease,Monoclonal Antibodies,6,False,True,Recovered,0.85,2022-11-13,36-50
+PT01976,95,Male,Mild,None,Dexamethasone,1,False,False,Recovered,0.861,2022-11-13,65+
+PT01977,47,Female,Mild,Heart Disease,Dexamethasone,3,False,False,Recovered,0.85,2022-11-14,36-50
+PT01978,27,Male,Moderate,Hypertension,Remdesivir,5,False,False,Recovered,0.885,2022-11-14,19-35
+PT01979,46,Female,Mild,Hypertension,Remdesivir,3,False,False,Recovered,0.931,2022-11-15,36-50
+PT01980,47,Female,Mild,None,Dexamethasone,2,False,False,Recovered,0.739,2022-11-15,36-50
+PT01981,50,Male,Mild,Diabetes,Combination Therapy,3,False,False,Recovered,0.892,2022-11-16,36-50
+PT01982,59,Male,Moderate,Hypertension,Combination Therapy,10,False,True,Recovered,0.939,2022-11-16,51-65
+PT01983,29,Female,Mild,Hypertension,Combination Therapy,3,False,False,Recovered,0.918,2022-11-17,19-35
+PT01984,78,Female,Mild,Obesity,Remdesivir,1,False,False,Recovered,0.837,2022-11-17,65+
+PT01985,52,Male,Mild,Obesity,Supportive Care,1,False,False,Deceased,0.666,2022-11-18,51-65
+PT01986,61,Female,Mild,Respiratory,Supportive Care,3,False,False,Recovered,0.675,2022-11-18,51-65
+PT01987,36,Male,Mild,Hypertension,Remdesivir,2,False,False,Recovered,0.765,2022-11-19,36-50
+PT01988,71,Male,Mild,Respiratory,Dexamethasone,2,False,False,Recovered,0.786,2022-11-19,65+
+PT01989,43,Male,Moderate,Heart Disease,Remdesivir,11,False,True,Recovered,0.765,2022-11-20,36-50
+PT01990,52,Male,Moderate,None,Supportive Care,9,False,True,Recovered,0.746,2022-11-20,51-65
+PT01991,31,Female,Mild,Diabetes,Supportive Care,3,False,False,Recovered,0.698,2022-11-21,19-35
+PT01992,30,Female,Mild,None,Monoclonal Antibodies,3,False,False,Recovered,0.93,2022-11-21,19-35
+PT01993,60,Female,Moderate,None,Dexamethasone,11,False,True,Deceased,0.897,2022-11-22,51-65
+PT01994,40,Female,Mild,None,Combination Therapy,2,False,False,Recovered,0.862,2022-11-22,36-50
+PT01995,32,Female,Critical,None,Remdesivir,25,True,True,Recovered,0.851,2022-11-23,19-35
+PT01996,36,Female,Moderate,Hypertension,Dexamethasone,11,False,False,Recovered,0.914,2022-11-23,36-50
+PT01997,60,Female,Mild,Diabetes,Combination Therapy,3,False,False,Recovered,0.895,2022-11-24,51-65
+PT01998,36,Female,Mild,None,Remdesivir,4,False,False,Recovered,0.956,2022-11-24,36-50
+PT01999,45,Female,Moderate,Heart Disease,Supportive Care,6,False,False,Recovered,0.691,2022-11-25,36-50
+PT02000,48,Male,Mild,Heart Disease,Combination Therapy,4,False,False,Recovered,0.97,2022-11-25,36-50
