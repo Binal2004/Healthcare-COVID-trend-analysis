@@ -14,9 +14,9 @@
 
 ---
 
-| 👤 Analyst | 🎓 Programme | 🏛️ Institution | 📅 Period |
-|---|---|---|---|
-| Binal Doshi | MSc AI & Data Science (2025–2027) | University of Mumbai | Jan 2020 – Dec 2023 |
+| 👤 Analyst | 🎓 Programme |
+|---|---|
+| Binal Doshi | MSc AI & Data Science |
 
 </div>
 
